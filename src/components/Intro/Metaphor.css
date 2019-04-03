@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(../../fonts/Raleway-Black.ttf);
+}
+
+.metaphor {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-top: 40px;
+}
+
+.metaphor_block {
+    display: grid;
+    grid-template-columns: 35% 63.6%;
+    grid-column-gap: 120px;
+}
+
+.metaphor_logo_block {
+    width: 100%;
+    justify-self: start;
+    align-self: center;
+}
+
+.metaphor_logo {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.metaphor_img {
+    width: 98%;
+    align-self: center;
+}
+
+.metaphor_text {
+    display: grid;
+    grid-template-columns: 82% 4%;
+    background-color: #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.metaphor_p {
+    color: #000;
+    font-family: Raleway-Bold;
+    font-size: 36px;
+    line-height: normal;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 25px;
+    margin: 0 !important;
+}
+
+.metaphor_cube {
+    align-self: flex-end;
+    margin-right: 30px;
+    margin-bottom: 18px;
+    width: 30px;
+    height: 30px;
+    background-color: #32B482;
+}
