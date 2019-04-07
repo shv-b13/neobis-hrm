@@ -1,13 +1,15 @@
 .beatyEL {
     display: grid;
-    grid-template-rows: 1fr;
-
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr;
 }
 
 .beatyEl_content {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
+    justify-self: center;
 }
 
 .beatyEL_block1 {
@@ -27,38 +29,46 @@
 .beatyEl_ul {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 5px 5px 5px 5px 5px 5px 5px 5px;
+    grid-template-columns: 4px 4px 4px 4px 4px 4px 4px 4px;
     grid-gap: 10px 10px;
+    justify-items: center;
+    justify-self: center;
 
 }
 
 .beatyEl_li {
     display: inline-grid;
-    border: 2.5px solid #E3E3E3;
+    width: 4px;
+    height: 4px;
+    background-color: #E3E3E3;
     border-radius: 50%;
 }
 
 .beatyEl_yel {
-    width: 200px;
+    width: 165px;
     height: 50px;
     border: 0;
     border-radius: 5px;
     outline: none;
     background-color: #FFCF27;
+    box-shadow: 0px 10px 20px rgba(255, 207, 39, 0.25);
     margin-bottom: 30px;
     font-family: Raleway;
     font-weight: 800;
+    font-size: 14px;
     text-transform: uppercase;
     color: #fff;
 }
 
 .beatyEl_gre {
-    width: 200px;
+    width: 165px;
     height: 50px;
     border: 0;
     border-radius: 5px;
     outline: none;
     background-color: #32B482;
+    box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
+    font-size: 14px;
     font-family: Raleway;
     font-weight: 800;
     text-transform: uppercase;

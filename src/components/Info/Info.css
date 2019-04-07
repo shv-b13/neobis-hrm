@@ -9,8 +9,8 @@
 
 .info_content {
     display: grid;
-    grid-template-columns: 35% 2% 30% 2% 1fr;
-    grid-column-gap: 55px;
+    grid-template-columns: 34% 2% 29.5% 2% 16%;
+    grid-column-gap: 45px;
 }
 
 .info_cubes_content {
@@ -21,8 +21,8 @@
 
 .info_cubes {
     display: grid;
-    grid-template-columns: 179.5px 179.5px;
-    grid-template-rows: 179.5px 179.5px;
+    grid-template-columns: 145px 145px;
+    grid-template-rows: 145px 145px;
     grid-column-gap: 40px;
     grid-row-gap: 40px;
     justify-self: start;
@@ -35,8 +35,8 @@
 
 .info_block {
     display: grid;
-    grid-template-columns: 179.5px;
-    grid-template-rows: 179.5px;
+    grid-template-columns: 145px;
+    grid-template-rows: 145px;
     background-color: #fff;
     box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
     color: #000;
@@ -73,6 +73,7 @@
     font-weight: bold;
     text-transform: uppercase;
     padding-top: 15px;
+    font-size: 13px;
     justify-self: start;
     margin: 0;
 }

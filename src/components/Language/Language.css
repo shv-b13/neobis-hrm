@@ -1,0 +1,41 @@
+.language
+{
+    display: grid;
+    grid-template-columns: 67px 67px;
+    grid-template-rows: 138px;
+    grid-column-gap: 0px;
+    align-self: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.lg_change:active, .lg_change:focus {
+    outline: none;
+}
+
+.lg_change
+{
+    width: 67px;
+    height: 38px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    background-color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#rus {
+    background-color: #32B482;
+    color: #fff;
+}
+
+#eng {
+    background-color: #fff;
+    color: #000;
+}

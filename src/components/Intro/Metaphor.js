@@ -11,17 +11,22 @@ class Metaphor extends Component {
             <div className="container">
 
                 <div className="metaphor">
+
                     <div className="metaphor_block">
+
                         <div className="metaphor_logo_block">
+
                             <div className="metaphor_logo">
                                 <img src={logo} alt="neobis" className="metaphor_img"/>
                             </div>
                         </div>
+
                         <div className="metaphor_text">
                             <p className="metaphor_p">Мы обучаем, разрабатываем и внедряем технологии на благо
                                 общества</p>
                             <div className="metaphor_cube"></div>
                         </div>
+
                     </div>
                 </div>
 

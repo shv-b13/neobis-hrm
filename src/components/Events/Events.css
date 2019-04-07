@@ -5,7 +5,7 @@
 
 .events {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 130px;
     font-family: Roboto;
 }
 
@@ -16,16 +16,16 @@
 
 .events_title {
     display: grid;
-    grid-template-columns: 90% 5%;
-    grid-template-rows: 1fr;
+    grid-template-columns: 91% 5%;
+    grid-template-rows: 30px;
 }
 
 .events_h1 {
     font-family: Raleway;
     font-weight: bold;
-    font-size: 29px;
+    font-size: 24px;
     color: #000;
-    margin-top: 12px;
+    margin: 0;
 }
 
 .events_circle {
@@ -33,7 +33,7 @@
     height: 20px;
     border: 5px solid #32B482;
     border-radius: 50%;
-    margin-top: 20px;
+    margin-top: 5px;
     box-sizing: border-box;
 }
 
@@ -45,7 +45,9 @@
 
 .events_block {
     width: 99%;
+    height: 130px;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     padding: 10px;
     background-color: #fff;
@@ -61,7 +63,7 @@
 }
 
 .events_day {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin: 0;
 }
@@ -73,9 +75,10 @@
 }
 
 .events_theme {
+    font-size: 15px;
     color: #32B482;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .events_place {
