@@ -20,12 +20,15 @@ class Language extends  React.Component {
             eng.disabled = true;
             eng.style.transition = "1s"
             eng.style.transitionTimingFunction = "ease";
+            eng.style.boxShadow = "0px 0px 20px rgba(50, 180, 130, 0.25)";
 
             rus.style.backgroundColor = "#fff";
             rus.style.color = "#000";
             rus.disabled = false;
             rus.style.transition = "1s";
             rus.style.transitionTimingFunction = "ease";
+            rus.style.boxShadow = "none";
+
 
             this.setState({click: false});
         }
@@ -38,12 +41,14 @@ class Language extends  React.Component {
             rus.disabled = true;
             rus.style.transition = "1s"
             rus.style.transitionTimingFunction = "ease";
+            rus.style.boxShadow = "0px 0px 20px rgba(50, 180, 130, 0.25)";
 
             eng.style.backgroundColor = "#fff";
             eng.style.color="#000";
             eng.disabled = false;
             eng.style.transition = "1s";
             eng.style.transitionTimingFunction = "ease";
+            eng.style.boxShadow = "none";
 
             this.setState({click: true});
         }

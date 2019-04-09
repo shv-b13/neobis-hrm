@@ -75,8 +75,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         grid-column-gap: 0px;
-        padding-left: 20px;
-        margin-left: 15px;
+        padding-left: 25px;
     }
 
     .metaphor_logo_block {

@@ -20,23 +20,23 @@ self.__precacheManifest = [
     "url": "/Kunerkhan/neobis-hrm/static/js/runtime~main.213702eb.js"
   },
   {
-    "revision": "70a7ea88ac3b23d9e6ac",
-    "url": "/Kunerkhan/neobis-hrm/static/js/main.70109835.chunk.js"
+    "revision": "f69ad8ebb16e6f7f6fde",
+    "url": "/Kunerkhan/neobis-hrm/static/js/main.42676507.chunk.js"
   },
   {
     "revision": "34fbc229c59a1c328b1f",
     "url": "/Kunerkhan/neobis-hrm/static/js/2.58e16867.chunk.js"
   },
   {
-    "revision": "70a7ea88ac3b23d9e6ac",
-    "url": "/Kunerkhan/neobis-hrm/static/css/main.ef6b34bd.chunk.css"
+    "revision": "f69ad8ebb16e6f7f6fde",
+    "url": "/Kunerkhan/neobis-hrm/static/css/main.a11fe41d.chunk.css"
   },
   {
     "revision": "34fbc229c59a1c328b1f",
     "url": "/Kunerkhan/neobis-hrm/static/css/2.54bc482e.chunk.css"
   },
   {
-    "revision": "a68a41c9c21701bf9bb3885bd5de73fd",
+    "revision": "44dc3041975c8cb28e119bb653f14a3f",
     "url": "/Kunerkhan/neobis-hrm/index.html"
   }
 ];

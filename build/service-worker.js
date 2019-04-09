@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Kunerkhan/neobis-hrm/precache-manifest.b54bce9b08e4e13f00c804649c17e4ac.js"
+  "/Kunerkhan/neobis-hrm/precache-manifest.6e6bfd82eeef6c54398701e77d3a4c01.js"
 );
 
 workbox.clientsClaim();
