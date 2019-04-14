@@ -1,110 +1,64 @@
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    outline: none;
-    font-family: Roboto;
+	box-sizing: border-box;
+	padding: 0;
+	outline: none;
+	font-family: Roboto;
 }
 
 html,
 body,
 .wrapper {
-    width: 100%;
-    height: 100%;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    color: #1f1f24;
-    background: #E5E5E5;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: #1f1f24;
+	background: #E5E5E5;
 }
 
 
 .wrapper {
-    overflow-x: hidden;
-    position: relative;
-    margin: 0px auto;
-    max-width: 1180px;
-    display: flex;
-    flex-flow: column nowrap;
+	overflow-x: hidden;
+	position: relative;
+	margin: 0px auto;
+	max-width: 1100px;
+	display: flex;
+	flex-flow: column nowrap;
 }
 
 
 /* Header */
 a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 ul,ol {
-    list-style: none;
-    padding: 0px;
+	list-style: none;
+	padding: 0px;
 }
 
-.header {
-    width: 100%;
-    margin: 30px ;
+.header-detailed {
+	width: 100%;
+	margin: 30px ;
 }
-
-.header__container {
-    display: flex;
-}
-
-
-/* Меню */
-.menu-nav {
-    margin-right: 40px;
-}
-
-
-
-.header .menu-nav__link {
-    display: inline-block;
-    color: #1f1f24;
-    line-height: 1.6em;
-    border-bottom: 1px solid transparent;
-    transition-duration: .3s;
-    transition-property: color, border-color;
-    padding: 0 15px;
-}
-
-
-.header .menu-nav__list {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    align-items: center;
-    align-content: center;
-    padding: 0px;
-    margin: 0px;
-}
-
-.menu-nav__list .menu-nav__item {
-    font-family: Raleway;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-}
-
-.header .logo-neobis {
-    flex:1;
-    align-self: flex-start;
-}
-
 
 .active {
-    background: #32B482;
-    box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
-    border-radius: 3px;
-    color: white !important;
+	background: #32B482 !important;
+	box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
+	border-radius: 3px;
+	color: white !important;
 }
 
 
 /*  main */
 
 .main {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
 }
 
 
@@ -112,398 +66,462 @@ ul,ol {
 
 
 .info {
-    display: flex;
-    padding: 40px 30px 40px 100px;
+	display: flex;
+	padding: 40px 30px 40px 100px;
 }
 
 .info .title {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: normal;
-    text-transform: uppercase;
-    text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: normal;
+	text-transform: uppercase;
+	text-align: left;
 }
 
 .tags {
-    height: 21.12px;
-    font-weight: bold;
-    font-size: 12.96px;
-    text-align: center;
-    padding: 5px 20px;
-    margin-bottom: 100px;
-    font-style: italic;
+	height: 21.12px;
+	font-weight: bold;
+	font-size: 12.96px;
+	text-align: center;
+	padding: 5px 20px;
+	margin-bottom: 100px;
+	font-style: italic;
 }
 
 .description {
-    font-size: 20px;
-    line-height: 28px;
-    margin-bottom: 10px;
-    padding-right: 5px;
+	font-size: 20px;
+	line-height: 28px;
+	margin-bottom: 10px;
+	padding-right: 5px;
 }
 
+
 .btn {
-    margin: 30px 0px;
-    padding: 10px 20px;
-    text-align: center;
-    font-weight: 800;
-    font-family: Raleway;
-    font-size: 16px;
-    border-radius: 5px;
-    color: black;
+	margin: 30px 0px;
+	padding: 10px 20px;
+	text-align: center;
+	font-weight: 800;
+	font-family: Raleway;
+	font-size: 16px;
+	border-radius: 5px;
+	color: black;
 }
 
 .read-more {
-    background: -webkit-linear-gradient(bottom, #FFFFFF, #FFFFFF);
-    background: -o-linear-gradient(bottom, #FFFFFF, #FFFFFF);
-    background: linear-gradient(to top, #FFFFFF, #FFFFFF);
-    box-shadow: 0px 10px 20px rgba(187, 187, 187, 0.25);
-    padding: 10px 25px;
+	background: linear-gradient(to top, #FFFFFF, #FFFFFF);
+	box-shadow: 0px 10px 20px rgba(187, 187, 187, 0.25);
+	border-radius: 5px;
+	padding: 10px 25px;
 }
 
 .read-more a {
-    color: black;
+	color: black;
 }
 
 /* About-course */
 
 .about-course {
-    display: flex;
-    flex-flow: column nowrap;
-    padding: 40px 30px 40px 100px;
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 40px 30px 40px 100px;
 }
 
 .title {
-    text-align: center;
-    font-family: Raleway;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 34px;
-    text-align: center;
-    text-transform: uppercase;
-    word-wrap: break-word;
+	text-align: center;
+	font-family: Raleway;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 34px;
+	text-align: center;
+	text-transform: uppercase;
+	word-wrap: break-word;
 }
 
 .about-course .description, .subtitle {
-    text-align: center;
+	text-align: center;
 }
 
 .subtitle {
-    font-size: 18px;
-    line-height: 25px;
+	font-size: 18px;
+	line-height: 25px;
 
-    text-align: center;
+	text-align: center;
 }
 
 .about-course  .stage-plan {
-    counter-reset: myCounter;
-    padding: 0px;
-    margin:0px auto;
+	counter-reset: myCounter;
+	padding: 0px;
 }
 
 .about-course .stage-plan__item {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    color: #32B482;
-    padding:  10px;
-    list-style: none;
+	font-weight: 400;
+	font-size: 20px;
+	color: #32B482;
+	margin:  40px 0;
+	list-style: none;
+	background-color: white;
+	box-shadow: 0px 10px 20px rgba(187, 187, 187, 0.25);
+	padding-right: 30px;
+	margin-left: 60px;
+	line-height: 28px;
+	padding-left: 10px;
+	padding-top: 5px;
 }
 
 
-.about-course  .stage-plan__item:before {
-    counter-increment: myCounter;
-    content:counter(myCounter);
-    color: white;
-    background: black;
-    display: inline-block;
-    text-align: center;
-    margin: 25px 35px 15px 0px;
-    line-height: 40px;
-    width: 40px;
-    height: 40px;
+.about-course  .stage-plan__item::before {
+	counter-increment: myCounter;
+	content:"." counter(myCounter);
+	color: white;
+	background: black;
+	display: inline-block;
+	text-align: center;
+	margin: 0px -20px 10px 0px;
+	line-height: 40px;
+	width: 30px;
+	height: 40px;
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 24.6px;
+	line-height: 39px;
+	position: relative;
+	right: 70px;
+	top: -5px;
 }
 
 .form-course {
-    display: flex;
-    flex-flow: column nowrap;
-    text-align: center;
-    margin: 0px auto;
-    padding: 0px 20px;
+	display: flex;
+	flex-flow: column nowrap;
+	text-align: center;
+	background-color: white;
+	overflow-x: hidden;
+	position: relative;
+	margin: 0px auto;
+	max-width: 1900px;
 }
 
 .form {
-    display: flex;
-    flex-flow: column nowrap;
-    margin-right: 45px;
+	display: flex;
+	flex-flow: column nowrap;
+	margin-right: 45px;
 }
 
 .block-form {
-    display: flex;
-    margin-top: 40px;
-    text-align: center;
+	display: flex;
+	margin-top: 40px;
+	text-align: center;
+	margin: 40px auto 0 auto;
 }
 
 .form-course .form__input {
-    width: 400px;
-    height: 50px;
-    margin-top: 16px;
-    padding: 1.1em 1em;
-    font-size: 1.125rem;
-    line-height: 1em;
-    border: 2px solid #dce0eb;
-    color: #1f1f24;
-    outline: none;
+	width: 400px;
+	height: 50px;
+	margin-top: 16px;
+	padding: 1.1em 1em;
+	font-size: 1.125rem;
+	line-height: 1em;
+	border: 2px solid #dce0eb;
+	color: #9F9F9F;
+	outline: none;
+	background-color:  #C5C3C3;
+	background-position: left 10px;
 }
 
+.form-course .title {
+	margin-top: 30px;
+}
 .block-form .btn {
-    width: 300px;
-    text-align: center;
-    margin-left: 45px;
+	width: 300px;
+	text-align: center;
+	margin-left: 45px;
 }
 
 .cost-course {
-    margin:50px 0 70px 15%;
+	margin:50px 0 70px 15%;
+	width: 250px;
+	height: 150px;
+	box-shadow: 0px 10px 19px rgba(187, 187, 278, 0.85);
+	padding: 0 30px;
+	/* Figma
+	box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
+	*/
 }
 
 .cost-course .money {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 45px;
-    text-align: center;
-    margin: 5px;
-    color: #32B482;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 45px;
+	text-align: center;
+	margin: 5px;
+	color: #32B482;
 }
 
 .cost-course .currency {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    margin-top: 5px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: 900;
+	text-align: center;
+	margin-top: 5px;
 }
 
-.footer {
-    display: flex;
-    background: #202020;
-    width: 100%;
-    height: 150px;
-    color: white;
-    margin-top: 30px;
+.footer-detailed {
+	display: flex;
+	background: #202020;
+	width: 100%;
+	height: 150px;
+	color: white;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 27px;
+	overflow-x: hidden;
+	position: relative;
+	margin: 40px auto 0 auto;
+	max-width: 1900px;
+
 }
+
 
 .btn-top {
-    margin:60px 0px 50px 30px;
-    padding: 10px 5px 5px 5px;
+	margin:60px 0px 50px 30px;
+	padding: 10px 5px 5px 5px;
+	background: #32B482;
+	border-radius: 5px;
 }
 .btn-top__img {
-    text-align: center;
+	text-align: center;
+
 }
 
-.neobis_logo_footer {
-    margin: 50px 50px 60px 20%;
+.neobis_logo_footer-detailed {
+	margin: 50px 50px 60px 21%;
+
 }
 
-.footer .our_email {
-    width: 250px; /* Ширина блока */
-    padding: 10px; /* Поля */
-    font-size: 19px;
-    line-height: 27px;
-    word-wrap: break-word; /* Перенос слов */
-    margin: 40px 5%;
+.footer-detailed .our_email {
+	width: 250px; /* Ширина блока */
+	padding: 10px; /* Поля */
+	font-size: 19px;
+	line-height: 27px;
+	word-wrap: break-word; /* Перенос слов */
+	margin: 40px 4% 40px 5%;
 }
 
-.footer .our_tel_number {
-    width: 200px; /* Ширина блока */
-    padding: 10px; /* Поля */
-    font-size: 19px;
-    line-height: 27px;
-    word-wrap: break-word; /* Перенос слов */
-    margin: 40px 4%;
+.footer-detailed .our_tel_number {
+	width: 200px; /* Ширина блока */
+	padding: 10px; /* Поля */
+	font-size: 19px;
+	line-height: 27px;
+	word-wrap: break-word; /* Перенос слов */
+	margin: 40px 0;
 }
 
 
 /* Adaptive layout */
 
-.adaptive__menu-nav {
-    display: none;
-}
-
 @media (min-width: 650px) and (max-width: 1000px) {
 
 
-    .header .menu-nav {
-        display: none;
-    }
+	.main .info {
+		display: flex;
+		flex-direction: column-reverse;
+	}
 
-    .header .adaptive__menu-nav {
-        display: flex;
-        font-size: 20px;
-    }
+	.photo-course img {
+		margin: 0px auto;
+	}
 
+	.info {
+		padding:  0px 10px;
+		text-align: center;
+	}
 
-    .main .info {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+	.description-content {
+		margin:0px 20px;
+	}
 
-    .photo-course img {
-        margin: 0px auto;
-    }
+	.description-content .title {
+		text-align: center;
+	}
 
-    .info {
-        padding:  0px 10px;
-        text-align: center;
-    }
+	.about-course {
+		padding:  0px 20px;
+	}
+	.description {
+		padding-right: 0px;
+	}
 
-    .description-content {
-        margin:0px 20px;
-    }
-
-    .description-content .title {
-        text-align: center;
-    }
-
-    .about-course {
-        padding:  0px 20px;
-    }
-    .description {
-        padding-right: 0px;
-    }
+	.about-course .stage-plan__item {
+		margin:  35px 0;
+		margin-left: 60px;
+		padding: 0px 5px 5px 10px;
+	}
 
 
-    .cost-course {
-        margin:20px 25px 20px 20px;
-    }
+	.about-course  .stage-plan__item::before {
+		margin: 0 -35px 5px 0px;
+		line-height: 35px;
+		width: 35px;
+		height: 35px;
+		right: 70px;
+		top: 0px;
+	}
 
-    .neobis_logo_footer {
-        margin: 50px 0 60px 5%;
-    }
 
-    .footer .our_email {
-        margin: 40px 2% 40px 6%;
-    }
 
-    .footer .our_tel_number {
-        margin: 40px 1% 40px 0;
-    }
+	.cost-course {
+		margin: 50px 0 70px 0;
+		width: 250px !important;
+	}
+
+	.neobis_logo_footer-detailed {
+		margin: 50px 0 60px 5%;
+	}
+
+	.footer-detailed .our_email {
+		margin: 40px 2% 40px 6%;
+	}
+
+	.footer-detailed .our_tel_number {
+		margin: 40px 1% 40px 0;
+	}
 
 }
 
 
-@media (min-width: 300px) and (max-width: 650px) {
+@media (min-width: 100px) and (max-width: 650px) {
 
-    .header {
-        margin-left: 0;
-    }
+	.main .info {
+		display:flex;
+		flex-direction: column-reverse;
+	}
 
-    .header .menu-nav {
-        display: none;
-    }
+	.photo-course img {
+		width: 90%;
+		margin: 0px auto;
+		height: 70%;
+	}
 
-    .header .adaptive__menu-nav {
-        display: flex;
-        font-size: 20px;
-    }
+	.info {
+		padding:  0px 20px;
+		text-align: center;
+	}
 
 
-    .main .info {
-        display:flex;
-        flex-direction: column-reverse;
-    }
+	.about-course .stage-plan__item {
+		margin:  35px 0;
+		margin-left: 60px;
+		padding: 0px 5px 5px 10px;
+	}
 
-    .photo-course img {
-        width: 90%;
-        margin: 0px auto;
-        height: 70%;
-    }
 
-    .info {
-        padding:  0px 20px;
-        text-align: center;
-    }
+	.about-course  .stage-plan__item::before {
+		margin: 0 -35px 5px 0px;
+		line-height: 35px;
+		width: 35px;
+		height: 35px;
+		right: 70px;
+		top: 0px;
+	}
 
-    .about-course  .stage-plan__item:before {
-        margin: 5px 20px 5px 0px;
-        line-height: 35px;
-        width: 35px;
-        height: 35px;
-    }
 
-    .block-form {
-        margin-top: 0px;
-    }
+	.block-form {
+		margin-top: 0px;
+	}
 
-    .block-form .form {
-        margin-right: 0px;
-    }
-    .form-course {
-        margin: 0;
-    }
+	.block-form .form {
+		margin-right: 0px;
+	}
+	.form-course {
+		margin: 0;
+	}
 
-    .description-content .title {
-        text-align: center;
-    }
+	.description-content .title {
+		text-align: center;
+	}
 
-    .description {
-        padding-right: 0px;
-        margin: 15px 0;
-    }
+	.description {
+		padding-right: 0px;
+		margin: 15px 0;
+	}
 
-    .about-course {
-        padding:  0px 20px;
-        margin: 10px 0px;
-    }
+	.about-course {
+		padding:  0px 20px;
+		margin: 10px 0px;
+	}
 
-    .block-form {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+	.block-form {
+		display: flex;
+		flex-direction: column-reverse;
+	}
 
-    .cost-course {
-        margin:20px 25px 20px 20px;
-    }
+	.cost-course {
+		text-align: center;
+		margin:30px auto;
+		width: 100%
+	}
 
-    .neobis_logo_footer {
-        display: none;
-    }
+	.neobis_logo_footer-detailed {
+		display: none;
+	}
 
-    .footer .our_email {
-        margin: 40px 8%;
-    }
+	.form-course .form__input {
+		height: 50px;
+		width: 100%;
+	}
 
-    .footer .our_tel_number {
-        margin: 40px 4%;
-    }
+	.block-form .btn {
+		width: 100%;
+		margin-left: 0;
+	}
 
-    .form-course .form__input {
-        height: 50px;
-        width: 100%;
-    }
+	.btn-top {
+		margin:60px 0px 55px 10px;
+		padding: 10px 5px 5px 5px;
+	}
 
-    .block-form .btn {
-        width: 100%;
-        margin-left: 0;
-    }
+	.btn-top img {
+		width: 20px;
+		height: 20px;
+	}
 
-    .btn-top {
-        margin:60px 0 55px 10px;
-        padding: 10px 5px 5px 5px;
-    }
+	.footer-detailed .our_email {
+		margin: 40px 0px 40px 2%;
+		padding: 10px 3px 3px 10px;
+	}
 
-    .btn-top img {
-        width: 20px;
-        height: 20px;
-    }
+	.footer-detailed .our_tel_number {
+		margin: 40px 0 40px 0;
+	}
 
-    .footer .our_email {
-        margin: 40px 0px 40px 0;
-        padding: 10px 3px 3px 10px;
-    }
+	@media (min-width: 400px) and (max-width: 650px) {
+		.footer-detailed .our_email {
+			margin: 40px 0px 40px 10%;
+			padding: 10px 3px 3px 10px;
+		}
 
-    .footer .our_tel_number {
-        margin: 40px 0 40px 0;
-    }
+	}
 }
+
+.lang-detail {
+	display: flex;
+	position: absolute;
+	top: 750px;
+	right: 0;
+	margin-right: 3.5%;
+}
+
+.lang-detail .btn {
+	border:none;
+	background-color:#E5E5E5;
+}
+
+@media (min-width: 100px) and (max-width: 1420px) {
+	.lang-detail {
+		display: none;
+
+	}}

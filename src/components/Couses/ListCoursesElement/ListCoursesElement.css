@@ -6,7 +6,7 @@ body{
 }
 .main-container{
     /*background: red;*/
-    margin-top: 10ch;
+    margin-top: 15ch;
     grid-template-rows: 1fr;
     width: 100%;
     height: 100%;
@@ -22,11 +22,11 @@ body{
     grid-gap: 50px;
 }
 #coursesBlock{
-    box-shadow: 0 15px 20px rgba(187, 187, 187, 0.25);
-    background: white;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
     display: grid;
     grid-template-columns: 44% 56%;
-    grid-template-rows: 100% 100%;
+    /*grid-template-rows: 100% 100%;*/
 }
 .photoPart img{
     width: 100%;
@@ -41,42 +41,36 @@ body{
     line-height: normal;
     text-transform: uppercase;
     color: #202020;
-    margin-left: 8%;
+    margin-left: 1.2%;
+    margin-top: 1%;
+    position: absolute;
 }
 .extraText{
+    position: absolute;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: normal;
     color: #909090;
-    margin-left: 8%;
+    margin-left: 1.2%;
+    margin-top: 3%;
+    max-height: 14%;
+    width: 12%;
 }
 .category1{
-    position: relative;
     background: #32B482;
-    width: 60%;
-    height: 13%;
-    right: 79%;
-    bottom: 27%;
+
 }
 .category2{
-    position: relative;
     background: #32B482;
-    width: 60%;
-    height: 13%;
-    right: 79%;
-    bottom: 27%;
+
 }
 .category3{
-    position: relative;
     background:  #557AFF;
-    width: 60%;
-    height: 13%;
-    right: 79%;
-    bottom: 27%;
 }
 #category{
+    position: relative;
     font-family: Roboto;
     font-style: italic;
     font-weight: bold;
@@ -85,15 +79,21 @@ body{
     text-align: center;
     padding-top: 2%;
     color: #FFFFFF;
+    width: 60%;
+    height: 13%;
+    top: 6%;
+    /*left: -78.5%;*/
+    right: 78.6%;
 }
 #date{
+    position: relative;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     color: #32B482;
     margin-left: 8%;
-    margin-bottom: auto;
+    margin-top: 50%;
 }
 .spanH6{
     font-family: Roboto;
@@ -126,8 +126,8 @@ body{
 .sprint{
     font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 14px;
     line-height: normal;
     color: #202020;
     margin-left: 8%;

@@ -1,15 +1,16 @@
-.right h3{
+.right-courses h3{
     font-family: Raleway;
     font-style: normal;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 17px;
     line-height: normal;
     color: #202020;
-    letter-spacing: -1.3px;
+    /*letter-spacing: -1.3px;*/
     margin-left: 4%;
+    margin-top: 2.5%;
 }
 .left{
-    margin-top: -1.5%;
+    margin-top: -4%;
 }
 .left h1{
     font-family: Raleway;
@@ -32,7 +33,7 @@
 }
 .rectangle{
     position: absolute;
-    width: 3%;
+    width: 2.5%;
     height: 31%;
     background: #32B482;
     top: 57%;
@@ -53,17 +54,20 @@
     /*grid-template-rows: 40% 10%;*/
 
 }
-.right{
+.right-courses{
     position: absolute;
     width: 52%;
+    height: 8%;
+    top: 16%;
     left: 48%;
     background: #FFFFFF;
+    z-index: 1;
 }
 .bottom{
     display: grid;
     grid-template-columns: 85%;
     grid-template-rows: 20%;
-    grid-row-gap: 45%;
+    grid-row-gap: 90%;
     margin-left: 10%;
 }
 .bottom h1{
@@ -94,7 +98,7 @@
     .left span{
         font-size: 24px;
     }
-    .right h3{
+    .right-courses h3{
         font-size: 16px;
     }
     .intro{
@@ -118,7 +122,7 @@
     .left span{
         font-size: 20px;
     }
-    .right h3{
+    .right-courses h3{
         font-size: 12px;
         padding-top: 1%;
     }
@@ -148,7 +152,7 @@
     .left span{
         font-size: 18px;
     }
-    .right h3{
+    .right-courses h3{
         letter-spacing: normal;
         font-size: 10px;
         padding-top: 1%;

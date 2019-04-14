@@ -4,13 +4,16 @@
   "private": true,
   "dependencies": {
     "@types/lodash": "^4.14.123",
+    "history": "^4.9.0",
     "lodash.debounce": "^4.0.8",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "react-slick": "^0.23.2",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "sweetalert2": "^8.8.5"
   },
   "scripts": {
     "start": "react-scripts start",

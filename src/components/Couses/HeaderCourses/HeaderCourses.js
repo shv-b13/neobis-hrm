@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './HeaderCourses.css';
+import Header from "../../Header/Header";
 
 
 class HeaderCourses extends Component{
@@ -12,7 +13,7 @@ class HeaderCourses extends Component{
                     <div className="left">
                         <h1>КУРСЫ <span>NEOLABS</span></h1>
                     </div>
-                    <div className="right">
+                    <div className="right-courses">
                         <h3>ЗАПРОГРАММИРУЙ СВОЕ БУДУЩЕЕ!</h3>
                         <div className="rectangle"/>
                     </div>
@@ -26,6 +27,7 @@ class HeaderCourses extends Component{
                         хочет жить в ногу со временем, разбираться в сфере IT.</p>
                 </div>
             </div>
+
         )
     }
 
