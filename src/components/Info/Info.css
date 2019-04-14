@@ -1,4 +1,4 @@
-.info {
+.info_about {
     display: grid;
     grid-template-rows: 1fr;
     width: 100%;
@@ -125,7 +125,7 @@
 
 @media (max-width: 960px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
@@ -174,7 +174,7 @@
 
 @media (max-width: 860px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
@@ -223,7 +223,7 @@
 
 @media (max-width: 768px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
@@ -272,7 +272,7 @@
 
 @media (max-width: 600px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
@@ -321,7 +321,7 @@
 
 @media (max-width: 480px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
@@ -370,7 +370,7 @@
 
 @media (max-width: 414px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
@@ -419,7 +419,7 @@
 
 @media (max-width: 412px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
@@ -468,7 +468,7 @@
 
 @media (max-width: 411px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
@@ -517,7 +517,7 @@
 
 @media (max-width: 375px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
@@ -567,7 +567,7 @@
 
 @media (max-width: 361px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
@@ -616,7 +616,7 @@
 
 @media (max-width: 320px) {
 
-    .info {
+    .info_about {
         display: grid;
         grid-template-rows: 1fr;
         width: 100%;
