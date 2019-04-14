@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
-
-import Home from './pages/home/Home';
-
-import './App.css';
+import CoursesComponent from "./components/Couses/CoursesComponent";
+import CoursesDetailed from "./components/CoursesDetailed/CoursesDetailed";
+import Home from "./pages/home/Home";
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <Router>
-        <Route path="/" exact component={Home}/>
-      </Router>
-    );
-  }
+        <BrowserRouter>
+          <Switch>
+              <Route path="/" exact component={Home}/>
+              <Route path='/courses' exact component={CoursesComponent}/>
+              <Route path='/courses/:id' exact component={CoursesDetailed}/>
+          </Switch>
+        </BrowserRouter>
+        );
+    }
 }
 
 export default App;
