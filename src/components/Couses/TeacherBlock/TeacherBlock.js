@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import './TeacherBlock.css';
 import Slider from "react-slick";
+import FooterCourses from "../FooterCourses/FooterCourses";
 
 function SampleNextArrow(props) {
     const {onClick } = props;
@@ -80,21 +81,23 @@ class TeacherBlock extends Component{
         };
         return (
             <div className="carusel">
-                <Slider {...settings} className="slick-slider">
-                    {this.state.teacherList.map(function(slide) {
-                        return (
-                            <div key={slide} className="teacher-container">
-                                <div  className="item">
-                                    <img src="teacher.png" alt="" className="teacherImg"/>
-                                    <h1 className="teacherName">{slide.name}</h1>
-                                    <p className="teacherPosition">{slide.position}</p>
-                                    <h2 className="teacherQuote">"{slide.quote}"</h2>
+                <div className="teacher">
+                    <Slider {...settings} className="slick-slider">
+                        {this.state.teacherList.map(function(slide) {
+                            return (
+                                <div key={slide} className="teacher-container">
+                                    <div  className="item">
+                                        <img src={"teacher.png"} alt="" className="teacherImg"/>
+                                        <h1 className="teacherName">{slide.name}</h1>
+                                        <p className="teacherPosition">{slide.position}</p>
+                                        <h2 className="teacherQuote">"{slide.quote}"</h2>
+                                    </div>
                                 </div>
-                            </div>
-
-                        );
-                    })}
-                </Slider>
+                            );
+                        })}
+                    </Slider>
+                </div>
+                <FooterCourses/>
             </div>
         );
     }

@@ -40,7 +40,7 @@ class Info extends Component {
                                         </div>
                                     </div>
                                 </Link>
-                                <Link to="/" className="info_block">
+                                <Link to="/courses" className="info_block">
                                     <div className="info_pad">
                                         <div className="info_block_img">
                                             <img src={courses} alt="courses" className="info_img"/>
