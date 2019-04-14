@@ -11,7 +11,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <footer className="footer">
+            <footer className="block_footer">
                 <div className="footer_content">
                     <div className="footer_block">
                         <Link to="/" className="footer_link">

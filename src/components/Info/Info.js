@@ -14,7 +14,7 @@ class Info extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="block_container">
                 <div className="info">
 
                     <div className="info_content">

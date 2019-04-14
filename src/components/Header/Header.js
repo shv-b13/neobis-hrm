@@ -26,9 +26,11 @@ class Header extends Component {
             ul.style.height = 'auto';
             ul.style.transitionTimingFunction = 'ease';
             this.setState({isOpen: false});
+
         }
 
         if (!this.state.isOpen) {
+            this.updateWindowDimensions();
             ul.style.height = '0';
             ul.style.opacity = '0';
             ul.style.transition = '.5s';
@@ -115,24 +117,26 @@ class Header extends Component {
 
     componentDidMount() {
         this.updateWindowDimensions();
-        this.setState({ width: window.innerWidth <= 1000});
+        this.setState({ width: window.innerWidth <= 1200});
         window.addEventListener("resize", this.updateWindowDimensions);
+
     }
 
     componentWillUnmount() {
         window.removeEventListener("resize", this.updateWindowDimensions);
+
     }
 
     updateWindowDimensions = () => {
         const ul = document.getElementById('menu');
-        this.setState({ width: window.innerWidth > 1000});
+        this.setState({ width: window.innerWidth < 1000});
 
         if(this.state.width) {
-            ul.style.opacity = '1';
+            ul.style.display = 'grid';
         }
         if (!this.state.width)
         {
-            ul.style.opacity = '0';
+            ul.style.display = 'grid';
             ul.style.alignSelf = 'center';
         }
 
@@ -142,7 +146,7 @@ class Header extends Component {
     render() {
 
         return (
-            <div className="container">
+            <div className="block_container">
 
                 <header className="header">
 
@@ -176,7 +180,7 @@ class Header extends Component {
                             <Link className="header_link" to="/">Курсы</Link>
                         </li>
                         <li className="header_li">
-                            <Link className="header_link" to="/">Блог</Link>
+                            <Link className="header_link" to="/blog">Блог</Link>
                         </li>
                         <li className="header_li">
                             <Link className="header_link" to="/">Сотрудничество</Link>
