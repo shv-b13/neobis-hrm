@@ -4,7 +4,10 @@ import TeacherBlock from "./TeacherBlock/TeacherBlock";
 import FooterCourses from "./FooterCourses/FooterCourses";
 import HeaderCourses from './HeaderCourses/HeaderCourses';
 
+
+
 class CoursesComponent extends Component {
+
     render() {
         return (
             <div className="main-courses-container">

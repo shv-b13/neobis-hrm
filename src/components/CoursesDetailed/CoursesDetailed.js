@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './CoursesDetailed.css'
-import { months } from '../consts';
 
 var course;
 
@@ -12,6 +11,9 @@ class CoursesDetailed extends Component {
             startDate: '',
             duration: '',
         };
+
+
+
     };
     handleSubmit(event){
         event.preventDefault();
@@ -38,11 +40,10 @@ class CoursesDetailed extends Component {
     }
 
     async componentWillMount() {
-        const requestCoursesInfo = await fetch('https://cors-anywhere.herokuapp.com/https://neolab2.herokuapp.com/courses/1', {
+        const requestCoursesInfo = await fetch(`https://cors-anywhere.herokuapp.com/https://neolab2.herokuapp.com/courses/${this.props.history.location.state.courseId}`, {
             method: 'GET',
             headers: {
                 "Content-Type": "application/json",
-                // "Location": "1"
             },
             mode: 'cors',
         });
@@ -101,7 +102,7 @@ class CoursesDetailed extends Component {
         } else{
             console.log('Response error')
         }
-
+        console.log('w', this.props);
     }
 
 
@@ -128,8 +129,8 @@ class CoursesDetailed extends Component {
 
                         </div>
                         <div className="photo-course">
-                            {/*<img src="photo course.png"/>*/}
-                            <img src={this.state.coursesDetail.image}/>
+                            <img src="photo course.png"/>
+                            {/*<img src={this.state.coursesDetail.image}/>*/}
                         </div>
                     </div>
                     <div className="about-course" id="read-more">

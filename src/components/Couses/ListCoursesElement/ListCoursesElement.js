@@ -1,6 +1,10 @@
-/* eslint-disable array-callback-return */
+/* eslint-disable array-callback-return,no-unused-vars */
 import React, { Component } from 'react';
 import './ListCoursesElement.css';
+import {Link} from "react-router-dom";
+import  { Redirect } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+const history = createBrowserHistory();
 
 class ListCoursesElement extends Component{
     constructor(props){
@@ -8,8 +12,12 @@ class ListCoursesElement extends Component{
         this.state={
             coursesList:[]
         };
-    }
+        console.log('i', history);
 
+
+
+
+    }
      async componentDidMount() {
 
          const requestCoursesInfo = await fetch('https://cors-anywhere.herokuapp.com/https://neolab2.herokuapp.com/courses/', {
@@ -19,9 +27,8 @@ class ListCoursesElement extends Component{
              },
              mode: 'cors',
          });
-         const coursesInfoJson = await requestCoursesInfo.json();
          if (requestCoursesInfo.ok) {
-             console.log(coursesInfoJson);
+             const coursesInfoJson = await requestCoursesInfo.json();
              await this.setState({coursesList: coursesInfoJson});
          }else{
              console.log('Response error')
@@ -29,10 +36,11 @@ class ListCoursesElement extends Component{
      }
 
          render(){
+
+
              let coursesContainer = document.getElementById('coursesContainer');
              if (this.state.coursesList !== []){
                  this.state.coursesList.map((arr) => {
-                     console.log(arr);
                      let coursesBlock = document.createElement('div');
                      coursesBlock.id = 'coursesBlock';
                      coursesBlock.className = 'coursesBlockClass' + arr.id;
@@ -126,16 +134,25 @@ class ListCoursesElement extends Component{
                      sprintChild.innerHTML = declension(arr.duration);
                      infoPart.appendChild(sprintChild);
 
+
                      let buttonChild = document.createElement('button');
                      buttonChild.innerHTML = 'ПОДРОБНЕЕ';
                      buttonChild.className = 'detailButton';
+                     buttonChild.value = arr.id;
+                     buttonChild.onclick = () => {
+                         console.log({pathname: `/courses/${arr.id}`, state:{courseId: arr.id}});
+                         history.push({pathname:`/courses/${arr.id}`,state:{courseId: arr.id}});
+                         history.go(`/courses/${arr.id}`);
+                     };
                      infoPart.appendChild(buttonChild);
+
 
                      coursesBlock.appendChild(infoPart);
                      coursesContainer.appendChild(coursesBlock);
                  });
              }
-            return(
+             return(
+
                 <div className="main-container">
                     <div id="coursesContainer"/>
                     <div className="text">

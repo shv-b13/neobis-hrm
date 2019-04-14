@@ -33,9 +33,8 @@ class TeacherBlock extends Component{
             },
             mode: 'cors',
         });
-        const teacherInfoJson = await requestTeacherInfo.json();
         if (requestTeacherInfo.ok) {
-            console.log(teacherInfoJson);
+            const teacherInfoJson = await requestTeacherInfo.json();
             await this.setState({teacherList: teacherInfoJson});
         }else{
             console.log('fuk')
@@ -83,10 +82,9 @@ class TeacherBlock extends Component{
             <div className="carusel">
                 <Slider {...settings} className="slick-slider">
                     {this.state.teacherList.map(function(slide) {
-                        console.log(slide);
                         return (
-                            <div className="teacher-container">
-                                <div key={slide} className="item">
+                            <div key={slide} className="teacher-container">
+                                <div  className="item">
                                     <img src="teacher.png" alt="" className="teacherImg"/>
                                     <h1 className="teacherName">{slide.name}</h1>
                                     <p className="teacherPosition">{slide.position}</p>
