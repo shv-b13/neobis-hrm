@@ -20,6 +20,11 @@
     "react-owl-carousel": "^2.3.1",
     "react-redux": "^5.0.7",
     "react-router": "^5.0.0",
+    "@types/lodash": "^4.14.123",
+    "history": "^4.9.0",
+    "lodash.debounce": "^4.0.8",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "react-router-dom": "^5.0.0",
     "react-router-redux": "^4.0.8",
     "react-scripts": "2.1.8",
@@ -27,6 +32,10 @@
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
     "styled-components": "^3.4.5"
+    "react-slick": "^0.23.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.2.0",
+    "sweetalert2": "^8.8.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -62,5 +71,5 @@
   "bugs": {
     "url": "https://github.com/Kunerkhan/neobis-hrm/issues"
   },
-  "homepage": "https://github.com/Kunerkhan/neobis-hrm#readme"
+  "homepage": "."
 }

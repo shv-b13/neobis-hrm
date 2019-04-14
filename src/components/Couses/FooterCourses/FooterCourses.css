@@ -1,0 +1,243 @@
+.footer-courses{
+    background: #202020;
+    z-index: 1;
+    height: 120%;
+    position: absolute;
+    /*top: 201%;*/
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+}
+.ceos-container{
+    position: absolute;
+    width: 53%;
+    height: 41%;
+    top: 38%;
+    left: 24%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 100%;
+    grid-gap: 20%;
+    text-align: center;
+}
+.ceos-item{
+    position: relative;
+}
+.ceo-photo{
+    border-radius: 50%;
+    width: 35%;
+}
+.ceo-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ceo-position{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ceo-quote{
+    margin-top: 5%;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.square{
+    background: white;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 52%;
+    left: -2%;
+}
+.ces-says{
+    position: absolute;
+    top: 25%;
+    left: 41%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.button-to-courses{
+    position: absolute;
+    left: 45%;
+    top: 91.5%;
+    width: 10.5%;
+    height: 5%;
+
+    background: #32B482;
+    box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
+    border-radius: 5px;
+}
+.button-to-courses p{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    margin-top: 5%;
+    color: #FFFFFF;
+}
+.button-to-courses:active{
+    box-shadow: 1px 1px 1px 1px black;
+}
+.button-up{
+    position: absolute;
+    width: 3.125%;
+    height: 6%;
+    background: #32B482;
+    border-radius: 5px;
+    top: 91.5%;
+    left: 1.5%;
+}
+.button-up img{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+.button-up:active{
+    box-shadow: 1px 1px 1px 1px black;
+}
+@media screen and (max-width: 1440px){
+    .footer-courses{
+        top: 182.5%;
+    }
+    .button-to-courses p{
+        margin-top: 7%;
+    }
+    .button-up{
+        height: 5%;
+    }
+    .button-up img{
+        left: 15%;
+    }
+    .square{
+        top: 48%;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    .footer-courses{
+        top: 191%;
+    }
+    .ces-says{
+        font-size: 16px;
+        left: 39%;
+    }
+    .ceo-name{
+        font-size: 16px;
+    }
+    .ceo-position{
+        font-size: 12px;
+    }
+    .ceo-quote{
+        font-size: 16px;
+    }
+    .button-to-courses p{
+        font-size: 14px;
+    }
+    .button-up img{
+        width: 80%;
+        margin-left: -5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer-courses{
+        top: 179%;
+    }
+    .ces-says{
+        font-size: 16px;
+        left: 39%;
+    }
+    .ceo-name{
+        font-size: 14px;
+    }
+    .ceo-position{
+        font-size: 10px;
+    }
+    .ceo-quote{
+        font-size: 13px;
+    }
+    .button-to-courses p{
+        font-size: 12px;
+        padding-top: 3%;
+    }
+    .button-up img{
+        width: 72%;
+        margin-left: 2%;
+    }
+    .button-up{
+        width: 4%;
+    }
+    .square{
+        top: 42%;
+        left: -7%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .footer-courses{
+        top: 179%;
+    }
+    .ceos-container{
+        margin-top: -5%;
+    }
+    .ces-says{
+        font-size: 14px;
+        left: 25%;
+    }
+    .ceo-name{
+        font-size: 10px;
+    }
+    .ceo-photo{
+        width: 60%;
+    }
+    .ceo-position{
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .ceo-quote{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .button-to-courses{
+        /*position: relative;*/
+    }
+    .button-to-courses p{
+        font-size: 12px;
+        padding-top: 3%;
+    }
+    .button-up img{
+        width: 72%;
+        margin-left: 2%;
+    }
+    .button-up{
+        width: 4%;
+    }
+    .square{
+        top: 31%;
+        left: -10%;
+        width: 10%;
+        height: 2.5%;
+    }
+}

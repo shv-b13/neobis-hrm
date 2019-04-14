@@ -10,7 +10,7 @@ class Header extends Component {
     state = {
         isOpen: true,
         width: window.innerWidth
-    }
+    };
 
     Show = () => {
 
@@ -38,7 +38,7 @@ class Header extends Component {
         }
 
 
-    }
+    };
 
     showMenu = () => {
 
@@ -64,7 +64,7 @@ class Header extends Component {
             button.style.transitionTimingFunction = 'ease';
 
 
-            rotateL.style.transition = '.5s'
+            rotateL.style.transition = '.5s';
             rotateL.style.transitionTimingFunction = 'ease';
             rotateL.style.transform = 'translateY(7px) rotate(45deg)';
             rotateL.style.backgroundColor = '#32B482';
@@ -112,7 +112,7 @@ class Header extends Component {
 
         this.Show();
 
-    }
+    };
 
 
     componentDidMount() {
@@ -177,7 +177,7 @@ class Header extends Component {
                             <Link className="header_link" to="/">Мероприятия</Link>
                         </li>
                         <li className="header_li">
-                            <Link className="header_link" to="/">Курсы</Link>
+                            <Link className="header_link" to="/courses">Курсы</Link>
                         </li>
                         <li className="header_li">
                             <Link className="header_link" to="/blog">Блог</Link>
