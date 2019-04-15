@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="081d9111-55e6-4019-9104-136dbed5772d" name="Default" comment="renamed .info class for Info component">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="081d9111-55e6-4019-9104-136dbed5772d" name="Default" comment="renamed .info class for Info component" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -438,7 +436,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196720000" />
+    <option name="totallyTimeSpent" value="197499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
