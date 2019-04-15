@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../../fonts/Raleway-Medium.ttf);
+}
+body {
+	background: #F8F8F8;
+}
+h1
+{
+position: absolute;
+width: 331px;
+height: 58px;
+left: 288px;
+top: 138px;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: normal;
+text-transform: uppercase;
+color: #202020;
+}
+p
+{
+position: absolute;
+width: 798px;
+height: 90px;
+left: 288px;
+top: 191px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+
+color: #909090;
+}
+.field_text1 {
+position: absolute;
+left: 28.12%;
+right: 60.83%;
+top: 45%;
+bottom: 60.18%;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: normal;
+color: #202020;
+}
+.block1{
+position: absolute;
+width: 250px;
+height: 98px;
+left: 28.12%;
+top: 329px;
+background: #32B482;
+box-shadow: 0px 15px 20px rgba(50, 180, 130, 0.25);
+}
+.block2{
+position: absolute;
+width: 250px;
+height: 98px;
+left: 28.12%;
+top: 460px;
+background: #32B482;
+box-shadow: 0px 15px 20px rgba(50, 180, 130, 0.25);
+}
+.block3{
+position: absolute;
+width: 250px;
+height: 98px;
+left: 28.12%;
+top: 580px;
+margin-bottom: 50px;
+background: #32B482;
+box-shadow: 0px 15px 20px rgba(50, 180, 130, 0.25);
+}
+.block_text{
+position: absolute;
+left: 4%;
+top: 3%;
+bottom: 54.31%;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.field_text{
+position: absolute;
+left: 55.83%;
+right: 30%;
+top: 45%;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: normal;
+color: #202020;
+}
+.field{
+	
+position: absolute;
+width: 500px;
+height: 520px;
+left: 55.83%;
+top: 329px;
+margin-bottom: 75px;
+background: #FFFFFF;
+box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
+}
+.about_you{
+visibility: hidden;
+position: absolute;
+width: 500px;
+height: 520px;
+left: 55.83%;
+top: 329px;
+margin-bottom: 75px;
+background: #FFFFFF;
+box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
+}
+.field_name{
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 40px;
+background: #F8F8F8;
+border: none;
+}
+.field_surname{
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 110px;
+background: #F8F8F8;
+border: none;
+}
+.field_phone{
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 180px;
+background: #F8F8F8;
+border: none;
+}
+.field_email{
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 250px;
+background: #F8F8F8;
+border: none;
+}
+.field_gender{
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 320px;
+background: #F8F8F8;
+border: none;
+}
+.field_dob{
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 380px;
+background: #F8F8F8;
+border: none;
+}
+.button_next{
+position: absolute;
+width: 150px;
+height: 40px;
+left: 175px;
+top: 440px;
+background: #32B482;
+box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
+border-radius: 5px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: normal;
+text-align: center;
+color: #FFFFFF;
+}
+#checkbox_div{
+position: absolute;
+width: 100px;
+height: 40px;
+background: #F8F8F8;
+left: 50px;
+top: 310px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: normal;
+text-align: center;
+color: #909090;	
+}
+#university{
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 110px;
+background: #F8F8F8;
+border: none;
+}
+#departments{
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 250px;
+background: #F8F8F8;
+border: none;
+}
+.field_experience{
+position: absolute;
+width: 400px;
+height:40px;
+background: #F8F8F8;
+left: 50px;
+top: 310px;
+border: none;
+}

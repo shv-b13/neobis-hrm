@@ -5,6 +5,7 @@ import courseImg from './image/photo course.png'
 import logo from './image/Logo.png'
 import toTop from './image/up arrow.png'
 
+
 const Swal = require('sweetalert2');
 var course;
 

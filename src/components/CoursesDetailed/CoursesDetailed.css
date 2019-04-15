@@ -72,6 +72,8 @@ ul,ol {
 	line-height: normal;
 	text-transform: uppercase;
 	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .tags {
@@ -278,7 +280,7 @@ border-radius: 5px;
 	line-height: 27px;
 	overflow-x: hidden;
 	position: relative;
-	margin: 40px auto 0 auto;
+	margin: 0px auto 0 auto;
 	max-width: 1900px;
 
 }
@@ -300,6 +302,10 @@ border-radius: 5px;
 }
 .neobis_logo_footer-detailed img{
 	width: 200px; height: 40px;
+}
+.neobis_logo_footer-detailed  img{
+	 width: 200px;
+	 height: 40px;
 }
 
 .footer-detailed .our_email {
@@ -338,6 +344,19 @@ border-radius: 5px;
 	.info {
 		padding:  0px 10px;
 		text-align: center;
+	}
+
+	.title-detail{
+		font-family: Raleway;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 40px;
+		line-height: normal;
+		text-transform: uppercase;
+
+		color: #202020;
+		/*margin-top: 15%;*/
+		/*margin-bottom: 15%;*/
 	}
 
 	.description-content {
