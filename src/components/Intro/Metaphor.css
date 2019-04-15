@@ -32,7 +32,7 @@
 
 .metaphor_text {
     display: grid;
-    grid-template-columns: 72.5% 4%;
+    grid-template-columns: 67% 4%;
     background-color: #fff;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -58,7 +58,7 @@
     background-color: #32B482;
 }
 
-@media (min-width: 1025px) {
+@media (max-width: 1381px) {
 
     .container {
         width: 1200px !important;

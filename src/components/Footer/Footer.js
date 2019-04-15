@@ -14,14 +14,14 @@ class Footer extends Component {
             <footer className="block_footer">
                 <div className="footer_content">
                     <div className="footer_block">
-                        <Link to="/" className="footer_link">
+                        <a href="/" className="footer_link">
                             <div className="footer_img">
                                 <img src={rectangle} alt="rectangle"/>
                             </div>
                             <p className="footer_p">
                                 Facebook
                             </p>
-                        </Link>
+                        </a>
                         <Link to="/" className="footer_link">
                             <div className="footer_img">
                                 <img src={rectangle} alt="rectangle"/>

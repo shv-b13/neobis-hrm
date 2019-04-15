@@ -152,9 +152,9 @@ class Header extends Component {
 
                     <div className="header_adap" id="h_adap">
 
-                        <div className="header_logo">
+                        <Link to="/" className="header_logo">
                             <img src={leaf} alt="leaf" className="header_img" id="h_logo"/>
-                        </div>
+                        </Link>
 
                         <button className="header_show" id="showMenu" onClick={this.showMenu}>
                             <div className="header_line" id="rotateLeft"></div>

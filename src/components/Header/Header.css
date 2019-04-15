@@ -48,7 +48,7 @@ a:hover {
     text-underline: none;
 }
 
-.header_link:hover {
+.header_link:hover, .header_li:hover {
     color: #32B482;
     text-decoration: none;
     text-underline: none;
@@ -56,7 +56,7 @@ a:hover {
     cursor: pointer;
 }
 
-.header_link:focus {
+.header_link:focus, .header_link:active {
     padding: 5px;
     border-radius: 5px;
     background-color: #32b482;
