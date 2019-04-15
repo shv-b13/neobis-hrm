@@ -12,7 +12,9 @@ class FooterCourses extends Component{
                 <div className="ceos-container">
                     <div className="ceos-item">
                         <div className="square"/>
+
                         <img src={teacher} alt="" className="ceo-photo"/>
+
                         <div className="ceo-name">Том Круз</div>
                         <div className="ceo-position">
                             CEO, один из основателей Neobis
@@ -27,6 +29,7 @@ class FooterCourses extends Component{
                     <div className="ceos-item">
                         <div className="square"/>
                         <img src={teacher} alt="" className="ceo-photo"/>
+
                         <div className="ceo-name">Том Круз</div>
                         <div className="ceo-position">
                             CEO, один из основателей Neobis
@@ -39,7 +42,9 @@ class FooterCourses extends Component{
                         </div>
                     </div>
                 </div>
+
                 <div className="button-up"><a href={"#header"}><img src={up} alt=""/></a></div>
+
                 <a href={"#coursesContainer"}><div className="button-to-courses"><p>К КУРСАМ</p></div></a>
             </div>
         )

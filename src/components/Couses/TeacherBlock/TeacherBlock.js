@@ -7,6 +7,7 @@ import teacher from '../image/teacher.png';
 import right from '../image/right arrow.png';
 import left from '../image/left arrow.png';
 
+
 function SampleNextArrow(props) {
     const {onClick } = props;
     return (
@@ -90,7 +91,9 @@ class TeacherBlock extends Component{
                             return (
                                 <div key={slide} className="teacher-container">
                                     <div  className="item">
+                              
                                         <img src={teacher} alt="" className="teacherImg"/>
+                              
                                         <h1 className="teacherName">{slide.name}</h1>
                                         <p className="teacherPosition">{slide.position}</p>
                                         <h2 className="teacherQuote">"{slide.quote}"</h2>

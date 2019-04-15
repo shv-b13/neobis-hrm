@@ -299,6 +299,10 @@ border-radius: 5px;
 .neobis_logo_footer-detailed img{
 	width: 200px; height: 40px;
 }
+.neobis_logo_footer-detailed  img{
+	 width: 200px;
+	 height: 40px;
+}
 
 .footer-detailed .our_email {
 	width: 250px; /* Ширина блока */
