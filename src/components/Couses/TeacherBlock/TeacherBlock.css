@@ -1,25 +1,33 @@
 .carusel{
-    position: absolute;
+    /*position: absolute;*/
+    /*z-index: 2;*/
+    /*width: 60%;*/
+    height: 100%;
+    /*margin-left: 20%;*/
+    margin-top: 8.5%;
+    /*margin-bottom: 15%;*/
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.teacher{
+    position: relative;
+    /*grid-area: ;*/
     z-index: 2;
     width: 60%;
-    height: 43%;
     margin-left: 20%;
-        margin-top: 8.5%;
-    /*margin-bottom: 15%;*/
-    background: white;
-    text-align: center;
-    /*display: grid;*/
-    /*grid-template-columns: 1fr;*/
 }
 .slick-slider{
-    /*background: green;*/
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 100%;
+    grid-template-rows: 1fr;
+    position: relative;
+    background: white;
 }
 .item{
     margin-right: 10%;
-    padding-top: 15%;
+    /*padding-top: 15%;*/
     padding-bottom: 15%;
     border: none;
 }
@@ -44,7 +52,7 @@
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    margin-top: -5%;
+    margin-top: -0%;
     color: #909090;
 }
 .teacherQuote{
@@ -99,34 +107,58 @@
     }
 }
 @media screen and (max-width: 768px){
+    .teacherName{
+        font-size: 12px;
+    }
+    .teacherPosition{
+        font-size: 12px;
+    }
+    .teacherQuote{
+        font-size: 10px;
+    }
     .item{
-        padding-top: 25%;
+        padding-bottom: 8%;
     }
     .leftArrow{
-        margin-top: 225%;
+        margin-top: 200%;
+        height: 15%;
     }
     .rightArrow{
-        margin-top: 225%;
+        margin-top: 200%;
+        margin-left: 10%;
+        height: 15%;
     }
     .carusel{
-        padding-right: 2%;
+        /*padding-right: 2%;*/
+        margin-top: 5%;
     }
 }
 @media screen and (max-width: 425px){
+    .teacherName{
+        font-size: 10px;
+    }
+    .teacherPosition{
+        font-size: 10px;
+    }
+    .teacherQuote{
+        font-size: 8px;
+    }
     .item{
-        padding-top: 35%;
-        padding-left: 5%;
-        margin-left: 5%;
+        margin-left: 4%;
     }
     .leftArrow{
-        margin-top: 585%;
+        margin-top: 350%;
+        height: 15%;
     }
     .rightArrow{
-        margin-top: 585%;
+        margin-top: 350%;
+        height: 15%;
+        margin-left: -40%;
     }
     .carusel{
         padding-right: 5%;
         height: 40%;
         left: -3%;
+        /*margin-top: 5%;*/
     }
 }

@@ -1,8 +1,8 @@
 
 * {
 	box-sizing: border-box;
-	padding: 0;
-	outline: none;
+    padding: 0;
+    outline: none;
 	font-family: Roboto;
 }
 
@@ -38,11 +38,6 @@ a {
 ul,ol {
 	list-style: none;
 	padding: 0px;
-}
-
-.header-detailed {
-	width: 100%;
-	margin: 30px ;
 }
 
 .active {
@@ -110,9 +105,9 @@ ul,ol {
 }
 
 .read-more {
-	background: linear-gradient(to top, #FFFFFF, #FFFFFF);
-	box-shadow: 0px 10px 20px rgba(187, 187, 187, 0.25);
-	border-radius: 5px;
+background: linear-gradient(to top, #FFFFFF, #FFFFFF);
+box-shadow: 0px 10px 20px rgba(187, 187, 187, 0.25);
+border-radius: 5px;	
 	padding: 10px 25px;
 }
 
@@ -136,9 +131,9 @@ ul,ol {
 	line-height: 34px;
 	text-align: center;
 	text-transform: uppercase;
-	word-wrap: break-word;
+	word-wrap: break-word; 
 }
-
+	
 .about-course .description, .subtitle {
 	text-align: center;
 }
@@ -146,13 +141,13 @@ ul,ol {
 .subtitle {
 	font-size: 18px;
 	line-height: 25px;
-
+	
 	text-align: center;
 }
 
 .about-course  .stage-plan {
-	counter-reset: myCounter;
-	padding: 0px;
+  counter-reset: myCounter;
+  padding: 0px;
 }
 
 .about-course .stage-plan__item {
@@ -170,26 +165,26 @@ ul,ol {
 	padding-top: 5px;
 }
 
-
+ 
 .about-course  .stage-plan__item::before {
-	counter-increment: myCounter;
-	content:"." counter(myCounter);
-	color: white;
-	background: black;
-	display: inline-block;
-	text-align: center;
-	margin: 0px -20px 10px 0px;
-	line-height: 40px;
-	width: 30px;
-	height: 40px;
-	font-family: Roboto;
-	font-weight: bold;
-	font-size: 24.6px;
-	line-height: 39px;
-	position: relative;
-	right: 70px;
-	top: -5px;
-}
+  counter-increment: myCounter;
+  content:"." counter(myCounter);
+  color: white;
+  background: black;
+  display: inline-block;
+  text-align: center;
+  margin: 0px -20px 10px 0px;
+  line-height: 40px;
+  width: 30px;
+  height: 40px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 24.6px;
+  line-height: 39px;
+  position: relative;
+  right: 70px;
+  top: -5px;	
+} 
 
 .form-course {
 	display: flex;
@@ -219,14 +214,15 @@ ul,ol {
 	width: 400px;
 	height: 50px;
 	margin-top: 16px;
-	padding: 1.1em 1em;
-	font-size: 1.125rem;
-	line-height: 1em;
-	border: 2px solid #dce0eb;
-	color: #9F9F9F;
-	outline: none;
-	background-color:  #C5C3C3;
-	background-position: left 10px;
+    padding: 1.1em 1em;
+    font-size: 1.125rem;
+    /*padding-right: */
+    line-height: 1em;
+    border: 2px solid #dce0eb;
+    color: #9F9F9F;
+    outline: none;
+    background-color:  #C5C3C3;
+    background-position: left 10px;
 }
 
 .form-course .title {
@@ -299,25 +295,27 @@ ul,ol {
 
 .neobis_logo_footer-detailed {
 	margin: 50px 50px 60px 21%;
-
+}
+.neobis_logo_footer-detailed img{
+	width: 200px; height: 40px;
 }
 
 .footer-detailed .our_email {
 	width: 250px; /* Ширина блока */
-	padding: 10px; /* Поля */
+    padding: 10px; /* Поля */
 	font-size: 19px;
 	line-height: 27px;
-	word-wrap: break-word; /* Перенос слов */
-	margin: 40px 4% 40px 5%;
+    word-wrap: break-word; /* Перенос слов */
+     margin: 40px 4% 40px 5%;
 }
 
 .footer-detailed .our_tel_number {
 	width: 200px; /* Ширина блока */
-	padding: 10px; /* Поля */
+    padding: 10px; /* Поля */
 	font-size: 19px;
 	line-height: 27px;
-	word-wrap: break-word; /* Перенос слов */
-	margin: 40px 0;
+    word-wrap: break-word; /* Перенос слов */
+     margin: 40px 0;
 }
 
 
@@ -325,7 +323,7 @@ ul,ol {
 
 @media (min-width: 650px) and (max-width: 1000px) {
 
-
+	
 	.main .info {
 		display: flex;
 		flex-direction: column-reverse;
@@ -343,58 +341,58 @@ ul,ol {
 	.description-content {
 		margin:0px 20px;
 	}
-
+	
 	.description-content .title {
 		text-align: center;
 	}
-
+	
 	.about-course {
 		padding:  0px 20px;
 	}
 	.description {
 		padding-right: 0px;
 	}
-
+	
 	.about-course .stage-plan__item {
 		margin:  35px 0;
 		margin-left: 60px;
 		padding: 0px 5px 5px 10px;
 	}
 
-
+ 
 	.about-course  .stage-plan__item::before {
-		margin: 0 -35px 5px 0px;
-		line-height: 35px;
-		width: 35px;
-		height: 35px;
+	    margin: 0 -35px 5px 0px;
+	    line-height: 35px;
+	    width: 35px;
+	    height: 35px;
 		right: 70px;
-		top: 0px;
-	}
+		top: 0px;	
+	} 
 
 
 
 	.cost-course {
-		margin: 50px 0 70px 0;
-		width: 250px !important;
+	margin: 50px 0 70px 0;
+	width: 250px !important;
 	}
-
+	
 	.neobis_logo_footer-detailed {
 		margin: 50px 0 60px 5%;
 	}
 
 	.footer-detailed .our_email {
-		margin: 40px 2% 40px 6%;
+    margin: 40px 2% 40px 6%;
 	}
 
 	.footer-detailed .our_tel_number {
-		margin: 40px 1% 40px 0;
+	    margin: 40px 1% 40px 0;
 	}
 
 }
 
-
+    
 @media (min-width: 100px) and (max-width: 650px) {
-
+	
 	.main .info {
 		display:flex;
 		flex-direction: column-reverse;
@@ -410,7 +408,7 @@ ul,ol {
 		padding:  0px 20px;
 		text-align: center;
 	}
-
+	
 
 	.about-course .stage-plan__item {
 		margin:  35px 0;
@@ -418,21 +416,21 @@ ul,ol {
 		padding: 0px 5px 5px 10px;
 	}
 
-
+ 
 	.about-course  .stage-plan__item::before {
-		margin: 0 -35px 5px 0px;
-		line-height: 35px;
-		width: 35px;
-		height: 35px;
+	    margin: 0 -35px 5px 0px;
+	    line-height: 35px;
+	    width: 35px;
+	    height: 35px;
 		right: 70px;
-		top: 0px;
-	}
-
+		top: 0px;	
+	} 
+		
 
 	.block-form {
 		margin-top: 0px;
 	}
-
+	
 	.block-form .form {
 		margin-right: 0px;
 	}
@@ -448,12 +446,12 @@ ul,ol {
 		padding-right: 0px;
 		margin: 15px 0;
 	}
-
+	
 	.about-course {
 		padding:  0px 20px;
 		margin: 10px 0px;
 	}
-
+	
 	.block-form {
 		display: flex;
 		flex-direction: column-reverse;
@@ -462,9 +460,9 @@ ul,ol {
 	.cost-course {
 		text-align: center;
 		margin:30px auto;
-		width: 100%
+		width: 100%	
 	}
-
+	
 	.neobis_logo_footer-detailed {
 		display: none;
 	}
@@ -478,50 +476,50 @@ ul,ol {
 		width: 100%;
 		margin-left: 0;
 	}
-
+	
 	.btn-top {
-		margin:60px 0px 55px 10px;
-		padding: 10px 5px 5px 5px;
+	margin:60px 0px 55px 10px;
+	padding: 10px 5px 5px 5px;
 	}
-
+	
 	.btn-top img {
 		width: 20px;
 		height: 20px;
 	}
 
 	.footer-detailed .our_email {
-		margin: 40px 0px 40px 2%;
-		padding: 10px 3px 3px 10px;
+     margin: 40px 0px 40px 2%;
+     padding: 10px 3px 3px 10px;
 	}
-
+	
 	.footer-detailed .our_tel_number {
-		margin: 40px 0 40px 0;
+     margin: 40px 0 40px 0;
 	}
-
-	@media (min-width: 400px) and (max-width: 650px) {
+	
+	@media (min-width: 400px) and (max-width: 650px) { 
 		.footer-detailed .our_email {
-			margin: 40px 0px 40px 10%;
-			padding: 10px 3px 3px 10px;
+		    margin: 40px 0px 40px 10%;
+	        padding: 10px 3px 3px 10px;
 		}
-
+	
 	}
 }
 
 .lang-detail {
 	display: flex;
-	position: absolute;
-	top: 750px;
-	right: 0;
-	margin-right: 3.5%;
+   position: absolute;
+   top: 750px;
+   right: 0;
+   margin-right: 3.5%;
 }
 
 .lang-detail .btn {
-	border:none;
-	background-color:#E5E5E5;
+	 border:none;
+	 background-color:#E5E5E5;
 }
 
-@media (min-width: 100px) and (max-width: 1420px) {
-	.lang-detail {
-		display: none;
-
-	}}
+@media (min-width: 100px) and (max-width: 1420px) { 
+.lang-detail {
+	display: none;
+   
+}}
