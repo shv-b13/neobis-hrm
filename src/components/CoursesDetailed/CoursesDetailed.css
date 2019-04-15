@@ -107,7 +107,10 @@ ul,ol {
 .read-more {
 background: linear-gradient(to top, #FFFFFF, #FFFFFF);
 box-shadow: 0px 10px 20px rgba(187, 187, 187, 0.25);
-border-radius: 5px;	
+border-radius: 5px;
+background: linear-gradient(to top, #FFFFFF, #FFFFFF);
+box-shadow: 0px 10px 20px rgba(187, 187, 187, 0.25);
+border-radius: 5px;
 	padding: 10px 25px;
 }
 
@@ -131,9 +134,9 @@ border-radius: 5px;
 	line-height: 34px;
 	text-align: center;
 	text-transform: uppercase;
-	word-wrap: break-word; 
+	word-wrap: break-word;
 }
-	
+
 .about-course .description, .subtitle {
 	text-align: center;
 }
@@ -141,7 +144,7 @@ border-radius: 5px;
 .subtitle {
 	font-size: 18px;
 	line-height: 25px;
-	
+
 	text-align: center;
 }
 
@@ -165,7 +168,7 @@ border-radius: 5px;
 	padding-top: 5px;
 }
 
- 
+
 .about-course  .stage-plan__item::before {
   counter-increment: myCounter;
   content:"." counter(myCounter);
@@ -183,8 +186,8 @@ border-radius: 5px;
   line-height: 39px;
   position: relative;
   right: 70px;
-  top: -5px;	
-} 
+  top: -5px;
+}
 
 .form-course {
 	display: flex;
@@ -323,7 +326,7 @@ border-radius: 5px;
 
 @media (min-width: 650px) and (max-width: 1000px) {
 
-	
+
 	.main .info {
 		display: flex;
 		flex-direction: column-reverse;
@@ -341,33 +344,33 @@ border-radius: 5px;
 	.description-content {
 		margin:0px 20px;
 	}
-	
+
 	.description-content .title {
 		text-align: center;
 	}
-	
+
 	.about-course {
 		padding:  0px 20px;
 	}
 	.description {
 		padding-right: 0px;
 	}
-	
+
 	.about-course .stage-plan__item {
 		margin:  35px 0;
 		margin-left: 60px;
 		padding: 0px 5px 5px 10px;
 	}
 
- 
+
 	.about-course  .stage-plan__item::before {
 	    margin: 0 -35px 5px 0px;
 	    line-height: 35px;
 	    width: 35px;
 	    height: 35px;
 		right: 70px;
-		top: 0px;	
-	} 
+		top: 0px;
+	}
 
 
 
@@ -375,24 +378,24 @@ border-radius: 5px;
 	margin: 50px 0 70px 0;
 	width: 250px !important;
 	}
-	
+
 	.neobis_logo_footer-detailed {
 		margin: 50px 0 60px 5%;
 	}
 
 	.footer-detailed .our_email {
-    margin: 40px 2% 40px 6%;
+		margin: 40px 2% 40px 6%;
 	}
 
 	.footer-detailed .our_tel_number {
-	    margin: 40px 1% 40px 0;
+		margin: 40px 1% 40px 0;
 	}
 
 }
 
-    
+
 @media (min-width: 100px) and (max-width: 650px) {
-	
+
 	.main .info {
 		display:flex;
 		flex-direction: column-reverse;
@@ -408,7 +411,7 @@ border-radius: 5px;
 		padding:  0px 20px;
 		text-align: center;
 	}
-	
+
 
 	.about-course .stage-plan__item {
 		margin:  35px 0;
@@ -416,21 +419,21 @@ border-radius: 5px;
 		padding: 0px 5px 5px 10px;
 	}
 
- 
+
 	.about-course  .stage-plan__item::before {
 	    margin: 0 -35px 5px 0px;
 	    line-height: 35px;
 	    width: 35px;
 	    height: 35px;
 		right: 70px;
-		top: 0px;	
-	} 
-		
+		top: 0px;
+	}
+
 
 	.block-form {
 		margin-top: 0px;
 	}
-	
+
 	.block-form .form {
 		margin-right: 0px;
 	}
@@ -446,12 +449,12 @@ border-radius: 5px;
 		padding-right: 0px;
 		margin: 15px 0;
 	}
-	
+
 	.about-course {
 		padding:  0px 20px;
 		margin: 10px 0px;
 	}
-	
+
 	.block-form {
 		display: flex;
 		flex-direction: column-reverse;
@@ -460,9 +463,9 @@ border-radius: 5px;
 	.cost-course {
 		text-align: center;
 		margin:30px auto;
-		width: 100%	
+		width: 100%
 	}
-	
+
 	.neobis_logo_footer-detailed {
 		display: none;
 	}
@@ -476,12 +479,12 @@ border-radius: 5px;
 		width: 100%;
 		margin-left: 0;
 	}
-	
+
 	.btn-top {
 	margin:60px 0px 55px 10px;
 	padding: 10px 5px 5px 5px;
 	}
-	
+
 	.btn-top img {
 		width: 20px;
 		height: 20px;
@@ -491,17 +494,17 @@ border-radius: 5px;
      margin: 40px 0px 40px 2%;
      padding: 10px 3px 3px 10px;
 	}
-	
+
 	.footer-detailed .our_tel_number {
      margin: 40px 0 40px 0;
 	}
-	
-	@media (min-width: 400px) and (max-width: 650px) { 
+
+	@media (min-width: 400px) and (max-width: 650px) {
 		.footer-detailed .our_email {
 		    margin: 40px 0px 40px 10%;
 	        padding: 10px 3px 3px 10px;
 		}
-	
+
 	}
 }
 
@@ -518,8 +521,8 @@ border-radius: 5px;
 	 background-color:#E5E5E5;
 }
 
-@media (min-width: 100px) and (max-width: 1420px) { 
+@media (min-width: 100px) and (max-width: 1420px) {
 .lang-detail {
 	display: none;
-   
+
 }}

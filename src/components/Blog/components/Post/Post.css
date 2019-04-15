@@ -24,15 +24,166 @@ html {
     align-content: stretch;
 
 }
+
 .post {
     height: 300px;
-
     width: 330px;
-    margin: 30px;
+    margin: 25px;
     background: #FFFFFF;
     box-shadow: 0 4px 10px rgba(187, 187, 187, 0.1);
 }
 
+/* 4th and 5th post */
+.post:nth-child(4) {
+    width: 530px;
+    height: 330px;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.post:nth-child(5) {
+    width: 530px;
+    height: 330px;
+}
+
+.post:nth-child(4) .post-image {
+    width: 530px;
+    height: 330px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.post:nth-child(5) .post-image {
+    width: 530px;
+    height: 330px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.post:nth-child(4) .post-title {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    line-height: normal;
+    margin: -150px 0 0 25px;
+    color: #FFFFFF;
+}
+.post:nth-child(5) .post-title {
+    text-align: left;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: normal;
+    margin: -150px 0 0 25px;
+    color: #FFFFFF;
+}
+.post:nth-child(4) .other-info {
+    align-self: flex-end;
+    position: absolute;
+    margin: -110px 0 0 0 ;
+    color: #FFFFFF;
+}
+.post:nth-child(5) .other-info {
+    align-self: flex-end;
+    position: absolute;
+    margin: -110px 0 0 0 ;
+    color: #FFFFFF;
+}
+.post:nth-child(4) .date-pub{
+    color: #FFFFFF;
+}
+.post:nth-child(4)  .author-name{
+    color: #FFFFFF;
+}
+.post:nth-child(5) .date-pub{
+     color: #FFFFFF;
+ }
+.post:nth-child(5)  .author-name{
+    color: #FFFFFF;
+}
+@media screen and (max-width: 600px) {
+    .blog-title {
+        text-align: center;
+    }
+    .news {
+        text-align: center;
+    }
+    .post:nth-child(4) {
+        height: 300px;
+        width: 330px;
+    }
+    .post:nth-child(5) {
+        height: 300px;
+        width: 330px;
+    }
+    .post:nth-child(4) .post-image {
+        width: 330px;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .post:nth-child(5) .post-image {
+        width: 330px;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .post:nth-child(4) .post-title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: normal;
+        color: #3E3E3E;
+        display: block;
+        text-align: left;
+        margin: 10px 20px 10px 10px;
+    }
+    .post:nth-child(5) .post-title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: normal;
+        color: #3E3E3E;
+        display: block;
+        text-align: left;
+        margin: 10px;
+    }
+    .post:nth-child(4) .other-info {
+        align-self: flex-end;
+        position: absolute;
+        margin: 60px 0 0 -15px;
+    }
+    .post:nth-child(5) .other-info {
+        align-self: flex-end;
+        position: absolute;
+        margin: 60px 0 0 -15px;
+    }
+    .post:nth-child(4) .date-pub{
+        color: #909090;
+    }
+    .post:nth-child(4)  .author-name{
+        color: #000000;
+    }
+    .post:nth-child(5) .date-pub{
+        color: #909090;
+    }
+    .post:nth-child(5)  .author-name{
+        color: #000000;
+    }
+    .footer-blog {
+        display: flex;
+    }
+
+}
 .post-image {
     width: 330px;
     height: 150px;
@@ -45,14 +196,22 @@ html {
     font-size: 14px;
     line-height: normal;
     color: #3E3E3E;
+    display: block;
+    text-align: left;
+    margin: 10px;
 }
 
 /* author part */
 .other-info {
     align-self: flex-end;
+    position: absolute;
+    margin: 7px 0 0 -15px;
 }
-
-.post-date-pub {
+.post-date-pub{
+    float: left;
+    margin: 13px 0 9px 0;
+}
+.date-pub {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -62,7 +221,7 @@ html {
 }
 
 .author {
-
+    display: flex;
 }
 
 .author-avatar {
@@ -71,39 +230,54 @@ html {
     border-radius: 40px;
 }
 
+
 .author-name {
+    margin: 10px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: normal;
     color: #141414;
+    margin: 13px 0 0 -15px;
 }
 
 /* blog part */
+
 .main-title-container {
     display: flex;
-    margin-bottom: 183px;
+    margin: 150px 0 130px 0;
+    width: 100%;
+    padding: 0;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
 }
 
 .blog-title {
+    margin: 10px 20px 0 20px;
+    align-self: flex-start;
+    width: 347px;
+    height: 58px;
+    float: left;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;
     line-height: normal;
     text-transform: uppercase;
-
     color: #202020;
 }
 
 .news {
-    width: 1015px;
-    height: 100px;
+    width: 55%;
+    max-height: 200px;
     background: #FFFFFF;
+    margin-right: 0;
+    padding: 15px;
     float: right;
-    align-items: center;
-    align-self: center;
 }
 
 .news h2 {
@@ -116,11 +290,58 @@ html {
     margin: 30px;
 }
 
-.neobis {
+.neobis-title {
     color: #32B482;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: normal;
+
+}
+
+/* Footer part */
+.footer-blog {
+    background: #000;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    max-height: 800px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+.blog_btn-top__img {
+    width: 60px;
+    height: 60px;
+    float: right;
+    align-self: flex-end;
+    margin: 20px;
+}
+.neobis_logo_footer_detailed {
+    width: 350.41px;
+    height: 113.26px;
+    margin: 20px 70px 0 100px;
+}
+.blog_our_email {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    margin: 20px 50px 40px 10px;
+}
+.blog_our_tel_number {
+    margin: 20px 80px 40px -10px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+}
+.footer-blog p {
+    margin: 0;
 }
