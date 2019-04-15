@@ -33,12 +33,9 @@ class PersonalInfo extends Component{
         this.handleDepartmentChange = this.handleDepartmentChange.bind(this);
         this.handleGradYearChange = this.handleGradYearChange.bind(this);
         this.handleExperienceChange = this.handleExperienceChange.bind(this);
-        this.handleHobbyChange = this.handleHobbyChange.bind(this);
-        this.handleReasonChange = this.handleReasonChange.bind(this);
 	}
 
-
-        handleEmailChange(event){
+      handleEmailChange(event){
         console.log('E-mail was changed', event.target.value);
         this.setState({email: event.target.value})
     }

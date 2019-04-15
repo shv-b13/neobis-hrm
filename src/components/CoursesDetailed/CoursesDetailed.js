@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import './CoursesDetailed.css'
 import Header from "../Header/Header";
 import Language from "../Language/Language";
+import courseImg from './image/photo course.png'
+import logo from './image/Logo.png'
+import toTop from './image/up arrow.png'
+
+
 const Swal = require('sweetalert2');
 var course;
 
@@ -120,17 +125,13 @@ class CoursesDetailed extends Component {
          return (
              <div>
                 <div className="wrapper">
-                                 <Header/>
+                    <Header/>
                     <main  className="main">
                         <div className="info">
                             <div className="description-content">
                                 <span className="tags active">КУРСЫ</span>
                                 <h1 className="title">{this.state.coursesDetail.title}</h1>
                                 <div className="description">
-                                      Java - является самым популярным языком программирования в мире.
-                                       Пройдя 6-месячный онлайн курс вы сможете освоить профессию Android-разработчика
-                                        и стать одним из самых востребованных программистов на рынке IT, а 
-                                        мы поможем вам трудоустроиться.<br/>
                                          {this.state.coursesDetail.description}
                                 </div>
                                 <button className="btn active"><a href="#form-course">ЗАПИСАТЬСЯ</a></button><br/>
@@ -145,7 +146,9 @@ class CoursesDetailed extends Component {
 
                             </div>
                             <div className="photo-course">
-                                <img src="photo course.png"/>
+
+                                <img src={courseImg}/>
+
                                 {/*<img src={this.state.coursesDetail.image}/>*/}
                             </div>
                         </div>
@@ -188,11 +191,13 @@ class CoursesDetailed extends Component {
                         </div>
                     </div>
                 <footer className="footer-detailed">
-                    <a href="#header-detailed" className="btn btn-top active">
-                        {/*<img src="img/btn top.png" className="btn-top__img">*/}
+
+                    <a href="#header" className="btn btn-top active">
+                        <img src={toTop} className="btn-top__img"/>
                     </a>
                     <div className="neobis_logo_footer-detailed">
-                        {/*<img src="img/neobis_logo_footer-detailed.png" style="width: 200px; height: 40px;">*/}
+                        <img src={logo}/>
+           
                     </div>
                     <div className="our_email">
                         Наша почта: neolabs@gmail.com
@@ -206,6 +211,7 @@ class CoursesDetailed extends Component {
                         <button className="btn active">РУС</button>
                         <button className="btn">ENG</button>
                     </div>
+                    {/*<Language className = "lang-detail"/>*/}
              </div>
              );
     }

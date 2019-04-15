@@ -4,11 +4,11 @@ import Header from './Header/Header';
 
 class AppForm extends Component{
 	render (){
-			return(
-				<div>
-					<Header/>
-				</div>
-					)
-				}
+		return(
+			<div>
+				<Header/>
+			</div>
+		)
 	}
+}
 export default AppForm;

@@ -2,17 +2,22 @@
 import React, { Component } from 'react';
 import './TeacherBlock.css';
 import Slider from "react-slick";
+import FooterCourses from "../FooterCourses/FooterCourses";
+import teacher from '../image/teacher.png';
+import right from '../image/right arrow.png';
+import left from '../image/left arrow.png';
+
 
 function SampleNextArrow(props) {
     const {onClick } = props;
     return (
-        <img src="right arrow.png" alt="" onClick={onClick} className="rightArrow"/>
+        <img src={right} alt="" onClick={onClick} className="rightArrow"/>
     );
 }
 function SamplePrevArrow(props) {
     const {onClick} = props;
     return (
-        <img src="left arrow.png" alt="" onClick={onClick} className="leftArrow"/>
+        <img src={left} alt="" onClick={onClick} className="leftArrow"/>
     );
 }
 
@@ -80,21 +85,25 @@ class TeacherBlock extends Component{
         };
         return (
             <div className="carusel">
-                <Slider {...settings} className="slick-slider">
-                    {this.state.teacherList.map(function(slide) {
-                        return (
-                            <div key={slide} className="teacher-container">
-                                <div  className="item">
-                                    <img src="teacher.png" alt="" className="teacherImg"/>
-                                    <h1 className="teacherName">{slide.name}</h1>
-                                    <p className="teacherPosition">{slide.position}</p>
-                                    <h2 className="teacherQuote">"{slide.quote}"</h2>
+                <div className="teacher">
+                    <Slider {...settings} className="slick-slider">
+                        {this.state.teacherList.map(function(slide) {
+                            return (
+                                <div key={slide} className="teacher-container">
+                                    <div  className="item">
+                              
+                                        <img src={teacher} alt="" className="teacherImg"/>
+                              
+                                        <h1 className="teacherName">{slide.name}</h1>
+                                        <p className="teacherPosition">{slide.position}</p>
+                                        <h2 className="teacherQuote">"{slide.quote}"</h2>
+                                    </div>
                                 </div>
-                            </div>
-
-                        );
-                    })}
-                </Slider>
+                            );
+                        })}
+                    </Slider>
+                </div>
+                <FooterCourses/>
             </div>
         );
     }

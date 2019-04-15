@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import {Link} from "react-router-dom";
 import './login.css';
-import {link} from "../../App";
+import { api_base } from "../../App";
+import { withRouter } from "react-router-dom";
 
 class LogIn extends Component{
 
-    handleSubmit = (event) =>
-    {
+    handleSubmit = async (event) => {
         event.preventDefault();
         const email = document.getElementById('LogEmail').value;
         const phone = document.getElementById('LogPhone').value;
@@ -14,14 +13,18 @@ class LogIn extends Component{
             username: email,
             password: phone,
         };
-        console.log(JSON.stringify(loginData));
-        fetch(`${link}/application/login`, {
-                method: 'POST', // or 'PUT'
+        const req = await fetch(`${api_base}/application/login`, {
+                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify(loginData), // data can be `string` or {object}!
+                body: JSON.stringify(loginData),
             });
+        const res = await req.json();
+        if (res.token) {
+          localStorage.setItem('token', res.token);
+          this.props.history.push(`time-slots`);
+        }
     };
 
     render(){
@@ -51,4 +54,4 @@ class LogIn extends Component{
 
 }
 
-export default LogIn;
+export default withRouter(LogIn);

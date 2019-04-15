@@ -1,17 +1,44 @@
 {
-  "name": "hrm",
+  "name": "neobis-hrm",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "jest-environment-enzyme": "^7.0.2",
+    "jest-enzyme": "^7.0.2",
+    "lodash.debounce": "^4.0.8",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-alice-carousel": "^1.10.3",
+    "react-anchor-link-smooth-scroll": "^1.0.11",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-animated-number": "^0.4.4",
+    "react-axios": "^2.0.3",
+    "react-countup": "^3.0.3",
+    "react-dom": "^16.8.5",
+    "react-owl-carousel": "^2.3.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^5.0.0",
+    "@types/lodash": "^4.14.123",
+    "history": "^4.9.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8"
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "2.1.8",
+    "reactstrap": "^7.1.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.2.0",
+    "react-slick": "^0.23.2",
+    "slick-carousel": "^1.8.1",
+    "sweetalert2": "^8.8.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:cov": "react-scripts test --coverage",
+    "test:debug": "react-scripts --inspect-brk test --runInBand",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -22,5 +49,23 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "jest": "^23.6.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kunerkhan/neobis-hrm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kunerkhan/neobis-hrm/issues"
+  },
+  "homepage": "."
 }
