@@ -8,7 +8,7 @@ class Metaphor extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="block_container">
 
                 <div className="metaphor">
 

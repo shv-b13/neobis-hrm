@@ -1,0 +1,42 @@
+.BigGreyCircle {
+    width: 100%;
+    background: #f7f8f8;
+    border-radius: 100% 100% 100% 100% / 28% 28% 28% 28%;
+    padding-bottom: 131px;
+    margin-bottom: 0;
+}
+
+.BigGreyCircleContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 1200px) {
+    #educationSteps {
+	    padding-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+    #educationSteps {
+	    padding-bottom: 10px;
+	}
+}
+
+.NeobisButton {
+    color: black;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 5px;
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: white;
+    border: 1px solid lightgrey;
+}
+
+.NeobisButton:hover {
+    background: #32b582;
+    color: white;
+}
