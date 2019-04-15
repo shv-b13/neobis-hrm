@@ -205,6 +205,8 @@
         left: -12%;
     }
 }
+
+
 @media screen and (max-width: 425px) {
     .footer-courses{
         margin-top: -20%;
@@ -251,129 +253,11 @@
         margin-top: 2%;
         width: 4%;
         height: 3.5%;
-
     }
     .square{
         top: 50%;
         left: -7%;
         width: 5%;
         height: 2.5%;
-    }
-}
-@media screen and (max-width: 375px) {
-    .footer-courses{
-        margin-top: -20%;
-        height: 250%;
-    }
-    .ceos-container{
-        grid-template-columns: 50% 50%;
-        margin-top: 5%;
-        margin-left: -10%;
-        grid-column-gap: 35%;
-    }
-    .ces-says{
-        font-size: 12px;
-        left: 29%;
-    }
-    .ceo-name{
-        font-size: 9px;
-    }
-    .ceo-photo{
-        width: 50%;
-    }
-    .ceo-position{
-        font-size: 6px;
-        line-height: 10px;
-    }
-    .ceo-quote{
-        font-size: 7px;
-        line-height: 12px;
-    }
-    .button-to-courses{
-        /*position: relative;*/
-        height: 4%;
-        margin-top: 2%;
-    }
-    .button-to-courses p{
-        font-size: 6px;
-        padding-top: 4%;
-    }
-    .button-up img{
-        width: 72%;
-        margin-left: 2%;
-    }
-    .button-up{
-        margin-top: 2%;
-        width: 4%;
-        height: 3.5%;
-
-    }
-    .square{
-        top: 50%;
-        left: -7%;
-        width: 5%;
-        height: 2.5%;
-    }
-}
-@media screen and (max-width: 320px) {
-    .footer-courses{
-        margin-top: -20%;
-        height: 400%;
-        /*max-height: 500px;*/
-
-    }
-    .ceos-container{
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr;
-        margin-top: -15%;
-        margin-left: 0.5%;
-        grid-column-gap: 5%;
-        height: 200px;
-    }
-    .ces-says{
-        font-size: 10px;
-        left: 27%;
-        margin-top: -15%;
-        /*margin-bottom: -5%;*/
-    }
-    .ceo-name{
-        font-size: 8px;
-    }
-    .ceo-photo{
-        width: 25%;
-    }
-    .ceo-position{
-        font-size: 6px;
-        line-height: 10px;
-    }
-    .ceo-quote{
-        font-size: 6px;
-        line-height: 10px;
-    }
-    .button-to-courses{
-        /*position: relative;*/
-        height: 2%;
-        border-radius: 2px;
-        margin-top: 0%;
-    }
-    .button-to-courses p{
-        font-size: 5.5px;
-        padding-top: 4%;
-    }
-    .button-up img{
-        width: 72%;
-        margin-left: 2%;
-    }
-    .button-up{
-        margin-top: 2%;
-        width: 4%;
-        height: 1.8%;
-        border-radius: 1px;
-    }
-    .square{
-        top: 63%;
-        left: -5%;
-        width: 5%;
-        height: 5.5%;
     }
 }

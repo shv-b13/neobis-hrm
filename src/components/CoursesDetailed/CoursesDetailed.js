@@ -6,6 +6,7 @@ import courseImg from './image/photo course.png'
 import logo from './image/Logo.png'
 import toTop from './image/up arrow.png'
 
+
 const Swal = require('sweetalert2');
 var course;
 
@@ -124,7 +125,7 @@ class CoursesDetailed extends Component {
          return (
              <div>
                 <div className="wrapper">
-                                 <Header/>
+                    <Header/>
                     <main  className="main">
                         <div className="info">
                             <div className="description-content">
@@ -145,7 +146,9 @@ class CoursesDetailed extends Component {
 
                             </div>
                             <div className="photo-course">
+
                                 <img src={courseImg}/>
+
                                 {/*<img src={this.state.coursesDetail.image}/>*/}
                             </div>
                         </div>
@@ -188,11 +191,13 @@ class CoursesDetailed extends Component {
                         </div>
                     </div>
                 <footer className="footer-detailed">
+
                     <a href="#header" className="btn btn-top active">
                         <img src={toTop} className="btn-top__img"/>
                     </a>
                     <div className="neobis_logo_footer-detailed">
                         <img src={logo}/>
+           
                     </div>
                     <div className="our_email">
                         Наша почта: neolabs@gmail.com
