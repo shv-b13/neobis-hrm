@@ -7,10 +7,10 @@
     color: #202020;
     /*letter-spacing: -1.3px;*/
     margin-left: 4%;
-    margin-top: 2.5%;
+    margin-top: 5%;
 }
 .left{
-    margin-top: -4%;
+    margin-top: -1%;
 }
 .left h1{
     font-family: Raleway;
@@ -32,12 +32,13 @@
     color: #32B482;
 }
 .rectangle{
-    position: absolute;
-    width: 2.5%;
-    height: 31%;
+    /*position: absolute;*/
+    width: 3.5%;
+    height: 25%;
     background: #32B482;
-    top: 57%;
-    left: 59%;
+    float: right;
+    margin-right: 3%;
+    margin-top: -1%;
 }
 .intro{
     /*background: black;*/
@@ -45,29 +46,25 @@
     width: 60%;
     margin-left: 20%;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 .top{
     display: grid;
-    grid-template-columns: 50% 50%;
-    /*grid-template-rows: 40% 10%;*/
-
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 .right-courses{
-    position: absolute;
-    width: 52%;
-    height: 8%;
-    top: 16%;
-    left: 48%;
+    margin-top: -5.5%;
+    width: 105%;
+    height: 35%;
     background: #FFFFFF;
-    z-index: 1;
 }
 .bottom{
     display: grid;
     grid-template-columns: 85%;
     grid-template-rows: 20%;
-    grid-row-gap: 90%;
+    grid-row-gap: 60%;
     margin-left: 10%;
 }
 .bottom h1{
@@ -91,15 +88,32 @@
     width: 105%;
     margin-left: -2.5%;
 }
-@media screen and (max-width: 1024px){
-    .left h1{
-        font-size: 24px;
-    }
-    .left span{
-        font-size: 24px;
+@media screen and (max-width: 1440px){
+    .right-courses{
+        height: 50%;
     }
     .right-courses h3{
-        font-size: 16px;
+        /*letter-spacing: -1.3px;*/
+        margin-left: 4%;
+        margin-top: 3.5%;
+    }
+    .left{
+        margin-top: -3%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .left h1{
+        font-size: 22px;
+    }
+    .left span{
+        font-size: 22px;
+    }
+    .left{
+        margin-top: -3.5%;
+    }
+    .right-courses h3{
+        font-size: 14px;
+        padding-top: -2%;
     }
     .intro{
         grid-template-rows: 40% 40%;
@@ -107,37 +121,51 @@
     .bottom h1{
         margin-bottom: 5%;
         line-height: 20px;
-        font-size: 12px;
+        font-size: 11px;
     }
     .bottom p{
         margin-top: 5%;
         line-height: 20px;
-        font-size: 11px;
+        font-size: 10px;
+    }
+    .rectangle{
+        margin-top: -2%;
     }
 }
 @media screen and (max-width: 768px){
     .left h1{
-        font-size: 20px;
+        font-size: 18px;
     }
     .left span{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .right-courses{
+        height: 60%;
     }
     .right-courses h3{
-        font-size: 12px;
-        padding-top: 1%;
+        font-size: 11px;
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+    .rectangle{
+        height: 30%;
+        margin-top: -2%;
     }
     .intro{
         grid-template-rows: 30% 40%;
     }
     .bottom h1{
         margin-bottom: 5%;
-        line-height: 20px;
-        font-size: 10px;
+        line-height: 15px;
+        font-size: 9px;
     }
     .bottom p{
         margin-top: 5%;
-        line-height: 20px;
-        font-size: 9px;
+        line-height: 13px;
+        font-size: 8.5px;
+    }
+    .bottom{
+        margin-bottom: 5%;
     }
 }
 @media screen and (max-width: 425px){
@@ -145,28 +173,112 @@
         width: 100%;
         margin-left: 0;
     }
+    .left{
+        margin-top: -1.5%;
+    }
     .left h1{
-        font-size: 18px;
+        font-size: 16px;
         margin-left: 10%;
     }
     .left span{
-        font-size: 18px;
+        font-size: 16px;
+    }
+    .right-courses{
+        height: 70%;
     }
     .right-courses h3{
         letter-spacing: normal;
-        font-size: 10px;
+        font-size: 9px;
         padding-top: 1%;
     }
+
     .bottom h1{
-        /*margin-bottom: 5%;*/
-        margin-top: 5%;
-        line-height: 20px;
-        font-size: 9px;
+        line-height: 12px;
+        font-size: 8px;
     }
     .bottom p{
-        margin-top: 8%;
-        line-height: 18px;
+        margin-top: 2%;
+        line-height: 12px;
+        font-size: 7px;
+        margin-bottom: 10%;
+    }
+    .rectangle{
+        background: none;
+    }
+}
+@media screen and (max-width: 375px){
+    .intro{
+        width: 100%;
+        margin-left: -5%;
+    }
+    .left{
+        margin-top: -3.5%;
+        margin-left: 5%;
+    }
+    .left h1{
+        font-size: 14px;
+        margin-left: 10%;
+    }
+    .left span{
+        font-size: 14px;
+    }
+    .right-courses{
+        height: 60%;
+        width: 100%;
+    }
+    .right-courses h3{
+        letter-spacing: normal;
+        font-size: 7px;
+        padding-bottom: -5%;
+    }
+    .bottom h1{
+        line-height: 12px;
         font-size: 8px;
+    }
+    .bottom p{
+        margin-top: 2%;
+        line-height: 12px;
+        font-size: 7px;
+        margin-bottom: 10%;
+    }
+    .rectangle{
+        background: none;
+    }
+}
+@media screen and (max-width: 320px){
+    .intro{
+        width: 100%;
+        margin-left: -5%;
+    }
+    .left{
+        margin-top: -3.5%;
+        margin-left: 5%;
+    }
+    .left h1{
+        font-size: 12px;
+        margin-left: 10%;
+    }
+    .left span{
+        font-size: 12px;
+    }
+    .right-courses{
+        height: 60%;
+        width: 100%;
+    }
+    .right-courses h3{
+        letter-spacing: normal;
+        font-size: 6px;
+        padding-bottom: -5%;
+    }
+
+    .bottom h1{
+        line-height: 12px;
+        font-size: 6px;
+    }
+    .bottom p{
+        margin-top: 2%;
+        line-height: 12px;
+        font-size: 5px;
         margin-bottom: 10%;
     }
     .rectangle{
