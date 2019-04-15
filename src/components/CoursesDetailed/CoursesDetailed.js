@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './CoursesDetailed.css'
 import Header from "../Header/Header";
-import Language from "../Language/Language";
 import courseImg from './image/photo course.png'
 import logo from './image/Logo.png'
 import toTop from './image/up arrow.png'

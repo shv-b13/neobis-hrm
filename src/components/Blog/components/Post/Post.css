@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-html {
-    background: #E5E5E5;
-}
-
-/* BLOG  */
 #blog-container {
     height: 100%;
     max-width: 1200px;
@@ -101,8 +96,8 @@ html {
     color: #FFFFFF;
 }
 .post:nth-child(5) .date-pub{
-     color: #FFFFFF;
- }
+    color: #FFFFFF;
+}
 .post:nth-child(5)  .author-name{
     color: #FFFFFF;
 }

@@ -28,7 +28,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    justify-items: center;
+    place-self: center stretch;
     align-items: center;
     margin: 0;
     opacity: 1;
@@ -37,9 +37,8 @@ a:hover {
 .header_li {
     font-size: 14px;
     font-weight: bold;
-    justify-self: center;
+    text-align: center;
     list-style-type: none;
-    margin: 0 10px;
 }
 
 .header_link {
@@ -48,7 +47,7 @@ a:hover {
     text-underline: none;
 }
 
-.header_link:hover, .header_li:hover {
+.header_link:hover {
     color: #32B482;
     text-decoration: none;
     text-underline: none;
@@ -97,7 +96,7 @@ a:hover {
 }
 
 
-@media (min-width: 1025px) {
+@media (min-width: 1380px) {
 
     .container {
         width: 1200px !important;
