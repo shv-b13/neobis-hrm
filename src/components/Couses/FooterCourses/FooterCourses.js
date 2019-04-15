@@ -5,7 +5,6 @@ import teacher from '../image/teacher.png';
 
 class FooterCourses extends Component{
 
-
     render(){
         return(
             <div className="footer-courses">
