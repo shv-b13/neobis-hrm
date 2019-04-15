@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="081d9111-55e6-4019-9104-136dbed5772d" name="Default" comment="renamed .info class for Info component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Blog/components/Post/Post.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blog/components/Post/Post.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Blog/components/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blog/components/Post/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Blog/components/Post/PostBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blog/components/Post/PostBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Blog/containers/Blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blog/containers/Blog/Blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CoursesDetailed/CoursesDetailed.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoursesDetailed/CoursesDetailed.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CoursesDetailed/CoursesDetailed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoursesDetailed/CoursesDetailed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+              <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -58,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="285">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -448,7 +438,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195936000" />
+    <option name="totallyTimeSpent" value="196720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -849,8 +839,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="285">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -867,7 +857,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
         </state>
       </provider>
     </entry>
