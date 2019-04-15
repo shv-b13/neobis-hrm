@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F8F8;
+}
+
+.content-wrapper {
+	width: 1000px;
+	margin: 0 auto;
+    height: 100vh;
+}
+
+.panel-container {
+	display: flex;
+	padding-top: 60px;
+	height: calc(100vh - 60px);
+}
+
+.account-panel {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+}
+
+.account-info {
+	width: 190px;
+	height: 200px;
+	background: #FFFFFF;
+	box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
+	margin-bottom: 40px;
+	padding: 20px;
+	justify-content: center;
+}
+
+.account-name {
+	display: flex;
+	font-size: 16px;
+	font-weight: bold;
+	justify-content: center;
+}
+
+.green-circle {
+	width: 22px;
+	height: 22px;
+	margin: 0 auto 0px auto;
+	background: #32B482;
+	box-shadow: 0px 4px 7px rgba(50, 180, 130, 0.25);
+	border-radius: 50%;
+}
+
+.gray-circle {
+	width: 22px;
+	height: 22px;
+	margin: 0 auto 10px auto;
+	background: lightgray;
+	box-shadow: 0px 4px 7px rgba(50, 180, 130, 0.25);
+	border-radius: 50%;
+	margin: 0;
+}
+
+.interview-info {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+	width: 190px;
+	font-weight: 500;
+	font-size: 15px;
+	color: #202020;
+}
+.interview-info-text {
+	margin: 10px 0 0 0;
+}
+
+.cancel-button {
+	width: 190px;
+	height: 30px;
+	border: 1px solid #909090;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: transparent;
+	font-size: 12px;
+	font-weight: bold;
+	color: #909090;
+}
+
+/*Time-slots*/
+
+.time-slots-panel {
+	display: flex;
+	width: 100%;
+	padding-left: 30px;
+	flex-direction: column;
+}
+
+.message-title {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+}
+
+.table-slots-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+	font-size: 14px;
+	color: black;
+	background: #F1F1F1;
+	width: 100%;
+	height: 50px;
+}
+
+.table-slots-info > p {
+	margin: 0;
+}
+
+.colors-info, .gray, .green{
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+
+.gray {
+	margin-right: 15px;
+}
+
+.color-info-text {
+	margin: 0;
+}
+
+.time-slots {
+	display: flex;
+	width: 100%;
+	height: calc(100% - 160px);
+	border-collapse: collapse;
+}
+
+table, th, td, tbody {
+  border: 1px solid #E9E9E9;
+  background: white;
+  font-size: 14px;
+}
+
+tr {
+	height: 37px;
+}
+
+.day-column {
+	flex-basis: 20%;
+}
+
+.time-hours, .month-title {
+	padding: 2px 5px;
+}
+
+.pagination-arrows {
+	display: flex;
+}
+
+.previous, .next {
+	margin-left: 8px;
+	width:32px;
+	height: 28px;
+	background: #32B482;
+}

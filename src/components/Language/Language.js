@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import './Language.css';
 
 class Language extends  React.Component {
