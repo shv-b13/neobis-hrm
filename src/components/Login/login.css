@@ -1,0 +1,176 @@
+
+@media (max-width: 1440px){
+.authContainer{
+position: relative;
+width: 300px;
+height: 300px;
+left: 40%;
+right: 60%;
+top: 120px;
+background: #FFFFFF;
+box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
+}
+}
+.head{
+position: absolute;
+width: 300px;
+height: 50px;
+background: #32B482;
+font-family: Raleway;
+font-style: normal;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;}
+
+h3{
+position: absolute;
+left: 78px;
+top: 15px;
+font-family: Raleway;
+font-style: normal;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.LogEmail{
+position: absolute;
+width: 260px;
+height: 34px;
+left: 20px;
+right: 20px;
+top: 90px;
+border-right: none;
+border-top: none;
+border-left: none;
+border-bottom: solid;
+border-bottom-color: #F8F8F8;
+}
+.LogPhone{
+position: absolute;
+width: 260px;
+height: 34px;
+left: 20px;
+right: 20px;
+top: 160px;
+border-right: none;
+border-top: none;
+border-left: none;
+border-bottom: solid;
+border-bottom-color: #F8F8F8;
+}
+.logIn{
+position: absolute;
+width: 130px;
+height: 40px;
+left: 85px;
+top: 230px;
+background: #32B482;
+box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
+border-radius: 5px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: normal;
+text-align: center;
+color: #FFFFFF;
+}
+@media (max-width: 760px){
+.authContainer{
+position: absolute;
+width: 300px;
+height: 300px;
+left: 20%;
+right: 40%;
+top: 150px;
+background: #FFFFFF;
+box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
+}
+
+}
+@media (max-width: 320px)
+{
+.authContainer{
+position: absolute;
+width: 250px;
+height: 250px;
+left: 10%;
+top: 150px;
+background: #FFFFFF;
+box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
+}
+.head{
+position: absolute;
+width: 250px;
+height: 50px;
+background: #32B482;
+font-family: Raleway;
+font-style: normal;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;}
+
+h3{
+position: absolute;
+left: 50px;
+margin-top: 15px;
+font-family: Raleway;
+font-style: normal;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.LogEmail{
+position: absolute;
+width: 220px;
+height: 34px;
+left: 20px;
+right: 20px;
+top: 70px;
+border-right: none;
+border-top: none;
+border-left: none;
+border-bottom: solid;
+border-bottom-color: #F8F8F8;
+}
+.LogPhone{
+position: absolute;
+width: 220px;
+height: 34px;
+left: 20px;
+right: 20px;
+top: 120px;
+border-right: none;
+border-top: none;
+border-left: none;
+border-bottom: solid;
+border-bottom-color: #F8F8F8;
+}
+.logIn{
+position: absolute;
+width: 110px;
+height: 30px;
+left: 75px;
+top: 200px;
+background: #32B482;
+box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
+border-radius: 5px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: normal;
+text-align: center;
+color: #FFFFFF;
+}
+
+}
+

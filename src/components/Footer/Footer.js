@@ -11,17 +11,17 @@ class Footer extends Component {
 
     render() {
         return (
-            <footer className="block_footer">
+            <footer className="footer">
                 <div className="footer_content">
                     <div className="footer_block">
-                        <a href="/" className="footer_link">
+                        <Link to="/" className="footer_link">
                             <div className="footer_img">
                                 <img src={rectangle} alt="rectangle"/>
                             </div>
                             <p className="footer_p">
                                 Facebook
                             </p>
-                        </a>
+                        </Link>
                         <Link to="/" className="footer_link">
                             <div className="footer_img">
                                 <img src={rectangle} alt="rectangle"/>

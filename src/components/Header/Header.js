@@ -8,12 +8,10 @@ import leaf from './leaf.png'
 class Header extends Component {
 
     state = {
-        isOpen: true,
-        width: window.innerWidth
-    };
+        isOpen: true
+    }
 
     Show = () => {
-
         this.setState({isOpen: true});
         const ul = document.getElementById('menu');
         const header = document.getElementsByClassName('header');
@@ -21,24 +19,26 @@ class Header extends Component {
 
         if (this.state.isOpen) {
             header[0].style.gridTemplatRows = '1fr';
+            //ul.style.display = 'grid';
             ul.style.transition = '.5s';
             ul.style.opacity = '1';
             ul.style.height = 'auto';
             ul.style.transitionTimingFunction = 'ease';
-            this.setState({isOpen: false});
+            ul.style.gridTemplateRows = '1fr 1fr 1fr 1fr 1fr 1fr 1fr';
+            ul.style.gridTemplateColumns = '200px';
 
+            this.setState({isOpen: false});
         }
 
         if (!this.state.isOpen) {
-            this.updateWindowDimensions();
             ul.style.height = '0';
             ul.style.opacity = '0';
             ul.style.transition = '.5s';
-            ul.style.transitionTimingFunction = 'ease';
+            ul.style.transitionTimingFunction = "ease";
+            ul.style.gridTemplateColumns = '0px';
         }
 
-
-    };
+    }
 
     showMenu = () => {
 
@@ -59,20 +59,20 @@ class Header extends Component {
 
             button.style.justifySelf = 'start';
             button.style.marginRight = '0';
-            button.style.marginLeft = '25px';
+            button.style.marginLeft = '20px';
             button.transition = '.5s';
             button.style.transitionTimingFunction = 'ease';
 
 
-            rotateL.style.transition = '.5s';
-            rotateL.style.transitionTimingFunction = 'ease';
+            rotateL.style.transition = ".5s"
+            rotateL.style.transitionTimingFunction = "ease";
             rotateL.style.transform = 'translateY(7px) rotate(45deg)';
             rotateL.style.backgroundColor = '#32B482';
 
             middle.style.opacity = '0';
             middle.style.transform = 'translateX(-15px)';
             middle.style.transition = '.5s';
-            middle.style.transitionTimingFunction = 'ease';
+            middle.style.transitionTimingFunction = "ease";
 
             rotateR.style.transform = 'translateY(-5px) rotate(-45deg)';
             rotateR.style.backgroundColor = '#32B482';
@@ -88,7 +88,7 @@ class Header extends Component {
             menuAdap[0].style.display = 'grid';
 
             button.style.justifySelf = 'end';
-            button.style.marginRight = '25px';
+            button.style.marginRight = '27px';
             button.style.marginLeft = '0';
             button.transition = '.5s';
             button.style.transitionTimingFunction = 'ease';
@@ -97,13 +97,13 @@ class Header extends Component {
             rotateL.style.transitionTimingFunction = "ease";
             rotateL.style.transform = 'translateY(0) rotate(0deg)';
             rotateL.style.transition = ".5s"
-            rotateL.style.transitionTimingFunction = 'ease';
+            rotateL.style.transitionTimingFunction = "ease";
             rotateL.style.backgroundColor = '#202020';
 
             middle.style.opacity = '1';
             middle.style.transform = 'translateX(0)';
             middle.style.transition = '.5s';
-            middle.style.transitionTimingFunction = 'ease';
+            middle.style.transitionTimingFunction = "ease";
 
             rotateR.style.transform = 'translateY(0) rotate(0deg)';
             rotateR.style.backgroundColor = '#202020';
@@ -112,49 +112,20 @@ class Header extends Component {
 
         this.Show();
 
-    };
-
-
-    componentDidMount() {
-        this.updateWindowDimensions();
-        this.setState({ width: window.innerWidth <= 1200});
-        window.addEventListener("resize", this.updateWindowDimensions);
-
     }
-
-    componentWillUnmount() {
-        window.removeEventListener("resize", this.updateWindowDimensions);
-
-    }
-
-    updateWindowDimensions = () => {
-        const ul = document.getElementById('menu');
-        this.setState({ width: window.innerWidth < 1000});
-
-        if(this.state.width) {
-            ul.style.display = 'grid';
-        }
-        if (!this.state.width)
-        {
-            ul.style.display = 'grid';
-            ul.style.alignSelf = 'center';
-        }
-
-
-    };
 
     render() {
 
         return (
-            <div className="block_container">
+            <div className="container">
 
                 <header className="header">
 
                     <div className="header_adap" id="h_adap">
 
-                        <Link to="/" className="header_logo">
+                        <div className="header_logo">
                             <img src={leaf} alt="leaf" className="header_img" id="h_logo"/>
-                        </Link>
+                        </div>
 
                         <button className="header_show" id="showMenu" onClick={this.showMenu}>
                             <div className="header_line" id="rotateLeft"></div>
@@ -177,10 +148,10 @@ class Header extends Component {
                             <Link className="header_link" to="/">Мероприятия</Link>
                         </li>
                         <li className="header_li">
-                            <Link className="header_link" to="/courses">Курсы</Link>
+                            <Link className="header_link" to="/">Курсы</Link>
                         </li>
                         <li className="header_li">
-                            <Link className="header_link" to="/blog">Блог</Link>
+                            <Link className="header_link" to="/">Блог</Link>
                         </li>
                         <li className="header_li">
                             <Link className="header_link" to="/">Сотрудничество</Link>
