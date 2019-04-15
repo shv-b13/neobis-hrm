@@ -1,0 +1,55 @@
+.status-notification {
+	width: 100%;
+	height: 80%;
+	background: #F1F1F1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.status-img {
+	margin: 0 auto 10px auto;
+	width: 40px;
+	height: 40px;
+}
+
+.notification-container {
+	width: 390px;
+	height: 210px;
+	background: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 20px 10px;
+}
+
+.success-review, .fail-status, .success-payment, .success-interview {
+	display: flex;
+	flex-direction: column;
+}
+
+.notification-title {
+	font-size: 16px;
+	line-height: 21px;
+	text-align: center;
+	color: #202020;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.step-message {
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #909090;
+	margin-bottom: 0;
+}
+
+.steps-title {
+	font-size: 14px;
+	line-height: 18px;
+	color: #202020;
+}

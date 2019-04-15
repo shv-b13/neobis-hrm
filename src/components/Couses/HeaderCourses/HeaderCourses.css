@@ -206,3 +206,82 @@
         background: none;
     }
 }
+@media screen and (max-width: 375px){
+    .intro{
+        width: 100%;
+        margin-left: -5%;
+    }
+    .left{
+        margin-top: -3.5%;
+        margin-left: 5%;
+    }
+    .left h1{
+        font-size: 14px;
+        margin-left: 10%;
+    }
+    .left span{
+        font-size: 14px;
+    }
+    .right-courses{
+        height: 60%;
+        width: 100%;
+    }
+    .right-courses h3{
+        letter-spacing: normal;
+        font-size: 7px;
+        padding-bottom: -5%;
+    }
+    .bottom h1{
+        line-height: 12px;
+        font-size: 8px;
+    }
+    .bottom p{
+        margin-top: 2%;
+        line-height: 12px;
+        font-size: 7px;
+        margin-bottom: 10%;
+    }
+    .rectangle{
+        background: none;
+    }
+}
+@media screen and (max-width: 320px){
+    .intro{
+        width: 100%;
+        margin-left: -5%;
+    }
+    .left{
+        margin-top: -3.5%;
+        margin-left: 5%;
+    }
+    .left h1{
+        font-size: 12px;
+        margin-left: 10%;
+    }
+    .left span{
+        font-size: 12px;
+    }
+    .right-courses{
+        height: 60%;
+        width: 100%;
+    }
+    .right-courses h3{
+        letter-spacing: normal;
+        font-size: 6px;
+        padding-bottom: -5%;
+    }
+
+    .bottom h1{
+        line-height: 12px;
+        font-size: 6px;
+    }
+    .bottom p{
+        margin-top: 2%;
+        line-height: 12px;
+        font-size: 5px;
+        margin-bottom: 10%;
+    }
+    .rectangle{
+        background: none;
+    }
+}

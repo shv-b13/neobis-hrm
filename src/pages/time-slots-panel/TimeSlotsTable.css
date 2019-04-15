@@ -1,0 +1,68 @@
+.interview-button {
+	position: relative;
+	display: flex;
+}
+
+.time-slots-container {
+	z-index: 5;
+	border: 0.5px solid lightgray;
+	width: 90px;
+	height: 125px;
+	overflow-y: auto;
+	position: absolute;
+	background: white;
+	top: 0;
+	left: 100%;
+	display: none;
+	padding: 10px;
+}
+
+.date-row {
+	text-align: center;
+}
+
+.time-slot-button {
+	background: white;
+	color: black;
+	font-weight: lighter;
+	font-size: 14px;
+	height: 25px;
+	text-align: left;
+}
+
+.time-slot-icon {
+	padding-left: 6px; 
+}
+
+.time-slot {
+	color: white;
+	background: #32B482;
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	text-align: center;
+}
+
+.time-slot-title {
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 0px
+}
+
+.time-slots-time {
+	font-weight: medium;
+	font-size: 10px;
+	margin-bottom: 0px
+}
+
+.interview-button > button {
+	background: #1D9668;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: none;
+	outline: none;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	width: 20%;
+}
