@@ -14,7 +14,7 @@ const Post = props => {
     const formattedDate = datePublished.getFullYear() + " " + monthPublished + " " + datePublished.getDate();
 
     return (
-        <div>
+        <div className={'post'}>
             <PostBody
                 articleLink={articleLink}
                 imgSrc={imgSrc}

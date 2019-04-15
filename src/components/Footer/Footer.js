@@ -14,7 +14,7 @@ class Footer extends Component {
             <footer className="block_footer">
                 <div className="footer_content">
                     <div className="footer_block">
-                        <a href="/" className="footer_link">
+                        <a href="https://www.facebook.com/neobis.clubs/" className="footer_link">
                             <div className="footer_img">
                                 <img src={rectangle} alt="rectangle"/>
                             </div>
@@ -22,22 +22,22 @@ class Footer extends Component {
                                 Facebook
                             </p>
                         </a>
-                        <Link to="/" className="footer_link">
+                        <a href="https://www.instagram.com/neobis.kg/?utm_source=ig_profile_share&igshid=1gie9xdacao2t" className="footer_link">
                             <div className="footer_img">
                                 <img src={rectangle} alt="rectangle"/>
                             </div>
                             <p className="footer_p">
                                 Instagram
                             </p>
-                        </Link>
-                        <Link to="/" className="footer_link">
+                        </a>
+                        <a href="https://t.me/neobis/" className="footer_link">
                             <div className="footer_img">
                                 <img src={rectangle} alt="rectangle"/>
                             </div>
                             <p className="footer_p">
                                 Telegram
                             </p>
-                        </Link>
+                        </a>
                     </div>
                     <Language/>
                 </div>
