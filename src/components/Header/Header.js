@@ -148,7 +148,7 @@ class Header extends Component {
         return (
             <div className="block_container">
 
-                <header className="header" id="header">
+                <header className="header">
 
                     <div className="header_adap" id="h_adap">
 
