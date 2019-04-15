@@ -2,31 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import {applyMiddleware, combineReducers, compose, createStore} from "redux";
-import {BrowserRouter} from 'react-router-dom';
-import siteInfoReducer from './components/Blog/store/reducers/siteInfo';
-import thunkMiddleware from 'redux-thunk';
-import {Provider} from "react-redux";
+import * as serviceWorker from './serviceWorker';
 
-const rootReducer = combineReducers({
-    siteInfo: siteInfoReducer
-});
+ReactDOM.render(<App />, document.getElementById('root'));
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const enhancers = composeEnhancers(applyMiddleware(thunkMiddleware));
-const store = createStore(rootReducer, enhancers);
-
-// axios.defaults.baseURL = 'http://104.236.67.73:3456/api/all/';
-
-
-const app = (
-    <Provider store={store}>
-        <BrowserRouter>
-            <App/>
-        </BrowserRouter>
-    </Provider>
-);
-
-ReactDOM.render(app, document.getElementById('root'));
-registerServiceWorker();
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

@@ -2,11 +2,12 @@
     font-family: "Raleway";
     src: url(../../fonts/Raleway-Medium.ttf);
 }
-
+body {
+    background-color: #F8F8F8;
+}
 a {
     text-decoration: none;
     text-underline: none;
-    cursor: pointer;
 }
 
 a:hover {
@@ -15,9 +16,10 @@ a:hover {
 }
 
 .header {
+    background-color: #F8F8F8;
     display: grid;
     grid-column-gap: 20px;
-    grid-template-rows: 1fr;
+    grid-template-row: 1fr;
     grid-template-columns: 15% 85%;
     font-family: Raleway;
     font-style: normal;
@@ -31,7 +33,6 @@ a:hover {
     place-self: center stretch;
     align-items: center;
     margin: 0;
-    opacity: 1;
 }
 
 .header_li {
@@ -52,16 +53,6 @@ a:hover {
     text-decoration: none;
     text-underline: none;
     transition: top 1s ease-out 0.5s;
-    cursor: pointer;
-}
-
-.header_link:focus, .header_link:active {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #32b482;
-    transition: top 1s ease-out 0.5s;
-    color: #fff;
-    cursor: pointer;
 }
 
 .header_adap {
@@ -82,6 +73,7 @@ a:hover {
     outline: none;
     border: 0;
     background: transparent;
+    margin-right: 27px;
     order: 2;
 }
 
@@ -94,7 +86,6 @@ a:hover {
     height: 3px;
     background-color: #202020;
 }
-
 
 @media (min-width: 1380px) {
 
@@ -426,13 +417,13 @@ a:hover {
 
 @media (max-width: 480px) {
 
-    .block_container {
+    .container {
         width: 480px !important;
-        margin: 0 auto !important;
+        margin: 0 auto
     }
 
     .header {
-        grid-template-row: 1fr;
+        grid-template-row: 1fr 1fr;
         grid-template-columns: 100%;
         grid-row-gap: 30px;
         justify-self: center;
@@ -470,7 +461,6 @@ a:hover {
         margin: 3px 0;
         width: 27px;
         height: 3px;
-        margin-right: 25px;
         background-color: #202020;
     }
 
@@ -478,118 +468,43 @@ a:hover {
         opacity: 1;
         width: 24px;
         height: 24px;
-        margin-left: 25px;
-    }
-
-}
-
-@media (max-width: 414px) {
-
-    .block_container {
-        width: 414px !important;
-        margin: 0 auto !important;
-    }
-
-    .header_line {
-        margin-right: 25px;
-    }
-
-}
-
-@media (max-width: 412px) {
-
-    .block_container {
-        width: 412px !important;
-        margin: 0 auto !important;
-    }
-
-    .header_line {
-        margin-right: 0px;
-    }
-
-}
-
-@media (max-width: 411px) {
-
-    .block_container {
-        width: 411px !important;
-        margin: 0 auto !important;
-    }
-
-    .header_line {
-        margin-right: 25px;
-    }
-
-}
-
-@media (max-width: 375px) {
-
-    .block_container {
-        width: 375px !important;
-        margin: 0 auto !important;
-    }
-
-    .header_line {
-        margin-right: 25px;
-    }
-
-}
-
-@media (max-width: 360px) {
-
-    .block_container {
-        width: 360px !important;
-        margin: 0 auto !important;
-    }
-
-    .header_line {
-        justify-self: center;
-        align-self: center;
-        text-align: left;
-        margin: 3px 0;
-        width: 27px;
-        height: 3px;
-        background-color: #202020;
-        margin-right: 25px;
+        margin-left: 20px;
     }
 
 }
 
 @media (max-width: 320px) {
 
-    .block_container {
+    .container {
         width: 320px !important;
-        margin: 0 auto !important;
+        margin: 0 auto;
     }
 
     .header {
-        grid-template-rows: 1fr;
+        grid-template-row: 1fr 1fr;
         grid-template-columns: 100%;
         grid-row-gap: 30px;
         justify-self: center;
     }
 
     .header_ul {
-        opacity: 0;
         height: 0;
         justify-items: center;
         justify-self: center;
-        grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-columns: 200px;
     }
 
     .header_li {
-        justify-self: center;
         padding: 15px 0;
     }
 
     .header_show {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-row: 1fr 1fr 1fr;
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
         align-items: center;
         justify-self: end;
+        margin-right: 24px;
     }
 
     .header_adap {
@@ -604,15 +519,13 @@ a:hover {
         width: 27px;
         height: 3px;
         background-color: #202020;
-        margin-right: 22px;
-
     }
 
     .header_img {
         opacity: 1;
         width: 24px;
         height: 24px;
-        margin-left: 25px;
+        margin-left: 31px;
     }
 
 }
