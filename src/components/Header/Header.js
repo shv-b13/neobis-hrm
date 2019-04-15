@@ -11,6 +11,7 @@ class Header extends Component {
         isOpen: true
     }
 
+
     Show = () => {
         this.setState({isOpen: true});
         const ul = document.getElementById('menu');
@@ -80,7 +81,7 @@ class Header extends Component {
         }
 
         if (!this.state.isOpen) {
-
+            this.updateWindowDimensions();
             logo.style.opacity = '1';
             logo.transition = '.5s';
             logo.style.transitionTimingFunction = 'ease';
@@ -111,8 +112,51 @@ class Header extends Component {
         }
 
         this.Show();
+    };
+
+
+    componentDidMount() {
+        this.updateWindowDimensions();
+        this.setState({ width: window.innerWidth < 1023});
+        window.addEventListener("resize", this.updateWindowDimensions);
+        window.addEventListener("onload", this.updateWindowDimensions);
 
     }
+
+    componentWillMount() {
+
+        this.setState({ width: window.innerWidth < 1023});
+        window.addEventListener("resize", this.updateWindowDimensions);
+        window.addEventListener("onload", this.updateWindowDimensions);
+
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.updateWindowDimensions);
+
+    }
+
+    updateWindowDimensions = () => {
+        const ul = document.getElementById('menu');
+        this.setState({ width: window.innerWidth < 1023});
+        console.log(this.state.width);
+
+        if(this.state.width) {
+            ul.style.display = 'grid';
+            ul.style.opacity = '0';
+        }
+
+        if (!this.state.width)
+        {
+            ul.style.display = 'grid';
+            ul.style.opacity = '1';
+        }
+
+
+    };
+
+    }
+
 
     render() {
 
