@@ -15,7 +15,6 @@ class CoursesComponent extends Component {
                 <HeaderCourses/>
                 <ListCoursesElement/>
                 <TeacherBlock/>
-                <FooterCourses/>
             </div>
         );
     }
