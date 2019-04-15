@@ -73,6 +73,8 @@ ul,ol {
 	line-height: normal;
 	text-transform: uppercase;
 	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .tags {
@@ -276,7 +278,7 @@ border-radius: 5px;
 	line-height: 27px;
 	overflow-x: hidden;
 	position: relative;
-	margin: 40px auto 0 auto;
+	margin: 0px auto 0 auto;
 	max-width: 1900px;
 
 }
@@ -338,6 +340,19 @@ border-radius: 5px;
 		text-align: center;
 	}
 
+	.title-detail{
+		font-family: Raleway;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 40px;
+		line-height: normal;
+		text-transform: uppercase;
+
+		color: #202020;
+		/*margin-top: 15%;*/
+		/*margin-bottom: 15%;*/
+	}
+
 	.description-content {
 		margin:0px 20px;
 	}
@@ -359,15 +374,15 @@ border-radius: 5px;
 		padding: 0px 5px 5px 10px;
 	}
 
- 
+
 	.about-course  .stage-plan__item::before {
 	    margin: 0 -35px 5px 0px;
 	    line-height: 35px;
 	    width: 35px;
 	    height: 35px;
 		right: 70px;
-		top: 0px;	
-	} 
+		top: 0px;
+	}
 
 
 

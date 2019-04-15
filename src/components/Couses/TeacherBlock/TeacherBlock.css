@@ -162,3 +162,33 @@
         /*margin-top: 5%;*/
     }
 }
+@media screen and (max-width: 320px){
+    .teacherName{
+        font-size: 8px;
+    }
+    .teacherPosition{
+        font-size: 8px;
+    }
+    .teacherQuote{
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .item{
+        margin-left: 4%;
+    }
+    .leftArrow{
+        margin-top: 350%;
+        height: 15%;
+    }
+    .rightArrow{
+        margin-top: 350%;
+        height: 15%;
+        margin-left: -40%;
+    }
+    .carusel{
+        padding-right: 5%;
+        height: 40%;
+        left: -3%;
+        /*margin-top: 5%;*/
+    }
+}
