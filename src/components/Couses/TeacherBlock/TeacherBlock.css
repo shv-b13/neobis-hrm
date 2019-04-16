@@ -192,3 +192,14 @@
         /*margin-top: 5%;*/
     }
 }
+@media screen and (min-width: 1445px){
+    .item{
+        padding-top: 15%;
+    }
+    .leftArrow{
+        margin-top: 150%;
+    }
+    .rightArrow{
+        margin-top: 150%;
+    }
+}
