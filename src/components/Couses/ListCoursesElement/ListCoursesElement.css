@@ -56,6 +56,7 @@ body{
     margin-left: 1.2%;
     margin-top: 3%;
     max-height: 14%;
+    max-width: 188px;
     width: 12%;
 }
 .category1{
@@ -602,4 +603,9 @@ body{
         margin-bottom: 8%;
     }
 
+}
+@media screen and (width: 425px){
+    #coursesBlock{
+        height: 115%;
+    }
 }

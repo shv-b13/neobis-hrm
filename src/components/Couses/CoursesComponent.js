@@ -5,6 +5,7 @@ import FooterCourses from "./FooterCourses/FooterCourses";
 import HeaderCourses from './HeaderCourses/HeaderCourses';
 import Header from "../Header/Header";
 import Language from "../Language/Language";
+import './CoursesComponent.css'
 
 class CoursesComponent extends Component {
 

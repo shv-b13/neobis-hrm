@@ -1,4 +1,4 @@
-.right-courses h3{
+.right-courses-text{
     font-family: Raleway;
     font-style: normal;
     font-weight: 900;
@@ -57,7 +57,7 @@
 .right-courses{
     margin-top: -5.5%;
     width: 105%;
-    height: 35%;
+    height: 45% !important;
     background: #FFFFFF;
 }
 .bottom{
@@ -92,7 +92,7 @@
     .right-courses{
         height: 50%;
     }
-    .right-courses h3{
+    .right-courses-text{
         /*letter-spacing: -1.3px;*/
         margin-left: 4%;
         margin-top: 3.5%;
@@ -111,9 +111,12 @@
     .left{
         margin-top: -3.5%;
     }
-    .right-courses h3{
+    .right-courses-text{
         font-size: 14px;
         padding-top: -2%;
+    }
+    .right-courses{
+        height: 65% !important
     }
     .intro{
         grid-template-rows: 40% 40%;
@@ -142,7 +145,7 @@
     .right-courses{
         height: 60%;
     }
-    .right-courses h3{
+    .right-courses-text{
         font-size: 11px;
         margin-left: 3%;
         margin-top: 4%;
@@ -186,7 +189,7 @@
     .right-courses{
         height: 70%;
     }
-    .right-courses h3{
+    .right-courses-text{
         letter-spacing: normal;
         font-size: 9px;
         padding-top: 1%;
@@ -226,7 +229,7 @@
         height: 60%;
         width: 100%;
     }
-    .right-courses h3{
+    .right-courses-text{
         letter-spacing: normal;
         font-size: 7px;
         padding-bottom: -5%;
@@ -265,7 +268,7 @@
         height: 60%;
         width: 100%;
     }
-    .right-courses h3{
+    .right-courses-text{
         letter-spacing: normal;
         font-size: 6px;
         padding-bottom: -5%;
@@ -283,5 +286,38 @@
     }
     .rectangle{
         background: none;
+    }
+}
+@media screen and (min-width: 1445px){
+    .right-courses{
+        height: 50%;
+    }
+    .right-courses-text{
+        /*letter-spacing: -1.3px;*/
+        margin-left: 4%;
+        margin-top: 3.5%;
+        padding-top: 1.5%;
+    }
+    .left{
+        margin-top: -3%;
+    }
+    .rectangle{
+        height: 20%;
+    }
+    .right-courses{
+        /*width: 10%;*/
+    }
+}
+@media screen and (max-width: 2560px){
+    .rectangle{
+        height: 30%;
+        margin-top: -3%;
+    }
+    .right-courses-text{
+        /*letter-spacing: -1.3px;*/
+        padding-top: 1%;
+    }
+    .right-courses{
+        height: 60%;
     }
 }
