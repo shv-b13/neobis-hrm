@@ -16,7 +16,7 @@ class Header extends Component {
     Show = () => {
 
         this.setState({isOpen: true});
-        const ul = document.getElementById('menu');
+        const ul = document.getElementsByClassName('header_ul')[0];
         const header = document.getElementsByClassName('header');
 
 
@@ -31,9 +31,8 @@ class Header extends Component {
         }
 
         if (!this.state.isOpen) {
-            this.updateWindowDimensions();
-            ul.style.height = '0';
             ul.style.opacity = '0';
+            ul.style.height = '0';
             ul.style.transition = '.5s';
             ul.style.transitionTimingFunction = 'ease';
         }
@@ -77,11 +76,9 @@ class Header extends Component {
 
             rotateR.style.transform = 'translateY(-5px) rotate(-45deg)';
             rotateR.style.backgroundColor = '#32B482';
-
         }
 
         if (!this.state.isOpen) {
-            this.updateWindowDimensions();
             logo.style.opacity = '1';
             logo.transition = '.5s';
             logo.style.transitionTimingFunction = 'ease';
@@ -89,7 +86,6 @@ class Header extends Component {
             menuAdap[0].style.display = 'grid';
 
             button.style.justifySelf = 'end';
-            button.style.marginRight = '25px';
             button.style.marginLeft = '0';
             button.transition = '.5s';
             button.style.transitionTimingFunction = 'ease';
@@ -110,78 +106,47 @@ class Header extends Component {
             rotateR.style.backgroundColor = '#202020';
 
         }
-
         this.Show();
+
     };
 
 
     componentDidMount() {
         this.updateWindowDimensions();
-        this.setState({ width: window.innerWidth < 1023});
         window.addEventListener("resize", this.updateWindowDimensions);
         window.addEventListener("onload", this.updateWindowDimensions);
-
-    }
+    };
 
     componentWillMount() {
 
-        this.setState({ width: window.innerWidth < 1023});
+        this.setState({ width: window.innerWidth > 1023});
         window.addEventListener("resize", this.updateWindowDimensions);
         window.addEventListener("onload", this.updateWindowDimensions);
 
     }
 
     componentWillUnmount() {
+        this.setState({ width: window.innerWidth > 1023});
         window.removeEventListener("resize", this.updateWindowDimensions);
-
+        window.addEventListener("onload", this.updateWindowDimensions);
     }
 
     updateWindowDimensions = () => {
-        const ul = document.getElementById('menu');
-        this.setState({ width: window.innerWidth < 1023});
+        const ul = document.getElementsByClassName('header_ul')[0];
+
+        this.setState({ width: window.innerWidth > 1023});
+
         console.log(this.state.width);
 
         if(this.state.width) {
+            ul.style.opacity = '1';
+            ul.style.display = 'grid';
+        }
+
+        if (!this.state.width)
+        {
             ul.style.display = 'grid';
             ul.style.opacity = '0';
-        }
-
-        if (!this.state.width)
-        {
-            ul.style.display = 'grid';
-            ul.style.opacity = '1';
-        }
-
-
-    };
-
-    };
-
-
-    componentDidMount() {
-        this.updateWindowDimensions();
-        this.setState({ width: window.innerWidth <= 1200});
-        window.addEventListener("resize", this.updateWindowDimensions);
-
-    }
-
-    componentWillUnmount() {
-        window.removeEventListener("resize", this.updateWindowDimensions);
-
-    }
-
-
-    updateWindowDimensions = () => {
-        const ul = document.getElementById('menu');
-        this.setState({ width: window.innerWidth < 1000});
-
-        if(this.state.width) {
-            ul.style.display = 'grid';
-        }
-        if (!this.state.width)
-        {
-            ul.style.display = 'grid';
-            ul.style.alignSelf = 'center';
         }
 
 
