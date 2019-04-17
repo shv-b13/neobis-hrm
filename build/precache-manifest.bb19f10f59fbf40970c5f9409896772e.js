@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/photo course.30a1b9c5.png"
   },
   {
-    "revision": "edba61aad84d54c58aad",
-    "url": "/static/css/main.7c3ef3c6.chunk.css"
+    "revision": "3e8be2193483b6deb6e2",
+    "url": "/static/css/main.838ced13.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/Roboto-Regular.18d44f79.ttf"
   },
   {
-    "revision": "807e705464d147acc5eb",
-    "url": "/static/js/2.039adcd4.chunk.js"
+    "revision": "eeed24b812fd4532ded8",
+    "url": "/static/js/2.ad630181.chunk.js"
   },
   {
     "revision": "17b9ced60e8f5c34a57c05804ba0fc2d",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/image 2.a9eb5976.png"
   },
   {
-    "revision": "edba61aad84d54c58aad",
-    "url": "/static/js/main.a702a2c5.chunk.js"
+    "revision": "3e8be2193483b6deb6e2",
+    "url": "/static/js/main.cb36eb56.chunk.js"
   },
   {
     "revision": "81dfabc0f07bc443f6b349defc68649d",
@@ -52,11 +52,11 @@ self.__precacheManifest = [
     "url": "/static/media/Raleway-Black.3fc090e7.ttf"
   },
   {
-    "revision": "807e705464d147acc5eb",
-    "url": "/static/css/2.54bc482e.chunk.css"
+    "revision": "eeed24b812fd4532ded8",
+    "url": "/static/css/2.3daa4fb0.chunk.css"
   },
   {
-    "revision": "63b193c49dd6645e7badb4915cee72a5",
+    "revision": "c2e495e27768ef154ff340f6fa1e13b4",
     "url": "/index.html"
   }
 ];

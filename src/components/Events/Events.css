@@ -5,7 +5,7 @@
 
 .events {
     display: grid;
-    grid-template-rows: repeat(130px);
+    grid-template-rows: repeat(3, 130px);
     font-family: Roboto;
 }
 

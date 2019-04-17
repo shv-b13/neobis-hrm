@@ -83,10 +83,21 @@
     text-align: center;
 }
 
+@media (min-width: 1400px) {
+
+    .info_content {
+        display: grid;
+        grid-template-columns: 29% 2% 29.5% 2% 16%;
+        grid-column-gap: 6%;
+    }
+
+}
+
 @media (max-width: 1024px) {
 
     .info_content {
         display: grid;
+        grid-template-rows: 550px;
         grid-template-columns: 32% 2% 30% 2% 16%;
         grid-column-gap: 45px;
     }
@@ -137,7 +148,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 465px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 465px .1fr 1.78fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
@@ -186,7 +197,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 465px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 465px .1fr 1.78fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
@@ -235,7 +246,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 465px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 465px .1fr 1.78fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
@@ -284,7 +295,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 270px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 270px .1fr 1.78fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
@@ -333,7 +344,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 365px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 365px .1fr 1.78fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
@@ -368,6 +379,55 @@
 
 }
 
+@media (max-width: 425px) {
+
+    .info_about {
+        display: grid;
+        grid-template-rows: 1fr;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .info_content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 363px .1fr 1.77fr .1fr .6fr;
+        grid-row-gap: 25px;
+    }
+
+    .info_cubes_content {
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-items: center;
+    }
+
+    .info_cubes {
+        grid-template-columns: 165px 165px;
+        grid-template-rows: 165px 165px;
+        justify-self: center;
+        grid-column-gap: 33px;
+        grid-row-gap: 33px;
+    }
+
+    .info_block {
+        grid-template-rows: 162px;
+        grid-template-columns: 162px;
+        justify-self: center;
+    }
+
+    .info_p {
+        font-size: 12px;
+    }
+
+    .info_star {
+        margin-top: 0;
+        align-self: center;
+    }
+
+}
+
 @media (max-width: 414px) {
 
     .info_about {
@@ -382,7 +442,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 360px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 360px .1fr 1.78fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
@@ -431,7 +491,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 270px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 270px .1fr 1.78fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
@@ -480,7 +540,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 357px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 357px .1fr 1.78fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
@@ -529,7 +589,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 322px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 322px .1fr 1.77fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
@@ -579,7 +639,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 310px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 310px .1fr 1.77fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
@@ -628,7 +688,7 @@
     .info_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 270px .1fr 1fr .1fr .6fr;
+        grid-template-rows: 270px .1fr 1.78fr .1fr .6fr;
         grid-row-gap: 25px;
     }
 
