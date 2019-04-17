@@ -8,12 +8,13 @@ body {
 	width: 100%;
 }
 
-h1
+@media (max-width: 2579px){
+.headerforpers
 {
 position: relative;
 width: 331px;
 height: 58px;
-left: 20%;
+left: 32%;
 top: 38px;
 font-family: Raleway;
 font-style: normal;
@@ -23,14 +24,382 @@ line-height: normal;
 text-transform: uppercase;
 color: #202020;
 }
-p
+.headtext
+{
+position: relative;
+width: 798px;
+height: 90px;
+left: 32%;
+top: 55px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+color: #909090;
+}
+.field_text{
+position:absolute;
+top: 280px;
+left: 46%;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: normal;
+color: #202020;
+}
+.field_text1 {
+position: absolute;
+left: 32%;
+top: 280px;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: normal;
+color: #202020;
+}
+.block1{
+position:absolute;
+width: 260px;
+height: 118px;
+left: 32%;
+top: 320px;
+margin-right: 50px;
+background: #32B482;
+box-shadow: 0px 15px 20px rgba(50, 180, 130, 0.25);
+}
+.block2{
+position: absolute;
+width: 260px;
+height: 118px;
+left: 32%;
+top: 480px;
+background: #FFFFFF;
+box-shadow: 0px 15px 20px rgba(50, 180, 130, 0.25);
+}
+.block3{
+position: absolute;
+width: 260px;
+height: 118px;
+left: 32%;
+top: 636px;
+margin-bottom: 50px;
+background: #FFFFFF;
+box-shadow: 0px 15px 20px rgba(50, 180, 130, 0.25);
+}
+.block_text{
+position: relative;
+left: 3%;
+top: 3%;
+bottom: 54.31%;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.block_text1{
+position: relative;
+left: 4%;
+top: 3%;
+bottom: 54.31%;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #E6E6E6;	
+}
+.block_text2{
+position: relative;
+left: 4%;
+top: 3%;
+bottom: 54.31%;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #E6E6E6;	
+}
+.field{
+position: absolute;
+width: 500px;
+height: 435px;
+left: 45.83%;
+top: 320px;
+margin-bottom: 75px;
+background: #FFFFFF;
+box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
+}
+.about_you{
+visibility: hidden;
+position: absolute;
+width: 500px;
+height: 435px;
+left: 45.83%;
+top: 320px;
+margin-bottom: 75px;
+background: #FFFFFF;
+box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
+}
+.questions{
+visibility: hidden;
+position: absolute;
+width: 500px;
+height: 435px;
+left: 45.83%;
+top: 320px;
+margin-bottom: 75px;
+background: #FFFFFF;
+box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
+}
+.field_name{
+font-family: Raleway;
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 40px;
+background: #F8F8F8;
+border: none;
+}
+.field_address{
+font-family: Raleway;
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 40px;
+background: #F8F8F8;
+border: none;	
+}
+.field_surname{
+font-family: Raleway;
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 110px;
+background: #F8F8F8;
+border: none;
+}
+.field_phone{
+font-family: Raleway;
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 180px;
+background: #F8F8F8;
+border: none;
+}
+.field_email{
+font-family: Raleway;
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 250px;
+background: #F8F8F8;
+border: none;
+}
+.field_gender{
+font-family: Raleway;
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 320px;
+background: #F8F8F8;
+border: none;
+}
+.field_dob{
+
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 270px;
+height: 40px;
+left: 180px;
+top: 310px;
+background: #F8F8F8;
+border: none;
+color: #32B482;
+}
+.field_gy{
+font-family: Raleway;
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 180px;
+background: #F8F8F8;
+border: none;
+}
+.field_quest1{
+font-family: Raleway;
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 400px;
+height: 120px;
+left: 50px;
+top: 40px;
+background: #F8F8F8;
+border: none;
+}
+.field_quest2{
+font-family: Raleway;
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 400px;
+height: 120px;
+left: 50px;
+top: 200px;
+background: #F8F8F8;
+border: none;
+}
+.button_next{
+position: absolute;
+visibility: visible;
+width: 150px;
+height: 40px;
+margin-left: 52%;
+top: 700px;
+background: #32B482;
+box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
+border-radius: 5px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: normal;
+text-align: center;
+color: #FFFFFF;
+}
+.button_nextto{
+position: absolute;
+visibility: hidden;
+width: 150px;
+height: 40px;
+left: 52%;
+top: 700px;
+background: #32B482;
+box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
+border-radius: 5px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: normal;
+text-align: center;
+color: #FFFFFF;
+}
+.button_send{
+position: absolute;
+visibility: hidden;
+width: 150px;
+height: 40px;
+left: 155px;
+top: 360px;
+background: #32B482;
+box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
+border-radius: 5px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: normal;
+text-align: center;
+color: #FFFFFF;
+}
+#checkbox_div{
+border:none;
+position: absolute;
+width: 100px;
+height: 40px;
+background: #F8F8F8;
+left: 50px;
+top: 310px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: normal;
+text-align: center;
+color: #32B482;	
+}
+#university{
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 110px;
+background: #F8F8F8;
+border: none;
+color: #32B482;
+}
+#departments{
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 250px;
+background: #F8F8F8;
+border: none;
+color: #32B482;
+}
+.field_experience{
+position: absolute;
+width: 400px;
+height:40px;
+background: #F8F8F8;
+left: 50px;
+top: 310px;
+border: none;
+}	
+}
+@media (max-width: 2000px){
+.headerforpers
+{
+position: relative;
+width: 331px;
+height: 58px;
+left: 20%;
+top: 8px;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: normal;
+text-transform: uppercase;
+color: #202020;
+}
+.headtext
 {
 position: relative;
 width: 798px;
 height: 90px;
 left: 20%;
-top: 61px;
-font-family: Roboto;
+top: 5px;
+font-family: Raleway;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -91,10 +460,10 @@ position: relative;
 left: 3%;
 top: 3%;
 bottom: 54.31%;
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-weight: 500;
-font-size: 19px;
+font-size: 16px;
 line-height: 28px;
 color: #FFFFFF;
 }
@@ -103,24 +472,24 @@ position: relative;
 left: 4%;
 top: 3%;
 bottom: 54.31%;
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-weight: 500;
-font-size: 19px;
+font-size: 16px;
 line-height: 28px;
-color: #E6E6E6;
+color: #E6E6E6;	
 }
 .block_text2{
 position: relative;
 left: 4%;
 top: 3%;
 bottom: 54.31%;
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-weight: 500;
-font-size: 19px;
+font-size: 16px;
 line-height: 28px;
-color: #E6E6E6;
+color: #E6E6E6;	
 }
 .field{
 position: absolute;
@@ -155,7 +524,7 @@ background: #FFFFFF;
 box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
 }
 .field_name{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -166,8 +535,20 @@ top: 40px;
 background: #F8F8F8;
 border: none;
 }
+.field_address{
+font-family: Raleway;
+font-style: normal;
+font-size: 14px;
+position: absolute;
+width: 400px;
+height: 40px;
+left: 50px;
+top: 40px;
+background: #F8F8F8;
+border: none;	
+}
 .field_surname{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -179,7 +560,7 @@ background: #F8F8F8;
 border: none;
 }
 .field_phone{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -191,7 +572,7 @@ background: #F8F8F8;
 border: none;
 }
 .field_email{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -203,7 +584,7 @@ background: #F8F8F8;
 border: none;
 }
 .field_gender{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -228,7 +609,7 @@ border: none;
 color: #32B482;
 }
 .field_quest1{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -240,7 +621,7 @@ background: #F8F8F8;
 border: none;
 }
 .field_quest2{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -313,13 +694,13 @@ height: 40px;
 background: #F8F8F8;
 left: 50px;
 top: 310px;
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: normal;
 text-align: center;
-color: #32B482;
+color: #32B482;	
 }
 #university{
 position: absolute;
@@ -350,7 +731,7 @@ left: 50px;
 top: 310px;
 border: none;
 }
-
+}
 @media (max-width: 1340px){
 .block1{
 position:absolute;
@@ -506,7 +887,7 @@ background: #FFFFFF;
 box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
 }
 .field_name{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -518,7 +899,7 @@ background: #F8F8F8;
 border: none;
 }
 .field_surname{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -530,7 +911,7 @@ background: #F8F8F8;
 border: none;
 }
 .field_phone{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -542,7 +923,7 @@ background: #F8F8F8;
 border: none;
 }
 .field_email{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -554,7 +935,7 @@ background: #F8F8F8;
 border: none;
 }
 .field_gender{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -579,7 +960,7 @@ border: none;
 color: #32B482;
 }
 .field_quest1{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -591,7 +972,7 @@ background: #F8F8F8;
 border: none;
 }
 .field_quest2{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-size: 14px;
 position: absolute;
@@ -610,13 +991,13 @@ height: 40px;
 background: #F8F8F8;
 left: 50px;
 top: 310px;
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: normal;
 text-align: center;
-color: #32B482;
+color: #32B482;	
 }
 #university{
 position: absolute;
@@ -652,7 +1033,7 @@ position: absolute;
 visibility: visible;
 width: 150px;
 height: 40px;
-left: 10%;
+left: 5%;
 top: 700px;
 background: #32B482;
 box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
@@ -670,7 +1051,7 @@ position: absolute;
 visibility: hidden;
 width: 150px;
 height: 40px;
-left: 10%;
+left: 5%;
 top: 700px;
 background: #32B482;
 box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
@@ -804,7 +1185,7 @@ color: #FFFFFF;
 }
 }
 @media (max-width: 550px){
-h1
+.headerforpers
 {
 position: absolute;
 width: 331px;
@@ -819,14 +1200,14 @@ line-height: normal;
 text-transform: uppercase;
 color: #202020;
 }
-p
+.headtext
 {
 position: absolute;
 width: 798px;
 height: 90px;
 left: 20%;
-top: 161px;
-font-family: Roboto;
+top: 141px;
+font-family: Raleway;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -886,7 +1267,7 @@ box-shadow: 0px 15px 20px rgba(50, 180, 130, 0.25);
 position: absolute;
 width: 450px;
 height: 435px;
-left: 85.83%;
+left: 87.83%;
 top: 320px;
 margin-bottom: 75px;
 background: #FFFFFF;
@@ -951,8 +1332,8 @@ text-align: center;
 color: #FFFFFF;
 }
 }
-@media (max-width: 410px){
-h1
+@media (max-width: 420px){
+.headerforpers
 {
 position: absolute;
 height: 58px;
@@ -966,24 +1347,25 @@ line-height: normal;
 text-transform: uppercase;
 color: #202020;
 }
-p
+.headtext
 {
 position: absolute;
-width: 758px;
+width: 680px;
 height: 180px;
 left: 20%;
-top: 25%;
-font-family: Roboto;
+margin-right: 10%;
+top: 150px;
+font-family: Raleway;
 font-style: normal;
 font-weight: normal;
 font-size: 25px;
-line-height: 23px;
+line-height: 35px;
 color: #909090;
 }
 .field_text{
 position:absolute;
-top: 510px;
-left: 20%;
+top: 670px;
+left: 80px;
 font-style: normal;
 font-weight: bold;
 font-size:24px;
@@ -992,8 +1374,8 @@ color: #202020;
 }
 .field_text1 {
 position: absolute;
-left: 20%;
-top: 300px;
+left: 80px;
+top: 440px;
 font-style: normal;
 font-weight: bold;
 font-size: 24px;
@@ -1002,29 +1384,32 @@ color: #202020;
 }
 .block1{
 position:absolute;
+display: inline-block;
 width: 220px;
 height: 116px;
-left: 20%;
-top: 340px;
+left: 80px;
+top: 490px;
 margin-right: 50px;
 background: #32B482;
 box-shadow: 0px 15px 20px rgba(50, 180, 130, 0.25);
 }
 .block2{
 position: absolute;
+display: inline-block;
 width: 220px;
 height: 116px;
-left: 85%;
-top:  340px;
+left: 310px;
+top:  490px;
 background: #FFFFFF;
 box-shadow: 0px 15px 20px rgba(50, 180, 130, 0.25);
 }
 .block3{
 position: absolute;
+display: inline-block;
 width: 220px;
 height: 116px;
-left: 150%;
-top:  340px;
+left: 540px;
+top:  490px;
 margin-bottom: 50px;
 background: #FFFFFF;
 box-shadow: 0px 15px 20px rgba(50, 180, 130, 0.25);
@@ -1034,10 +1419,10 @@ position: relative;
 left: 3%;
 top: 3%;
 bottom: 54.31%;
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 16px;
 line-height: 28px;
 color: #FFFFFF;
 }
@@ -1046,31 +1431,31 @@ position: relative;
 left: 4%;
 top: 3%;
 bottom: 54.31%;
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 16px;
 line-height: 28px;
-color: #E6E6E6;
+color: #E6E6E6;	
 }
 .block_text2{
 position: relative;
 left: 4%;
 top: 3%;
 bottom: 54.31%;
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
 font-weight: 500;
-font-size: 18px;
+font-size: 16px;
 line-height: 28px;
-color: #E6E6E6;
+color: #E6E6E6;	
 }
 .field{
 position: absolute;
-width: 700px;
-height: 535px;
+width: 680px;
+height: 625px;
 left: 20%;
-top: 560px;
+top: 750px;
 margin-bottom: 75px;
 background: #FFFFFF;
 box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
@@ -1078,10 +1463,10 @@ box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
 .about_you{
 visibility: hidden;
 position: absolute;
-width: 700px;
-height: 535px;
+width: 680px;
+height: 625px;
 left: 20%;
-top: 560px;
+top: 750px;
 margin-bottom: 75px;
 background: #FFFFFF;
 box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
@@ -1089,125 +1474,151 @@ box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
 .questions{
 visibility: hidden;
 position: absolute;
-width: 700px;
-height: 535px;
+width: 680px;
+height: 625px;
 left: 20%;
-top: 560px;
+top: 750px;
 margin-bottom: 75px;
 background: #FFFFFF;
 box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
 }
 .field_name{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
-font-size: 18px;
+font-size: 22px;
 position: absolute;
-width: 600px;
-height: 60px;
-left: 50px;
+width: 240px;
+height: 70px;
+left: 60px;
+top: 40px;
+background: #F8F8F8;
+border: none;
+text-align: left;
+}
+.field_surname{
+font-family: Raleway;
+font-style: normal;
+font-size: 22px;
+position: absolute;
+width: 300px;
+height: 70px;
+left: 320px;
 top: 40px;
 background: #F8F8F8;
 border: none;
 }
-.field_surname{
-font-family: Roboto;
-font-style: normal;
-font-size: 18px;
-position: absolute;
-width: 600px;
-height: 60px;
-left: 50px;
-top: 110px;
-background: #F8F8F8;
-border: none;
-}
 .field_phone{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
-font-size: 18px;
+font-size: 22px;
 position: absolute;
-width: 600px;
-height: 60px;
-left: 50px;
-top: 180px;
+width: 560px;
+height: 70px;
+left: 60px;
+top: 160px;
 background: #F8F8F8;
 border: none;
 }
 .field_email{
 font-family: Roboto;
 font-style: normal;
-font-size: 18px;
+font-size: 22px;
 position: absolute;
-width: 600px;
-height: 60px;
-left: 50px;
-top: 250px;
+width: 560px;
+height: 70px;
+left: 60px;
+top: 280px;
 background: #F8F8F8;
 border: none;
 }
 .field_gender{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
-font-size: 18px;
+font-size: 22px;
 position: absolute;
-width: 550px;
-height: 60px;
-left: 50px;
+width: 240px;
+height: 70px;
+left: 60px;
 top: 360px;
 background: #F8F8F8;
 border: none;
 }
+.field_address{
+font-family: Raleway;
+font-style: normal;
+font-size: 22px;
+position: absolute;
+width: 560px;
+height: 70px;
+left: 60px;
+top: 40px;
+background: #F8F8F8;
+border: none;
+text-align: left;
+}
 .field_dob{
 
 font-style: normal;
-font-size: 18px;
+font-size: 22px;
 position: absolute;
-width: 370px;
-height: 60px;
-left: 280px;
-top: 320px;
+width: 300px;
+height: 70px;
+left: 320px;
+top: 400px;
 background: #F8F8F8;
 border: none;
 color: #32B482;
 }
-.field_quest1{
-font-family: Roboto;
+.field_gy{
+font-family: Raleway;
 font-style: normal;
-font-size: 14px;
+font-size: 22px;
 position: absolute;
-width: 600px;
-height: 120px;
-left: 50px;
+width: 300px;
+height: 70px;
+left: 320px;
+top: 160px;
+background: #F8F8F8;
+border: none;
+}
+.field_quest1{
+font-family: Raleway;
+font-style: normal;
+font-size: 22px;
+position: absolute;
+width: 550px;
+height: 180px;
+left: 60px;
 top: 40px;
 background: #F8F8F8;
 border: none;
 }
 .field_quest2{
-font-family: Roboto;
+font-family: Raleway;
 font-style: normal;
-font-size: 14px;
+font-size: 22px;
 position: absolute;
-width: 600px;
-height: 120px;
-left: 50px;
-top: 200px;
+width: 550px;
+height: 180px;
+left: 60px;
+top: 280px;
 background: #F8F8F8;
 border: none;
 }
 .button_next{
 position: absolute;
 visibility: visible;
-width: 150px;
-height: 40px;
-margin-left: 46%;
-top: 1000px;
+width: 250px;
+height: 60px;
+margin-left: 24%;
+top: 1250px;
 background: #32B482;
 box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
-border-radius: 5px;
+border-radius: 10px;
 font-family: Raleway;
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
+font-size: 20px;
 line-height: normal;
 text-align: center;
 color: #FFFFFF;
@@ -1215,17 +1626,17 @@ color: #FFFFFF;
 .button_nextto{
 position: absolute;
 visibility: hidden;
-width: 150px;
-height: 40px;
-margin-left: 46%;
-top: 1000px;
+width: 250px;
+height: 60px;
+margin-left: 24%;
+top: 1250px;
 background: #32B482;
 box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
 border-radius: 5px;
 font-family: Raleway;
 font-style: normal;
 font-weight: 800;
-font-size: 16px;
+font-size: 20px;
 line-height: normal;
 text-align: center;
 color: #FFFFFF;
@@ -1233,13 +1644,13 @@ color: #FFFFFF;
 .button_send{
 position: absolute;
 visibility: hidden;
-width: 150px;
-height: 40px;
-left: 285px;
-top: 400px;
+width: 250px;
+height: 60px;
+left: 205px;
+top: 500px;
 background: #32B482;
 box-shadow: 0px 10px 20px rgba(50, 180, 130, 0.25);
-border-radius: 5px;
+border-radius: 10px;
 font-family: Raleway;
 font-style: normal;
 font-weight: 800;
@@ -1251,46 +1662,49 @@ color: #FFFFFF;
 #checkbox_div{
 border:none;
 position: absolute;
-width: 200px;
-height: 60px;
+width: 240px;
+height: 70px;
+left: 60px;
 background: #F8F8F8;
-left: 50px;
-top: 320px;
-font-family: Roboto;
+top: 400px;
+font-family: Raleway;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 22px;
 line-height: normal;
 text-align: center;
-color: #32B482;
+color: #32B482;	
 }
 #university{
+font-size: 22px;
 position: absolute;
-width: 600px;
-height: 60px;
-left: 50px;
-top: 110px;
+width: 240px;
+height: 70px;
+left: 60px;
+top: 160px;
 background: #F8F8F8;
 border: none;
 color: #32B482;
 }
 #departments{
+font-size: 22px;
 position: absolute;
-width: 600px;
-height: 60px;
-left: 50px;
-top: 250px;
+width: 560px;
+height: 70px;
+left: 60px;
+top: 280px;
 background: #F8F8F8;
 border: none;
 color: #32B482;
 }
 .field_experience{
+font-size: 22px;
 position: absolute;
-width: 600px;
-height: 60px;
+width: 560px;
+height: 70px;
+left: 60px;
 background: #F8F8F8;
-left: 50px;
-top: 320px;
+top: 400px;
 border: none;
 }
 }
