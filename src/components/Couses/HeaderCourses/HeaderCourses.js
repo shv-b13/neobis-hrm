@@ -14,7 +14,7 @@ class HeaderCourses extends Component{
                             <h1>КУРСЫ <span>NEOLABS</span></h1>
                         </div>
                         <div className="right-courses">
-                            <h3>ЗАПРОГРАММИРУЙ СВОЕ БУДУЩЕЕ!</h3>
+                            <h3 className="right-courses-text">ЗАПРОГРАММИРУЙ СВОЕ БУДУЩЕЕ!</h3>
                             <div className="rectangle"/>
                         </div>
                     </div>

@@ -1,0 +1,27 @@
+.main-courses-container{
+    position: absolute;
+    max-width: 1440px;
+}
+@media screen and (min-width: 1445px){
+    .main-courses-container{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (min-width: 2560px){
+    .main-courses-container{
+        left: 15%;
+    }
+}
+@media screen and (min-width: 1800px) and (max-width: 2070px){
+    .main-courses-container{
+        left: 5%;
+        right: 5%;
+    }
+}
+@media screen and (min-width: 2071px) and (max-width: 2560px){
+    .main-courses-container{
+        left: 10%;
+        right: 5%;
+    }
+}

@@ -14,8 +14,8 @@ class Info extends Component {
 
     render() {
         return (
-            <div className="container">
-                <div className="info">
+            <div className="block_container">
+                <div className="info_about">
 
                     <div className="info_content">
                         <div className="info_cubes_content">
@@ -40,7 +40,7 @@ class Info extends Component {
                                         </div>
                                     </div>
                                 </Link>
-                                <Link to="/" className="info_block">
+                                <Link to="/courses" className="info_block">
                                     <div className="info_pad">
                                         <div className="info_block_img">
                                             <img src={courses} alt="courses" className="info_img"/>

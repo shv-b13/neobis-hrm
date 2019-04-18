@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import './ListCoursesElement.css';
 import { createBrowserHistory } from 'history';
-
+import Language from "../../Language/Language";
 import coursesImg from '../image/image 2.png';
 
 
@@ -46,9 +46,7 @@ class ListCoursesElement extends Component {
                     infoPart.className = 'infoPart';
 
                     let imgChild = document.createElement('img');
-
                     imgChild.src = `${coursesImg}`;
-
                     // imgChild.src = 'https://cors-anywhere.herokuapp.com/'+arr.image;
                     // imgChild.src = arr.image;
                     imgChild.alt = 'oops';

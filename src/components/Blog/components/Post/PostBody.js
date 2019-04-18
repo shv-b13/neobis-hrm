@@ -4,7 +4,7 @@ import defaultImage from './neobis_background.png';
 const PostBody = props => {
     console.log(props);
     return (
-        <div className={'post'}>
+        <div>
             <a href={props.articleLink}>
                 <div>
                     <img className={'post-image'} src={props.imgSrc ? props.imgSrc : defaultImage} alt={'post-image'}/>
@@ -26,10 +26,10 @@ const PostBody = props => {
                             <a href={props.authorLink} className={'author-name'}>{props.authorName}</a>
                         </div>
                     </div>
-                    <div>
-                        <a href={props.articleLink}
-                           className={'post-date-pub'}>{props.datePublished} : : {props.readingTime} min</a>
-                    </div>
+                </div>
+                <div className={'post-date-pub'}>
+                    <a href={props.articleLink}
+                       className={'date-pub'}>{props.datePublished} : : {props.readingTime} min</a>
                 </div>
             </div>
         </div>
