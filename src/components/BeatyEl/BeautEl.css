@@ -49,6 +49,96 @@ ul {
     margin: 0;
 }
 
+@keyframes changeColor {
+    25% {background-color: #E3E3E3;}
+    50% {background-color: #32b582;}
+    100% {background-color: #E3E3E3;}
+}
+
+#beatyEl_li_1, #beatyEl_li_2,#beatyEl_li_3,#beatyEl_li_4,#beatyEl_li_5,
+#beatyEl_li_6,#beatyEl_li_7,#beatyEl_li_8,#beatyEl_li_9,#beatyEl_li_10,
+#beatyEl_li_11 {
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+#beatyEl_li_1 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+#beatyEl_li_2 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+#beatyEl_li_3 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+
+#beatyEl_li_4 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 5.5s;
+    animation-iteration-count: infinite;
+}
+
+#beatyEl_li_5 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 7s;
+    animation-iteration-count: infinite;
+}
+
+#beatyEl_li_6 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 8.5s;
+    animation-iteration-count: infinite;
+}
+
+#beatyEl_li_7 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
+
+#beatyEl_li_8 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 11.5s;
+    animation-iteration-count: infinite;
+}
+
+#beatyEl_li_9 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 13s;
+    animation-iteration-count: infinite;
+}
+
+#beatyEl_li_10 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 14.5s;
+    animation-iteration-count: infinite;
+}
+
+#beatyEl_li_11 {
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-delay: 16s;
+    animation-iteration-count: infinite;
+}*
+
 .beatyEl_yel {
     width: 165px;
     height: 50px;
@@ -129,7 +219,7 @@ ul {
     }
 
     .beatyEl_content {
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 
     .beatyEL_block {
