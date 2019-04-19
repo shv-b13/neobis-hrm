@@ -30,7 +30,7 @@ class LogIn extends Component{
     render(){
         return(
             <div className ="authContainer">
-            <div className ="head"> <h3>Авторизация</h3></div>
+            <div className ="head"> <h3 className="head-h3" >Авторизация</h3></div>
                 <form onSubmit={this.handleSubmit}>
                     <input id="LogEmail"
                            className="LogEmail"
