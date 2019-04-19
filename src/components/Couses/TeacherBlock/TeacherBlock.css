@@ -1,11 +1,6 @@
 .carusel{
-    /*position: absolute;*/
-    /*z-index: 2;*/
-    /*width: 60%;*/
     height: 100%;
-    /*margin-left: 20%;*/
-    margin-top: 8.5%;
-    /*margin-bottom: 15%;*/
+    margin-top: 5%;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
@@ -13,7 +8,6 @@
 }
 .teacher{
     position: relative;
-    /*grid-area: ;*/
     z-index: 2;
     width: 60%;
     margin-left: 20%;
@@ -27,7 +21,6 @@
 }
 .item{
     margin-right: 10%;
-    /*padding-top: 15%;*/
     padding-bottom: 15%;
     border: none;
 }
@@ -103,9 +96,12 @@
         font-size: 14px;
     }
     .item{
-        margin-right: 0%;
+        margin-right: 0;
+        padding-bottom: 3%;
+        /*padding-top: -12%;*/
     }
 }
+
 @media screen and (max-width: 768px){
     .teacherName{
         font-size: 12px;

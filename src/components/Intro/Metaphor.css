@@ -86,36 +86,6 @@
 
 }
 
-@media (max-width: 1586px) {
-
-    .block_container {
-        width: 1200px !important;
-        margin: 0 auto !important;
-    }
-
-    .metaphor_block {
-        grid-template-columns: 35% 72.7%;
-    }
-
-    .metaphor_text {
-        grid-template-rows: 80%;
-        grid-template-columns: 72% .1%;
-        justify-self: center;
-        justify-items: center;
-        padding: 0px;
-    }
-
-    .metaphor_cube {
-        align-self: flex-end;
-        margin-right: 15px;
-        margin-bottom: -10px;
-        width: 30px;
-        height: 30px;
-        background-color: #32B482;
-    }
-
-}
-
 @media (max-width: 1440px) {
 
     .block_container {
