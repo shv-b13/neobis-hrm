@@ -5,7 +5,7 @@
     position: relative;
     width: 120%;
     margin-left: -10%;
-    margin-top: -13.5%;
+    margin-top: -11.5%;
     display: flex;
 }
 .ceos-container{
@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 1440px){
     .footer-courses{
-        margin-top: -14.5%;
+        margin-top: -12.5%;
         width: 100%;
         margin-left: 0;
     }
@@ -143,6 +143,38 @@
     }
 
 }
+@media screen and (max-width: 1366px){
+    .button-up img{
+        left: 12%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .footer-courses{
+        margin-top: -13.3%;
+    }
+
+    .button-up img{
+        left: 11%;
+    }
+}
+@media screen and (max-width: 1093px){
+    .footer-courses{
+        height: 290%;
+    }
+    .ces-says{
+        left: 39%;
+    }
+    .ceo-position{
+        font-size: 13px;
+    }
+    .square{
+        top: 40%;
+        left: -6%;
+    }
+    .button-up img{
+        left: 3%;
+    }
+}
 @media screen and (max-width: 1024px) {
     .footer-courses{
         margin-top: -13%;
@@ -156,7 +188,7 @@
         font-size: 16px;
     }
     .ceo-position{
-        font-size: 12px;
+        font-size: 11px;
     }
     .ceo-quote{
         font-size: 16px;
@@ -167,78 +199,124 @@
     }
     .button-up img{
         width: 80%;
-        margin-left: -5%;
+        margin-left: 8%;
     }
     .square{
         top: 43%;
         left: -6%;
     }
 }
-
+@media screen and (max-width: 800px) {
+    .footer-courses{
+        margin-top: -12.5%;
+        height: 320%;
+    }
+    .ces-says{
+        font-size: 16px;
+        left: 37%;
+        margin-top: -2%;
+    }
+    .ceos-container{
+        margin-top: -5%;
+        width: 65%;
+        margin-left: -7%;
+    }
+    .ceo-name{
+        font-size: 16px;
+    }
+    .ceo-position{
+        font-size: 10px;
+    }
+    .ceo-quote{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .button-to-courses p{
+        font-size: 14px;
+        padding: 4%;
+    }
+    .button-up img{
+        width: 80%;
+        margin-left: 8%;
+    }
+    .button-up{
+        width:4%;
+    }
+    .square{
+        top: 43%;
+        left: -6%;
+    }
+}
 @media screen and (max-width: 768px) {
     .footer-courses{
         margin-top: -13%;
-        height: 300%;
+        height: 320%;
     }
     .ces-says{
-        font-size: 14px;
-        left: 38%;
+        font-size: 16px;
+        left: 36.5%;
+        margin-top: -2%;
     }
     .ceos-container{
-        margin-top: -1%;
+        margin-top: -5%;
+        width: 65%;
+        margin-left: -7%;
     }
     .ceo-name{
-        font-size: 12px;
+        font-size: 16px;
     }
     .ceo-position{
-        font-size: 9px;
+        font-size: 10px;
     }
     .ceo-quote{
-        font-size: 12px;
+        font-size: 15px;
+        line-height: 20px;
     }
     .button-to-courses p{
-        font-size: 12px;
-        padding-top: 1%;
+        font-size: 14px;
+        padding: 3%;
     }
     .button-up img{
-        width: 72%;
-        margin-left: 1%;
+        width: 80%;
+        margin-left: 8%;
     }
     .button-up{
-        width: 4%;
+        width: 4.5%;
     }
     .square{
-        top: 42%;
-        left: -12%;
+        top: 43%;
+        left: -6%;
     }
 }
 @media screen and (max-width: 425px) {
     .footer-courses{
-        margin-top: -20%;
-        height: 250%;
+        width: 105%;
+        margin-top: -25%;
+        height: 225%;
     }
     .ceos-container{
         grid-template-columns: 50% 50%;
-        margin-top: 5%;
-        margin-left: -10%;
-        grid-column-gap: 35%;
+        margin-top: -3%;
+        margin-left: -13%;
+        grid-column-gap: 20%;
     }
     .ces-says{
         font-size: 12px;
         left: 29%;
+        margin-top: 1%;
     }
     .ceo-name{
-        font-size: 9px;
+        font-size: 11px;
     }
     .ceo-photo{
         width: 50%;
     }
     .ceo-position{
-        font-size: 6px;
+        font-size: 7px;
         line-height: 10px;
     }
     .ceo-quote{
-        font-size: 7px;
+        font-size: 11px;
         line-height: 12px;
     }
     .button-to-courses{
@@ -252,7 +330,7 @@
     }
     .button-up img{
         width: 72%;
-        margin-left: 2%;
+        margin-left: 8%;
     }
     .button-up{
         margin-top: 2%;
@@ -261,126 +339,146 @@
 
     }
     .square{
-        top: 50%;
-        left: -7%;
-        width: 5%;
-        height: 2.5%;
+        top: 57%;
+        left: -8%;
+        width: 7%;
+        height: 5.5%;
     }
 }
 @media screen and (max-width: 375px) {
     .footer-courses{
-        margin-top: -20%;
-        height: 250%;
+        width: 105%;
+        margin-top: -28.5%;
+        height: 350%;
     }
     .ceos-container{
-        grid-template-columns: 50% 50%;
-        margin-top: 5%;
-        margin-left: -10%;
-        grid-column-gap: 35%;
+        grid-template-columns: 1fr;
+        grid-template-raws: 1fr 1fr;
+
+        margin-top: -25%;
+        margin-left: -5%;
+        margin-bottom: 15%;
+        grid-row-gap: 0;
     }
     .ces-says{
         font-size: 12px;
         left: 29%;
+        margin-top: -10%;
     }
     .ceo-name{
-        font-size: 9px;
+        font-size: 12px;
     }
     .ceo-photo{
-        width: 50%;
+        width: 30%;
     }
     .ceo-position{
-        font-size: 6px;
+        font-size: 10px;
         line-height: 10px;
     }
     .ceo-quote{
-        font-size: 7px;
-        line-height: 12px;
+        font-size: 10px;
+        line-height: 14px;
     }
     .button-to-courses{
-        /*position: relative;*/
-        height: 4%;
+        height: 3%;
+        width: 15%;
         margin-top: 2%;
+        left: 43%;
     }
     .button-to-courses p{
-        font-size: 6px;
+        font-size: 7px;
         padding-top: 4%;
     }
     .button-up img{
         width: 72%;
-        margin-left: 2%;
+        margin-left: 13%;
     }
     .button-up{
         margin-top: 2%;
-        width: 4%;
-        height: 3.5%;
+        width: 6%;
+        height: 3%;
 
     }
     .square{
-        top: 50%;
-        left: -7%;
+        top: 40%;
+        left: -2%;
         width: 5%;
-        height: 2.5%;
+        height: 4%;
+    }
+    #ceos-item2{
+        margin-top: -25%;
+    }
+    #ceos-item2 .square{
+        height: 7%;
+        top: 62%;
     }
 }
 @media screen and (max-width: 320px) {
     .footer-courses{
-        margin-top: -20%;
-        height: 400%;
-        /*max-height: 500px;*/
-
+        width: 105%;
+        margin-top: -33.5%;
+        height: 350%;
     }
     .ceos-container{
-        grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr;
-        margin-top: -15%;
-        margin-left: 0.5%;
-        grid-column-gap: 5%;
-        height: 200px;
+        grid-template-raws: 1fr 1fr;
+        margin-top: -30%;
+        margin-left: -7%;
+        margin-bottom: 15%;
+        grid-row-gap: 0;
     }
     .ces-says{
-        font-size: 10px;
-        left: 27%;
-        margin-top: -15%;
-        /*margin-bottom: -5%;*/
+        font-size: 12px;
+        left: 24%;
+        margin-top: -18%;
     }
     .ceo-name{
-        font-size: 8px;
+        font-size: 12px;
     }
     .ceo-photo{
-        width: 25%;
+        width: 30%;
     }
     .ceo-position{
-        font-size: 6px;
+        font-size: 9px;
         line-height: 10px;
     }
     .ceo-quote{
-        font-size: 6px;
-        line-height: 10px;
+        font-size: 9px;
+        line-height: 14px;
     }
     .button-to-courses{
-        /*position: relative;*/
-        height: 2%;
-        border-radius: 2px;
-        margin-top: 0%;
+        height: 3%;
+        width: 20%;
+        margin-top: 2%;
+        left: 38%;
     }
     .button-to-courses p{
-        font-size: 5.5px;
-        padding-top: 4%;
+        font-size: 7px;
+        padding-top: 2%;
     }
     .button-up img{
         width: 72%;
-        margin-left: 2%;
+        margin-left: 12%;
     }
     .button-up{
         margin-top: 2%;
-        width: 4%;
-        height: 1.8%;
-        border-radius: 1px;
+        width: 7%;
+        height: 3%;
+
     }
     .square{
-        top: 63%;
+        top: 34%;
         left: -5%;
-        width: 5%;
-        height: 5.5%;
+        width: 5.5%;
+        height: 3.5%;
+    }
+    #ceos-item2{
+        margin-top: -40%;
+    }
+    #ceos-item2 .square{
+        height: 6.5%;
+        width: 5.5%;
+        top: 60%;
     }
 }
+

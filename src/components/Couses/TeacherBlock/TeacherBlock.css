@@ -80,6 +80,18 @@
         margin-top: 150%;
     }
 }
+@media screen and (max-width: 1093px){
+    .item{
+        padding-top: 9%;
+        padding-bottom: 5%;
+    }
+    .leftArrow{
+        margin-top: 160%;
+    }
+    .rightArrow{
+        margin-top: 160%;
+    }
+}
 @media screen and (max-width: 1024px){
     .teacherImg{
         width: 30%;
@@ -96,24 +108,61 @@
         font-size: 14px;
     }
     .item{
+        padding-top: 20%;
         margin-right: 0;
         padding-bottom: 3%;
-        /*padding-top: -12%;*/
+    }
+    .leftArrow{
+        margin-top: 150%;
+    }
+    .rightArrow{
+        margin-top: 150%;
+    }
+
+}
+@media screen and (max-width: 800px){
+    .teacherName{
+        font-size: 12px;
+    }
+    .teacherPosition{
+        font-size: 12px;
+        margin-bottom: 4%;
+        margin-top: -4%;
+    }
+    .teacherQuote{
+        font-size: 11.5px;
+    }
+    .item{
+        padding-bottom: 5%;
+    }
+    .leftArrow{
+        margin-top: 200%;
+        height: 15%;
+    }
+    .rightArrow{
+        margin-top: 200%;
+        margin-left: 10%;
+        height: 15%;
+    }
+    .carusel{
+        /*padding-right: 2%;*/
+        margin-top: 5%;
     }
 }
-
 @media screen and (max-width: 768px){
     .teacherName{
         font-size: 12px;
     }
     .teacherPosition{
         font-size: 12px;
+        margin-bottom: 4%;
+        margin-top: -4%;
     }
     .teacherQuote{
-        font-size: 10px;
+        font-size: 11.5px;
     }
     .item{
-        padding-bottom: 8%;
+        padding-bottom: -3%;
     }
     .leftArrow{
         margin-top: 200%;
@@ -130,17 +179,66 @@
     }
 }
 @media screen and (max-width: 425px){
+    .slick-slider{
+        margin-left: 8%;
+    }
     .teacherName{
-        font-size: 10px;
+        font-size: 13px;
     }
     .teacherPosition{
-        font-size: 10px;
+        font-size: 12px;
+        margin-top: -6%;
+        margin-bottom: 0;
     }
     .teacherQuote{
-        font-size: 8px;
+        font-size: 11px;
     }
     .item{
-        margin-left: 4%;
+        padding-top: 14%;
+    }
+    .teacherImg{
+        width: 35%;
+        margin-left: 33%;
+    }
+    .leftArrow{
+        margin-top: 350%;
+        height: 15%;
+    }
+    .rightArrow{
+        margin-top: 350%;
+        height: 15%;
+        margin-left: -40%;
+    }
+    .carusel{
+        padding-right: 5%;
+        height: 40%;
+        left: -3%;
+        /*margin-top: 5%;*/
+    }
+}
+@media screen and (max-width: 375px){
+    .slick-slider{
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 100%;
+    }
+    .teacherName{
+        font-size: 13px;
+    }
+    .teacherPosition{
+        font-size: 12px;
+        margin-top: -6%;
+        margin-bottom: 0;
+    }
+    .teacherQuote{
+        font-size: 11px;
+    }
+    .item{
+        padding-top: 14%;
+    }
+    .teacherImg{
+        width: 35%;
+        margin-left: 33%;
     }
     .leftArrow{
         margin-top: 350%;
@@ -159,18 +257,28 @@
     }
 }
 @media screen and (max-width: 320px){
+    .slick-slider{
+        margin-top: 5%;
+        margin-left: -5%;
+        width: 120%;
+    }
     .teacherName{
-        font-size: 8px;
+        font-size: 13px;
     }
     .teacherPosition{
-        font-size: 8px;
+        font-size: 12px;
+        margin-top: -6%;
+        margin-bottom: 0;
     }
     .teacherQuote{
-        font-size: 6px;
-        line-height: 10px;
+        font-size: 11px;
     }
     .item{
-        margin-left: 4%;
+        padding-top: 14%;
+    }
+    .teacherImg{
+        width: 35%;
+        margin-left: 33%;
     }
     .leftArrow{
         margin-top: 350%;

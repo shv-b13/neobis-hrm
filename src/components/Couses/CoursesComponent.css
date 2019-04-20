@@ -1,6 +1,7 @@
 .main-courses-container{
     position: absolute;
     max-width: 1440px;
+    /*left: 10%;*/
 }
 @media screen and (min-width: 1445px){
     .main-courses-container{
@@ -8,11 +9,15 @@
         margin-right: 10%;
     }
 }
-@media screen and (min-width: 2560px){
-    .main-courses-container{
-        left: 15%;
-    }
-}
+
+
+
+
+/*@media screen and (min-width: 2560px){*/
+    /*.main-courses-container{*/
+        /*left: 15%;*/
+    /*}*/
+/*}*/
 @media screen and (min-width: 1800px) and (max-width: 2070px){
     .main-courses-container{
         left: 5%;
