@@ -1,17 +1,4 @@
-.intro{
-    /*background: black;*/
-    margin-top: 2%;
-    width: 60%;
-    margin-left: 20%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-.right-courses{
-    width: 200%;
-    height: 45%;
-    background: #FFFFFF;
-}
+
 .right-courses-text{
     font-family: Raleway;
     font-style: normal;
@@ -289,4 +276,5 @@
     .rectangle{
         background: none;
     }
+
 }

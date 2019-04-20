@@ -49,7 +49,10 @@ class BeautEl extends Component {
                         </ul>
                     </div>
                     <div className="beatyEL_block">
-                        <button className="beatyEl_yel"><Link to={'/time-slots'}>Набор в клуб</Link></button>
+                        <Link to={{pathname: `/application`}}>
+                         <button className="beatyEl_yel">Набор в клуб</button>
+                         </Link>
+          
                         <button className="beatyEl_gre">Пожертвование</button>
                     </div>
                     <div className="beatyEL_block2">
