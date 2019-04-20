@@ -26,7 +26,7 @@ class TimeSlotsTable extends Component {
 
     async componentWillReceiveProps(nextProps){
       if(nextProps.userslot!==this.state.userslot){
-        this.setState({userslot: nextProps.userslot.replace(" ", '-').slice(0,this.props.userslot.length-6) });
+        this.setState({userslot: nextProps.userslot ? nextProps.userslot.replace(" ", '-').slice(0,this.props.userslot.length-6) : null });
         const time_slots_req = await fetch(`${api_base}/interview/time_slots`, {
                 method: 'GET',
                 headers: {
