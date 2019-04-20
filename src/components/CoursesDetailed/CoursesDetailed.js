@@ -133,7 +133,7 @@ class CoursesDetailed extends Component {
                                 <div className="description">
                                          {this.state.coursesDetail.description}
                                 </div>
-                                <button className="btn active"><a href="#form-course">ЗАПИСАТЬСЯ</a></button><br/>
+                                <button className="btn active"><a href="#form-course" className="btn-a">ЗАПИСАТЬСЯ</a></button><br/>
                                 <button className="btn read-more"><a href="#read-more">ПОДРОБНЕЕ</a></button><br/>
                                 <p className="start_course">
                                     Старт: {this.state.startDate.date}

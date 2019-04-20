@@ -8,6 +8,7 @@ class HeaderCourses extends Component{
 
     render(){
         return(
+            <div>
                 <div className="intro" id="intro">
                     <div className="top">
                         <div className="left">
@@ -27,6 +28,8 @@ class HeaderCourses extends Component{
                             хочет жить в ногу со временем, разбираться в сфере IT.</p>
                     </div>
                 </div>
+            </div>
+
         )
     }
 

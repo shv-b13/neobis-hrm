@@ -1,16 +1,30 @@
+.intro{
+    /*background: black;*/
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.right-courses{
+    width: 200%;
+    height: 45%;
+    background: #FFFFFF;
+}
 .right-courses-text{
     font-family: Raleway;
     font-style: normal;
     font-weight: 900;
-    font-size: 17px;
+    font-size: 18px;
     line-height: normal;
     color: #202020;
     /*letter-spacing: -1.3px;*/
     margin-left: 4%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .left{
-    margin-top: -1%;
+    margin-top: 2%;
 }
 .left h1{
     font-family: Raleway;
@@ -32,39 +46,22 @@
     color: #32B482;
 }
 .rectangle{
-    /*position: absolute;*/
-    width: 3.5%;
-    height: 25%;
+    width: 2%;
+    height: 29%;
     background: #32B482;
-    float: right;
-    margin-right: 3%;
-    margin-top: -1%;
-}
-.intro{
-    /*background: black;*/
-    margin-top: 5%;
-    width: 60%;
-    margin-left: 20%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    margin-left: 48%;
+    margin-top: -1.5%;
 }
 .top{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
-.right-courses{
-    margin-top: -5.5%;
-    width: 105%;
-    height: 45% !important;
-    background: #FFFFFF;
-}
 .bottom{
     display: grid;
     grid-template-columns: 85%;
     grid-template-rows: 20%;
-    grid-row-gap: 60%;
+    grid-gap: 35%;
     margin-left: 10%;
 }
 .bottom h1{
@@ -90,15 +87,19 @@
 }
 @media screen and (max-width: 1440px){
     .right-courses{
-        height: 50%;
+        height: 55%;
+        width: 166.5%;
     }
     .right-courses-text{
-        /*letter-spacing: -1.3px;*/
         margin-left: 4%;
         margin-top: 3.5%;
     }
     .left{
-        margin-top: -3%;
+        margin-top: 3%;
+    }
+    .rectangle{
+        margin-left: 56.5%;
+        width: 3%;
     }
 }
 @media screen and (max-width: 1024px){
@@ -109,14 +110,14 @@
         font-size: 22px;
     }
     .left{
-        margin-top: -3.5%;
+        margin-top: 4%;
     }
     .right-courses-text{
         font-size: 14px;
         padding-top: -2%;
     }
     .right-courses{
-        height: 65% !important
+        height: 65%;
     }
     .intro{
         grid-template-rows: 40% 40%;
@@ -137,40 +138,41 @@
 }
 @media screen and (max-width: 768px){
     .left h1{
-        font-size: 18px;
+        font-size: 20px;
     }
     .left span{
-        font-size: 18px;
+        font-size: 20px;
     }
-    .right-courses{
-        height: 60%;
+    .left{
+        margin-top: 3%;
     }
     .right-courses-text{
-        font-size: 11px;
-        margin-left: 3%;
-        margin-top: 4%;
+        padding-top: 1%;
+        font-size: 10px;
     }
-    .rectangle{
-        height: 30%;
-        margin-top: -2%;
+    .right-courses{
+        height: 50%;
+        width: 160%;
     }
     .intro{
-        grid-template-rows: 30% 40%;
+        grid-template-rows: 40% 40%;
     }
     .bottom h1{
         margin-bottom: 5%;
-        line-height: 15px;
-        font-size: 9px;
+        line-height: 19px;
+        font-size: 11px;
     }
     .bottom p{
         margin-top: 5%;
-        line-height: 13px;
-        font-size: 8.5px;
+        line-height: 16px;
+        font-size: 10px;
     }
-    .bottom{
-        margin-bottom: 5%;
+    .rectangle{
+        margin-top: -2.5%;
+        height: 25%;
     }
 }
+
 @media screen and (max-width: 425px){
     .intro{
         width: 100%;
@@ -286,38 +288,5 @@
     }
     .rectangle{
         background: none;
-    }
-}
-@media screen and (min-width: 1445px){
-    .right-courses{
-        height: 50%;
-    }
-    .right-courses-text{
-        /*letter-spacing: -1.3px;*/
-        margin-left: 4%;
-        margin-top: 3.5%;
-        padding-top: 1.5%;
-    }
-    .left{
-        margin-top: -3%;
-    }
-    .rectangle{
-        height: 20%;
-    }
-    .right-courses{
-        /*width: 10%;*/
-    }
-}
-@media screen and (max-width: 2560px){
-    .rectangle{
-        height: 30%;
-        margin-top: -3%;
-    }
-    .right-courses-text{
-        /*letter-spacing: -1.3px;*/
-        padding-top: 1%;
-    }
-    .right-courses{
-        height: 60%;
     }
 }
