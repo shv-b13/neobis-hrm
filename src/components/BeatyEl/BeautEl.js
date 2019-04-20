@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import {Link} from 'react-router-dom';
 import './BeautEl.css';
 
 class BeautEl extends Component {
@@ -49,7 +49,9 @@ class BeautEl extends Component {
                         </ul>
                     </div>
                     <div className="beatyEL_block">
-                        <button className="beatyEl_yel">Набор в клуб</button>
+                        <Link to={{pathname: `/application`}}>
+                         <button className="beatyEl_yel">Набор в клуб</button>
+                         </Link>
                         <button className="beatyEl_gre">Пожертвование</button>
                     </div>
                     <div className="beatyEL_block2">
