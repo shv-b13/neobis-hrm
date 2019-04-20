@@ -5,18 +5,29 @@ import InReview from '../../images/in-review.png';
 import Declined from '../../images/declined.png';
 import Success from '../../images/green-check-mark.png';
 import Rejected from '../../images/rejected.png';
+import { api_base } from '../../App.js';
 
 class StatusNotification extends Component {
+  changeStatus = async() => {
+    await fetch(`${api_base}/application/doChangeStatus`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Token ${localStorage.getItem('token').replace(/"/g, "")}`
+                }
+            });
+    this.props.updateUserInfo();
+  }
     render() {
         return (
             <div className="status-notification">
               <div className='notification-container'>
-                {this.props.status === STATUS_LIST.APPROACH && 
+                {this.props.status === STATUS_LIST.APPROACH || this.props.status === STATUS_LIST.INTERVIEW_NOTIFICATION_IS_SENT &&
                   <div className='success-review'>
                     <img className='status-img' src={Success}/>
                     <p className='notification-title'>Поздравляем!</p>
                     <p className='step-message'>Поздравляем! Вы прошли отбор. Далее, вас ждет приглашение на интервью, следите за Вашим профилем!</p>
-                    <button className='notification-button'>ОК</button>
+                    <button className='notification-button' onClick={this.changeStatus}>ОК</button>
                   </div>
                 }
 
@@ -31,8 +42,8 @@ class StatusNotification extends Component {
                     <img className='status-img' src={Success}/>
                     <p className='notification-title'>Поздравляем!</p>
                     <p className='steps-title'>Дальнейшние шаги:</p>
-                    <p className='step-message'><strong>Членский взнос.</strong></p>
-                    <p className='step-message'><strong>PIN ЭЛСОМ.</strong></p>
+                    <p className='step-message'><strong>Членский взнос.</strong> Чтобы стать мембером Необиса, вам необходимо оплатить членский взнос, который составляет 7000 сом. Вы можете оплатить взнос через Элсом.</p>
+                    <p className='step-message'><strong>PIN ЭЛСОМ.</strong> Ваш одноразовый код для оплаты через кошелек "Элсом": (например) 254678. Оплатите по данному реквизиту в Личном кабинете "Элсом" или скачайте обновленное приложение в Google Play по ссылке ЭЛСОМ 2.0. Номер счета необходимо ввести в пункте «Разовый код оплаты». После завершения оплаты, сохраните чек.</p>
                   </div>
                 }
                 {this.props.status === STATUS_LIST.PAID &&
