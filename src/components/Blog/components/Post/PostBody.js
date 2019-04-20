@@ -22,7 +22,7 @@ const PostBody = props => {
                         </a>
                     </div>
                     <div>
-                        <div>
+                        <div className={'author-name-block'}>
                             <a href={props.authorLink} className={'author-name'}>{props.authorName}</a>
                         </div>
                     </div>

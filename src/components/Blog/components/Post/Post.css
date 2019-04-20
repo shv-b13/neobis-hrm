@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+html {
+    background: #E5E5E5;
+}
+
+/* BLOG  */
 #blog-container {
     height: 100%;
     max-width: 1200px;
@@ -32,9 +37,6 @@
 .post:nth-child(4) {
     width: 530px;
     height: 330px;
-    display: block;
-    margin: 0;
-    padding: 0;
 }
 
 .post:nth-child(5) {
@@ -58,13 +60,14 @@
     position: relative;
 }
 .post:nth-child(4) .post-title {
+    text-align: left;
     position: absolute;
     font-family: Roboto;
     font-style: normal;
     font-size: 14px;
     text-align: left;
     line-height: normal;
-    margin: -150px 0 0 25px;
+    margin: -130px 0 0 10px;
     color: #FFFFFF;
 }
 .post:nth-child(5) .post-title {
@@ -73,20 +76,21 @@
     font-family: Roboto;
     font-style: normal;
     font-size: 14px;
+    text-align: left;
     line-height: normal;
-    margin: -150px 0 0 25px;
+    margin: -130px 0 0 10px;
     color: #FFFFFF;
 }
 .post:nth-child(4) .other-info {
     align-self: flex-end;
     position: absolute;
-    margin: -110px 0 0 0 ;
+    margin: -100px 0 0 0 ;
     color: #FFFFFF;
 }
 .post:nth-child(5) .other-info {
     align-self: flex-end;
     position: absolute;
-    margin: -110px 0 0 0 ;
+    margin: -100px 0 0 0 ;
     color: #FFFFFF;
 }
 .post:nth-child(4) .date-pub{
@@ -101,11 +105,9 @@
 .post:nth-child(5)  .author-name{
     color: #FFFFFF;
 }
-@media screen and (max-width: 600px) {
-    .blog-title {
-        text-align: center;
-    }
-    .news {
+
+@media screen and (max-width: 700px) {
+    .blog-news {
         text-align: center;
     }
     .post:nth-child(4) {
@@ -177,8 +179,8 @@
     .footer-blog {
         display: flex;
     }
-
 }
+
 .post-image {
     width: 330px;
     height: 150px;
@@ -200,11 +202,10 @@
 .other-info {
     align-self: flex-end;
     position: absolute;
-    margin: 7px 0 0 -15px;
 }
 .post-date-pub{
     float: left;
-    margin: 13px 0 9px 0;
+    margin: 10px;
 }
 .date-pub {
     font-family: Roboto;
@@ -217,6 +218,7 @@
 
 .author {
     display: flex;
+    margin: 10px 0 5px 10px;
 }
 
 .author-avatar {
@@ -225,16 +227,16 @@
     border-radius: 40px;
 }
 
-
-.author-name {
+.author-name-block {
     margin: 10px;
+}
+.author-name {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: normal;
     color: #141414;
-    margin: 13px 0 0 -15px;
 }
 
 /* blog part */
@@ -252,7 +254,7 @@
 }
 
 .blog-title {
-    margin: 10px 20px 0 20px;
+    margin: 10px 20px 0 200px;
     align-self: flex-start;
     width: 347px;
     height: 58px;
@@ -266,16 +268,16 @@
     color: #202020;
 }
 
-.news {
+.blog-news {
     width: 55%;
     max-height: 200px;
     background: #FFFFFF;
-    margin-right: 0;
+    margin: 0;
     padding: 15px;
     float: right;
 }
 
-.news h2 {
+.blog-news h2 {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 900;

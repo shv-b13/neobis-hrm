@@ -16,31 +16,31 @@ class Blog extends Component {
         console.log(this.props);
         return (
             <div>
-                <Header />
+                <Header/>
                 <div className={'main-title-container'}>
                     <div><h1 className={'blog-title'}>НАШ БЛОГ</h1></div>
-                    <div className={'news'}><h2>ЧИТАЙ НОВОСТИ И СТАТЬИ О <span className={'neobis-title'}>NEOBIS</span></h2>
+                    <div className={'blog-news'}><h2>ЧИТАЙ НОВОСТИ И СТАТЬИ О <span className={'neobis-title'}>NEOBIS</span></h2>
                     </div>
                 </div>
                 <div  id={'blog-container'}>
-                <div className={'posts'}>
-                    {this.props.posts !== "" && this.props.posts ? (
-                        Object.values(this.props.posts).map((post, index) => (
-                            <Post
-                                index={index}
-                                articleId={post.id}
-                                authorAvatar={this.props.userInformation.imageId}
-                                authorName={this.props.userInformation.name}
-                                imageSrc={post.virtuals.previewImage.imageId}
-                                title={post.title}
-                                subtitle={post.content.subtitle}
-                                username={this.props.userInformation.username}
-                                readingTime={Math.round(post.virtuals.readingTime)}
-                                datePublished={post.firstPublishedAt}
-                            />
-                        ))
-                    ) : null}
-                </div>
+                    <div className={'posts'}>
+                        {this.props.posts !== "" && this.props.posts ? (
+                            Object.values(this.props.posts).map((post, index) => (
+                                <Post
+                                    index={index}
+                                    articleId={post.id}
+                                    authorAvatar={this.props.userInformation.imageId}
+                                    authorName={this.props.userInformation.name}
+                                    imageSrc={post.virtuals.previewImage.imageId}
+                                    title={post.title}
+                                    subtitle={post.content.subtitle}
+                                    username={this.props.userInformation.username}
+                                    readingTime={Math.round(post.virtuals.readingTime)}
+                                    datePublished={post.firstPublishedAt}
+                                />
+                            ))
+                        ) : null}
+                    </div>
                 </div>
                 <footer className="footer-blog">
                     <div>
