@@ -10,7 +10,7 @@ class FooterCourses extends Component{
             <div className="footer-courses">
                 <h1 className="ces-says">Что говорят основатели</h1>
                 <div className="ceos-container">
-                    <div className="ceos-item">
+                    <div className="ceos-item" id="ceos-item1">
                         <div className="square"/>
                         <img src={teacher} alt="" className="ceo-photo"/>
                         <div className="ceo-name">Том Круз</div>
@@ -24,7 +24,7 @@ class FooterCourses extends Component{
                             разработки приложений. Дерзайте!”
                         </div>
                     </div>
-                    <div className="ceos-item">
+                    <div className="ceos-item" id="ceos-item2">
                         <div className="square"/>
                         <img src={teacher} alt="" className="ceo-photo"/>
                         <div className="ceo-name">Том Круз</div>

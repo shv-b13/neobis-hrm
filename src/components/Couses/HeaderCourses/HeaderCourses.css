@@ -85,6 +85,40 @@
     width: 105%;
     margin-left: -2.5%;
 }
+@media screen and (max-width: 1920px){
+    .right-courses{
+        height: 55%;
+        width: 198.5%;
+    }
+    .right-courses-text{
+        margin-left: 4%;
+        margin-top: 3.5%;
+    }
+    .left{
+        margin-top: 4%;
+    }
+    .rectangle{
+        margin-left: 47%;
+        width: 3%;
+    }
+}
+@media screen and (max-width: 1680px){
+    .right-courses{
+        height: 65%;
+        width: 200%;
+    }
+    .right-courses-text{
+        margin-left: 4%;
+        margin-top: 3.5%;
+    }
+    .left{
+        margin-top: 4%;
+    }
+    .rectangle{
+        margin-left: 47%;
+        width: 3%;
+    }
+}
 @media screen and (max-width: 1440px){
     .right-courses{
         height: 55%;
@@ -100,6 +134,44 @@
     .rectangle{
         margin-left: 56.5%;
         width: 3%;
+    }
+}
+@media screen and (max-width: 1366px){
+    .right-courses{
+        height: 45%;
+    }
+    .rectangle{
+        margin-left: 57%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .right-courses{
+        height: 37%;
+    }
+    .rectangle{
+        margin-left: 57%;
+    }
+}
+@media screen and (max-width: 1093px){
+    .right-courses{
+        height: 48%;
+    }
+    .right-courses-text{
+        font-size: 16px;
+        margin-left: 3%
+    }
+    .rectangle{
+        height: 26%;
+        margin-left: 57%;
+    }
+    .left h1{
+        font-size: 28px;
+    }
+    .left span{
+        font-size: 28px;
+    }
+    .bottom{
+        margin-top: -7%;
     }
 }
 @media screen and (max-width: 1024px){
@@ -122,6 +194,9 @@
     .intro{
         grid-template-rows: 40% 40%;
     }
+    .bottom{
+        margin-top: 0;
+    }
     .bottom h1{
         margin-bottom: 5%;
         line-height: 20px;
@@ -136,76 +211,133 @@
         margin-top: -2%;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
+    .intro{
+        margin-top: -5%;
+    }
     .left h1{
-        font-size: 20px;
+        font-size: 21px;
     }
     .left span{
-        font-size: 20px;
+        font-size: 21px;
     }
     .left{
-        margin-top: 3%;
+        margin-top: 4%;
     }
     .right-courses-text{
-        padding-top: 1%;
-        font-size: 10px;
+        font-size: 12px;
+        margin-left: 2%;
+        padding-top: -2.5%;
+        margin-top: 4%;
     }
     .right-courses{
-        height: 50%;
-        width: 160%;
+        height: 58%;
     }
     .intro{
         grid-template-rows: 40% 40%;
     }
+    .bottom{
+        margin-top: -3%;
+    }
     .bottom h1{
         margin-bottom: 5%;
-        line-height: 19px;
+        line-height: 20px;
+        font-size: 11px;
+    }
+    .bottom p{
+        margin-top: 3%;
+        line-height: 20px;
+        font-size: 10px;
+    }
+    .rectangle{
+        margin-top: -2%;
+        height: 27%;
+    }
+}
+@media screen and (max-width: 768px){
+    .intro{
+        margin-top: -5%;
+    }
+    .left h1{
+        font-size: 21px;
+    }
+    .left span{
+        font-size: 21px;
+    }
+    .left{
+        margin-top: 4%;
+    }
+    .right-courses-text{
+        font-size: 11px;
+        margin-left: 2%;
+        padding-top: -2.5%;
+        margin-top: 4%;
+    }
+    .right-courses{
+        height: 58%;
+    }
+    .bottom{
+        margin-top: -3%;
+    }
+    .bottom h1{
+        margin-bottom: 5%;
+        line-height: 20px;
         font-size: 11px;
     }
     .bottom p{
         margin-top: 5%;
-        line-height: 16px;
+        line-height: 20px;
         font-size: 10px;
     }
     .rectangle{
-        margin-top: -2.5%;
-        height: 25%;
+        margin-top: -1.5%;
+        height: 24%;
     }
 }
-
 @media screen and (max-width: 425px){
     .intro{
         width: 100%;
         margin-left: 0;
+        grid-gap: 0;
     }
     .left{
-        margin-top: -1.5%;
+        margin-top: 3%;
+    }
+    .top{
+
     }
     .left h1{
-        font-size: 16px;
+        font-size: 18px;
         margin-left: 10%;
     }
     .left span{
-        font-size: 16px;
+        font-size: 18px;
     }
     .right-courses{
-        height: 70%;
+        height: 45%;
+        width: 99.5%;
     }
     .right-courses-text{
         letter-spacing: normal;
-        font-size: 9px;
-        padding-top: 1%;
+        font-size: 11px;
+        padding-top: 2%;
     }
-
+    .bottom{
+        margin-top: -8%;
+        margin-bottom: 4%;
+    }
     .bottom h1{
-        line-height: 12px;
-        font-size: 8px;
+        margin-top: 2%;
+        line-height: 17px;
+        font-size: 12px;
+        margin-left: 5%;
     }
     .bottom p{
-        margin-top: 2%;
+        margin-left: 0%;
+        margin-top: 10%;
         line-height: 12px;
-        font-size: 7px;
-        margin-bottom: 10%;
+        font-size: 9px;
+        margin-bottom: 12%;
     }
     .rectangle{
         background: none;
@@ -214,37 +346,47 @@
 @media screen and (max-width: 375px){
     .intro{
         width: 100%;
-        margin-left: -5%;
+        margin-left: 0;
+        grid-gap: 0;
     }
     .left{
-        margin-top: -3.5%;
-        margin-left: 5%;
+        margin-top: 3%;
+    }
+    .top{
+
     }
     .left h1{
-        font-size: 14px;
+        font-size: 18px;
         margin-left: 10%;
     }
     .left span{
-        font-size: 14px;
+        font-size: 18px;
     }
     .right-courses{
-        height: 60%;
-        width: 100%;
+        height: 40%;
+        width: 99.5%;
     }
     .right-courses-text{
         letter-spacing: normal;
-        font-size: 7px;
-        padding-bottom: -5%;
+        font-size: 10px;
+        padding-top: 2%;
+    }
+    .bottom{
+        margin-top: -8%;
+        margin-bottom: 4%;
     }
     .bottom h1{
-        line-height: 12px;
-        font-size: 8px;
+        margin-top: -2%;
+        line-height: 17px;
+        font-size: 12px;
+        margin-left: 5%;
     }
     .bottom p{
-        margin-top: 2%;
+        margin-left: 0%;
+        margin-top: 10%;
         line-height: 12px;
-        font-size: 7px;
-        margin-bottom: 10%;
+        font-size: 10px;
+        margin-bottom: 15%;
     }
     .rectangle{
         background: none;
@@ -253,40 +395,48 @@
 @media screen and (max-width: 320px){
     .intro{
         width: 100%;
-        margin-left: -5%;
+        margin-left: 0;
+        grid-gap: 0;
+        margin-top: -10%;
     }
     .left{
-        margin-top: -3.5%;
-        margin-left: 5%;
+        margin-top: 4.5%;
     }
     .left h1{
-        font-size: 12px;
-        margin-left: 10%;
+        font-size: 16px;
+        margin-left: 5%;
     }
     .left span{
-        font-size: 12px;
+        font-size: 16px;
     }
     .right-courses{
-        height: 60%;
-        width: 100%;
+        height: 40%;
+        width: 99.5%;
     }
     .right-courses-text{
         letter-spacing: normal;
-        font-size: 6px;
-        padding-bottom: -5%;
+        font-size: 8.5px;
+        padding-top: 3%;
     }
-
+    .bottom{
+        margin-top: -13%;
+        margin-bottom: 4%;
+    }
     .bottom h1{
-        line-height: 12px;
-        font-size: 6px;
+        margin-top: -2%;
+        line-height: 17px;
+        font-size: 10px;
+        margin-left: 5%;
     }
     .bottom p{
-        margin-top: 2%;
+        margin-left: 0%;
+        margin-top: 10%;
         line-height: 12px;
-        font-size: 5px;
-        margin-bottom: 10%;
+        font-size: 9px;
+        margin-bottom: 20%;
     }
     .rectangle{
         background: none;
     }
 }
+

@@ -123,8 +123,9 @@ class CoursesDetailed extends Component {
     render() {
          return (
              <div>
+                 <Header/>
                 <div className="wrapper">
-                                 <Header/>
+
                     <main  className="main">
                         <div className="info">
                             <div className="description-content">
@@ -202,11 +203,6 @@ class CoursesDetailed extends Component {
                     </div>
 
                 </footer>
-                    <div className="lang-detail">
-                        <button className="btn active">РУС</button>
-                        <button className="btn">ENG</button>
-                    </div>
-                    {/*<Language className = "lang-detail"/>*/}
              </div>
              );
     }

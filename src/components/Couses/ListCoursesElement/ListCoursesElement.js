@@ -74,6 +74,7 @@ class ListCoursesElement extends Component {
                                     ПОДРОБНЕЕ</button>
                                 <div className="coursesBlockChild" id="coursesBlockChild">
                                     <div className="photoPart"><img src={coursesImg} alt={course.title}/></div>
+                                    {/*<div className="photoPart"><img src={course.image} alt={course.title}/></div>*/}
                                     <div className="infoPart">
                                         <h1 className="titleText">{course.title}</h1>
                                         <p className="extraText">{course.description}</p>

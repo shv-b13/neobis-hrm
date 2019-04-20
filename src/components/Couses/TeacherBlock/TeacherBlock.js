@@ -66,6 +66,15 @@ class TeacherBlock extends Component{
                     }
                 },
                 {
+                    breakpoint: 1094,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: false,
+                        dots: false
+                    }
+                },
+                {
                     breakpoint: 600,
                     settings: {
                         slidesToShow: 2,
@@ -91,6 +100,7 @@ class TeacherBlock extends Component{
                                 <div key={slide} className="teacher-container">
                                     <div  className="item">
                                         <img src={teacher} alt="" className="teacherImg"/>
+                                        {/*<img src={slide.image} alt="" className="teacherImg"/>*/}
                                         <h1 className="teacherName">{slide.name}</h1>
                                         <p className="teacherPosition">{slide.position}</p>
                                         <h2 className="teacherQuote">"{slide.quote}"</h2>
