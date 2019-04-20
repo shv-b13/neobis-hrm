@@ -54,7 +54,6 @@ class TimeSlotsTable extends Component {
     }
 
     doCount = () => {
-      console.log(this.state.count)
       this.setState({count: this.state.count + 1})
     }
 
