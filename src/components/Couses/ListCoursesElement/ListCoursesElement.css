@@ -1,16 +1,15 @@
 button, button:visited, button:focus, button:active, button:hover{
     outline:0 none !important;
 }
-body{
-    background: #F8F8F8;
-}
 .main-container{
-    /*background: red;*/
-    margin-top: 15ch;
+    margin-top: 5%;
     grid-template-rows: 1fr;
     width: 100%;
     height: 100%;
     grid-row-gap: 40px;
+}
+.coursesBlockParent{
+
 }
 #coursesContainer{
     /*background: blue;*/
@@ -21,7 +20,7 @@ body{
     grid-template-rows: 1fr;
     grid-gap: 50px;
 }
-#coursesBlock{
+#coursesBlockChild{
     background: #FFFFFF;
     box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
     display: grid;
@@ -31,7 +30,6 @@ body{
 .photoPart img{
     width: 100%;
     height: 100%;
-    margin-bottom: -2.5%;
 }
 .titleText{
     font-family: Roboto;
@@ -60,11 +58,11 @@ body{
     width: 12%;
 }
 .category1{
-    background: #32B482;
+    background: #FFCE1F;
 
 }
 .category2{
-    background: #32B482;
+    background: #FFCE1F;
 
 }
 .category3{
@@ -72,29 +70,441 @@ body{
 }
 #category{
     position: relative;
+    padding-top: 2%;
+    color: #FFFFFF;
+    width: 30%;
+    height: 13%;
+    bottom: 83%;
+    /*left: -78.5%;*/
+    /*right: 78.6%;*/
+}
+.categoryText{
     font-family: Roboto;
     font-style: italic;
     font-weight: bold;
     font-size: 12px;
-    line-height: 20px;
+    line-height: normal;
     text-align: center;
-    padding-top: 2%;
     color: #FFFFFF;
-    width: 60%;
-    height: 13%;
-    top: 6%;
-    /*left: -78.5%;*/
-    right: 78.6%;
 }
 #date{
-    /*position: relative;*/
     font-family: Roboto;
     font-style: normal;
+318
+ 
+}
+319
+ 
+@media screen and (max-width: 320px) {
+320
+ 
+    .footer-courses{
+321
+ 
+        margin-top: -20%;
+322
+ 
+        height: 400%;
+323
+ 
+        /*max-height: 500px;*/
+324
+ 
+​
+325
+ 
+    }
+326
+ 
+    .ceos-container{
+327
+ 
+        grid-template-rows: 1fr 1fr;
+328
+ 
+        grid-template-columns: 1fr;
+329
+ 
+        margin-top: -15%;
+330
+ 
+        margin-left: 0.5%;
+331
+ 
+        grid-column-gap: 5%;
+332
+ 
+        height: 200px;
+333
+ 
+    }
+334
+ 
+    .ces-says{
+335
+ 
+        font-size: 10px;
+336
+ 
+        left: 27%;
+337
+ 
+        margin-top: -15%;
+338
+ 
+        /*margin-bottom: -5%;*/
+339
+ 
+    }
+340
+ 
+    .ceo-name{
+341
+ 
+        font-size: 8px;
+342
+ 
+    }
+343
+ 
+    .ceo-photo{
+344
+ 
+        width: 25%;
+345
+ 
+    }
+346
+ 
+    .ceo-position{
+347
+ 
+        font-size: 6px;
+348
+ 
+        line-height: 10px;
+349
+ 
+    }
+350
+ 
+    .ceo-quote{
+351
+ 
+        font-size: 6px;
+352
+ 
+        line-height: 10px;
+353
+ 
+    }
+354
+ 
+    .button-to-courses{
+355
+ 
+        /*position: relative;*/
+356
+ 
+        height: 2%;
+357
+ 
+        border-radius: 2px;
+358
+ 
+        margin-top: 0%;
+359
+ 
+    }
+360
+ 
+    .button-to-courses p{
+361
+ 
+        font-size: 5.5px;
+362
+ 
+        padding-top: 4%;
+363
+ 
+    }
+364
+ 
+    .button-up img{
+365
+ 
+        width: 72%;
+366
+ 
+        margin-left: 2%;
+367
+ 
+    }
+368
+ 
+    .button-up{
+369
+ 
+        margin-top: 2%;
+370
+ 
+        width: 4%;
+371
+318
+ 
+}
+319
+ 
+@media screen and (max-width: 320px) {
+320
+ 
+    .footer-courses{
+321
+ 
+        margin-top: -20%;
+322
+ 
+        height: 400%;
+323
+ 
+        /*max-height: 500px;*/
+324
+ 
+​
+325
+ 
+    }
+326
+ 
+    .ceos-container{
+327
+ 
+        grid-template-rows: 1fr 1fr;
+328
+ 
+        grid-template-columns: 1fr;
+329
+ 
+        margin-top: -15%;
+330
+ 
+        margin-left: 0.5%;
+331
+ 
+        grid-column-gap: 5%;
+332
+ 
+        height: 200px;
+333
+ 
+    }
+334
+ 
+    .ces-says{
+335
+ 
+        font-size: 10px;
+336
+ 
+        left: 27%;
+337
+ 
+        margin-top: -15%;
+338
+ 
+        /*margin-bottom: -5%;*/
+339
+ 
+    }
+340
+ 
+    .ceo-name{
+341
+ 
+        font-size: 8px;
+342
+ 
+    }
+343
+ 
+    .ceo-photo{
+344
+ 
+        width: 25%;
+345
+ 
+    }
+346
+ 
+    .ceo-position{
+347
+ 
+        font-size: 6px;
+348
+ 
+        line-height: 10px;
+349
+ 
+    }
+350
+ 
+    .ceo-quote{
+351
+ 
+        font-size: 6px;
+352
+ 
+        line-height: 10px;
+353
+ 
+    }
+354
+ 
+    .button-to-courses{
+355
+ 
+        /*position: relative;*/
+356
+ 
+        height: 2%;
+357
+ 
+        border-radius: 2px;
+358
+ 
+        margin-top: 0%;
+359
+ 
+    }
+360
+ 
+    .button-to-courses p{
+361
+ 
+        font-size: 5.5px;
+362
+ 
+        padding-top: 4%;
+363
+ 
+    }
+364
+ 
+    .button-up img{
+365
+ 
+        width: 72%;
+366
+ 
+        margin-left: 2%;
+367
+ 
+    }
+368
+ 
+    .button-up{
+369
+ 
+        margin-top: 2%;
+370
+ 
+        width: 4%;
+371
+ 
+        height: 1.8%;
+372
+ 
+        border-radius: 1px;
+373
+ 
+    }
+374
+ 
+    .square{
+375
+ 
+        top: 63%;
+376
+ 
+        left: -5%;
+377
+ 
+        width: 5%;
+378
+ 
+        height: 5.5%;
+379
+ 
+    }
+380
+ 
+}
+381
+ 
+@media screen and (min-width: 1445px){
+382
+ 
+    .footer-courses{
+383
+ 
+        margin-top: -9%;
+384
+ 
+        height: 285%;
+385
+ 
+    }
+
+ 
+        height: 1.8%;
+372
+ 
+        border-radius: 1px;
+373
+ 
+    }
+374
+ 
+    .square{
+375
+ 
+        top: 63%;
+376
+ 
+        left: -5%;
+377
+ 
+        width: 5%;
+378
+ 
+        height: 5.5%;
+379
+ 
+    }
+380
+ 
+}
+381
+ 
+@media screen and (min-width: 1445px){
+382
+ 
+    .footer-courses{
+383
+ 
+        margin-top: -9%;
+384
+ 
+        height: 285%;
+385
+ 
+    }
+
     font-weight: bold;
     font-size: 12px;
     color: #32B482;
     margin-left: 8%;
-    margin-top: 50%;
+    margin-top: 70%;
 }
 .spanH6{
     font-family: Roboto;
@@ -103,11 +513,11 @@ body{
     color: #202020;
 }
 .detailButton{
-    width: 60%;
-    position: relative;
-    height: 15%;
-    margin-top: 12%;
-    right: 22%;
+    width: 10.5%;
+    position: absolute;
+    height: 33px;
+    margin-top: 15%;
+    margin-left: 8%;
     color: #ffffff;
     background: #32B482;
     box-shadow: 0 10px 20px rgba(50, 180, 130, 0.25);
@@ -116,10 +526,9 @@ body{
     font-family: Raleway;
     font-style: normal;
     font-weight: 800;
-    font-size: 12px;
+    font-size: 14px;
     line-height: normal;
     text-align: center;
-    color: #FFFFFF;
 }
 .detailButton:active{
     box-shadow: 1px 1px 1px 1px black;
@@ -132,16 +541,15 @@ body{
     line-height: normal;
     color: #202020;
     margin-left: 8%;
-    margin-top: 1%;
+    margin-top: -3%;
 }
 .text{
-    /*background: green;*/
     width: 60%;
     margin-left: 20%;
     margin-top: 5%;
     display: grid;
     grid-template-rows: 30%;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
 }
 .h1-team{
     width: 90%;
@@ -170,27 +578,25 @@ body{
     .text{
         grid-gap: 15%;
     }
-
 }
 @media screen and (max-width: 1024px){
     .main-container{
-        margin-top: 5%;
+        margin-top: 3%;
     }
-    #coursesBlock{
+    #coursesBlockChild{
         grid-template-rows: 100%;
     }
-    .photoPart img{
-        margin-bottom: -3.5%;
-    }
     .titleText{
-        font-size: 14px;
+        font-size: 13px;
     }
     .extraText{
         font-size: 9.5px;
     }
     .detailButton{
-        margin-top: 58%;
+        margin-top: 14.5%;
         font-size: 11px;
+        width: 10.5%;
+        height: 1.8%;
     }
     #date{
         margin-top: 54%;
@@ -201,7 +607,10 @@ body{
         font-size: 10px;
     }
     #category{
-        padding-top: 0%;
+        padding-top: 0;
+    }
+    .categoryText{
+        padding-top: 6%;
         font-size: 9px;
     }
     .sprint{
@@ -209,32 +618,9 @@ body{
         margin-bottom: -53%;
         font-size: 12px;
     }
-    .category1{
-        position: relative;
-        background: #32B482;
-        width: 60%;
-        height: 15%;
-        right: 79%;
-        bottom: 40%;
-    }
-    .category2{
-        position: relative;
-        background: #32B482;
-        width: 60%;
-        height: 15%;
-        right: 79%;
-        bottom: 40%;
-    }
-    .category3{
-        position: relative;
-        background:  #557AFF;
-        width: 60%;
-        height: 15%;
-        right: 79%;
-        bottom: 40%;
-    }
     .text{
-        margin-top: 5%;
+        margin-top: 3%;
+        grid-gap: 4%;
     }
     .h1-team{
         font-size: 20px;
@@ -246,78 +632,59 @@ body{
 }
 @media screen and (max-width: 768px){
     .main-container{
-        margin-top: 5%;
+        margin-top: 2%;
     }
-    #coursesBlock{
+    #coursesBlockChild{
         grid-template-rows: 100%;
-        max-height: 130px;
-    }
-    .photoPart img{
-        margin-bottom: -5%;
     }
     .titleText{
-        font-size: 10px;
-    }
-    .extraText{
-        font-size: 7.5px;
-    }
-    .detailButton{
-        margin-top: 65%;
         font-size: 9px;
     }
+    .extraText{
+        font-size: 8px;
+        line-height: 9px;
+    }
+    .detailButton{
+        margin-top: 14.5%;
+        font-size: 9px;
+        width: 10%;
+        height: 1.4%;
+    }
     #date{
-        margin-top: 65%;
-        margin-bottom: -60%;
-        font-size: 8px;
-    }
-    .spanH6{
-        font-size: 8px;
-    }
-    #category{
-        padding-top: -2%;
-        font-size: 7px;
-    }
-    .sprint{
-        margin-top: 60%;
-        margin-bottom: -55%;
+        margin-top: 75%;
         font-size: 8.5px;
     }
-    .category1{
-        position: relative;
-        background: #32B482;
-        width: 60%;
-        height: 15%;
-        right: 79%;
-        bottom: 40%;
+    .spanH6{
+        font-size: 8.5px;
     }
-    .category2{
-        position: relative;
-        background: #32B482;
-        width: 60%;
-        height: 15%;
-        right: 79%;
-        bottom: 40%;
+    #category{
+        padding-top: 0;
+        width: 30%;
     }
-    .category3{
+    .categoryText{
+        font-size: 6.5px;
+        top: 10%;
         position: relative;
-        background:  #557AFF;
-        width: 60%;
-        height: 15%;
-        right: 79%;
-        bottom: 40%;
+    }
+    .sprint{
+        margin-top: 53%;
+        font-size: 8.5px;
     }
     .text{
-        margin-top: 6%;
-        margin-bottom: 3%;
+        margin-top: 3%;
     }
     .h1-team{
-        font-size: 14px;
+        font-size: 16px;
     }
     .p-team{
-        font-size: 10px;
-        line-height: 15px;
+        font-size: 11px;
+        line-height: 16px;
     }
+
 }
+
+
+
 @media screen and (max-width: 425px){
     .main-container{
         margin-top: 3%;
@@ -335,7 +702,7 @@ body{
         grid-template-rows: 1fr;
         grid-gap: 10%;
     }
-    #coursesBlock{
+    #coursesBlockChild{
         margin-left: 5%;
         margin-top: -10%;
         width: 80%;
@@ -428,7 +795,7 @@ body{
         grid-template-rows: 1fr;
         grid-gap: 10%;
     }
-    #coursesBlock{
+    #coursesBlockChild{
         margin-left: 5%;
         margin-top: -10%;
         width: 80%;
@@ -524,7 +891,7 @@ body{
         grid-template-rows: repeat(1, 1fr);
         grid-gap: 0%;
     }
-    #coursesBlock{
+    #coursesBlockChild{
         margin-left: 5%;
         margin-top: -10%;
         width: 80%;
@@ -605,7 +972,9 @@ body{
 
 }
 @media screen and (width: 425px){
-    #coursesBlock{
+
+    #coursesBlockChild{
+
         height: 115%;
     }
 }

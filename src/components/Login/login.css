@@ -23,7 +23,7 @@ text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;}
 
-h3{
+.head-h3{
 position: absolute;
 left: 78px;
 top: 15px;
@@ -115,7 +115,7 @@ text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;}
 
-h3{
+.head-h3{
 position: absolute;
 left: 50px;
 margin-top: 15px;
