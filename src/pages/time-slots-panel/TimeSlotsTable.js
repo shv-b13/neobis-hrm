@@ -6,6 +6,8 @@ import free from '../../images/plus.png';
 import taken from '../../images/gray-line.png';
 import circled_plus from '../../images/circled-plus.png';
 import white_check_mark from '../../images/white-check-mark.png';
+import moment from 'moment';
+import 'moment/locale/ru';
 
 class TimeSlotsTable extends Component {
     state = {loading: false, previousClicked: undefined, userslot: this.props.userslot.replace(" ", '-').slice(0,this.props.userslot.length-6)}
@@ -62,14 +64,6 @@ class TimeSlotsTable extends Component {
       const take_slot_res = await take_slot_req.json();
       this.props.updateUserInfo();
     }
-
-    next(){
-      console.log('next')
-    }
-
-    previous(){
-      console.log('previous')
-    }
     render() {
         return (
             <div>
@@ -80,7 +74,6 @@ class TimeSlotsTable extends Component {
                     <div className='gray'><div className='gray-circle'/>&nbsp;-&nbsp;<p className='color-info-text'>дата занята</p></div>
                     <div className='green'><div className='green-circle'/>&nbsp;-&nbsp;<p className='color-info-text'>дата свободна</p></div>
                   </div>
-                  <div className='pagination-arrows'><div onClick={this.previous} className='previous'/><div onClick={this.next} className='next'/></div>
                 </div>
                 <div className='time-slots'>
                   <table>
@@ -96,10 +89,13 @@ class TimeSlotsTable extends Component {
                           <table className='day-column'>
                             <tbody>
                               <tr className='date-row'>
-                                <th>{day.date}</th>
+                                <th>{moment(day.date).locale('ru').format('D MMMM')}</th>
                               </tr>
                               {day.data.map(hour => {
-                                if(hour.slots.length !== 0) {
+                                if(hour.slots.length > 0 && hour.slots.every((slot) => slot.is_free === false)) {
+                                  return <tr><td id={`${day}-${hour.time}`}>this is gray</td></tr>
+                                }
+                                if(hour.slots.length > 0) {
                                   return <tr className='interview-button'>
                                   <div className='time-slot'>
                                     <span className='time-slot-title'>Интервью</span>
