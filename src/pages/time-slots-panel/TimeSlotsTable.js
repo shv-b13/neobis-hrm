@@ -10,7 +10,7 @@ import moment from 'moment';
 import 'moment/locale/ru';
 
 class TimeSlotsTable extends Component {
-    state = {loading: false, previousClicked: undefined, userslot: this.props.userslot.replace(" ", '-').slice(0,this.props.userslot.length-6)}
+    state = {loading: false, previousClicked: undefined, userslot: this.props.userslot !== null ? this.props.userslot.replace(" ", '-').slice(0,this.props.userslot.length-6) : null}
     async componentWillMount() {
       const time_slots_req = await fetch(`${api_base}/interview/time_slots`, {
                 method: 'GET',

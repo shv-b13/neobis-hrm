@@ -59,7 +59,7 @@ class TimeSlotsPanel extends Component {
                 </div>
                 <div className='time-slots-panel'>
                   {this.state.status === 'INTERVIEWING' || this.state.status === 'INTERVIEW_NOTIFICATION_IS_READ' ?
-                  <TimeSlotsTable userslot={this.state.user.timeslot.time} updateUserInfo={this.getUserInfo.bind(this)}/> :
+                  <TimeSlotsTable userslot={this.state.user ? this.state.user.timeslot ? this.state.user.timeslot.time : null : null} updateUserInfo={this.getUserInfo.bind(this)}/> :
                   <StatusNotification status={this.state.status} updateUserInfo={this.getUserInfo.bind(this)}/>
                   }
                 </div>
