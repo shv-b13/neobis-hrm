@@ -11,7 +11,7 @@ import 'moment/locale/ru';
 
 class TimeSlotsTable extends Component {
 
-    state = {loading: false, previousClicked: undefined, userslot: this.props.userslot !== null ? this.props.userslot.replace(" ", '-').slice(0,this.props.userslot.length-6) : null}
+    state = {loading: false, previousClicked: undefined, userslot: this.props.userslot !== null ? this.props.userslot.replace(" ", '-').slice(0,this.props.userslot.length-6) : null, count: 0}
     async componentWillMount() {
       const time_slots_req = await fetch(`${api_base}/interview/time_slots`, {
                 method: 'GET',
@@ -53,6 +53,11 @@ class TimeSlotsTable extends Component {
       document.getElementById(show).style.display = 'none';
     }
 
+    doCount = () => {
+      console.log(this.state.count)
+      this.setState({count: this.state.count + 1})
+    }
+
     async takeSlot(id){
       const take_slot_req = await fetch(`${api_base}/interview/time_slots`, {
                 method: 'POST',
@@ -73,7 +78,7 @@ class TimeSlotsTable extends Component {
                   <p className='table-slots-info-text'>Выберите время и дату для интервью</p>
                   <div className='colors-info'>
                     <div className='gray'><div className='gray-circle'/>&nbsp;-&nbsp;<p className='color-info-text'>дата занята</p></div>
-                    <div className='green'><div className='green-circle'/>&nbsp;-&nbsp;<p className='color-info-text'>дата свободна</p></div>
+                    <div className='green' onClick={this.doCount}><div className='green-circle'/>&nbsp;-&nbsp;<p className='color-info-text'>дата свободна</p></div>
                   </div>
                 </div>
                 <div className='time-slots'>
@@ -127,6 +132,7 @@ class TimeSlotsTable extends Component {
                       )
                   })}
                 </div>
+                {this.state.count === 5 && <img className='hitormiss' src={'https://images-cdn.9gag.com/photo/awA5yj4_700b.jpg'}/>}
             </div>
         )
     }

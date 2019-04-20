@@ -46,6 +46,13 @@
 	padding-left: 5px;
 }
 
+.hitormiss {
+	width: 50%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+}
+
 .time-slot-title {
 	font-weight: bold;
 	font-size: 13px;
