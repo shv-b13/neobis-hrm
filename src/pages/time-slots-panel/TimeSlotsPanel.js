@@ -58,7 +58,7 @@ class TimeSlotsPanel extends Component {
                     <button className='cancel-button' onClick={this.cancel}>Отменить</button>
                 </div>
                 <div className='time-slots-panel'>
-                  {this.state.status === 'INTERVIEWING' || this.state.status === 'INTERVIEW_NOTIFICATION_IS_READ' ?
+                  {this.state.status === 'INTERVIEWING' || this.state.status === 'INTERVIEW_NOTIFICATION_IS_READ' || this.state.status === 'INTERVIEW_REGISTERED' ?
                   <TimeSlotsTable userslot={this.state.user ? this.state.user.timeslot ? this.state.user.timeslot.time : null : null} updateUserInfo={this.getUserInfo.bind(this)}/> :
                   <StatusNotification status={this.state.status} updateUserInfo={this.getUserInfo.bind(this)}/>
                   }
