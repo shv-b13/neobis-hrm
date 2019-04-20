@@ -15,7 +15,8 @@
 
 .notification-container {
 	width: 390px;
-	height: 210px;
+	height: auto;
+	min-height: 210px;
 	background: white;
 	display: flex;
 	justify-content: center;
@@ -26,6 +27,10 @@
 .success-review, .fail-status, .success-payment, .success-interview {
 	display: flex;
 	flex-direction: column;
+}
+
+.success-interview > .step-message {
+	text-align: left;
 }
 
 .notification-title {
