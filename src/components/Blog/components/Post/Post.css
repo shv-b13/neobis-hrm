@@ -22,7 +22,6 @@ html {
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
-
 }
 
 .post {
@@ -106,9 +105,106 @@ html {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 450px) {
+    .footer-blog {
+        display: flex;
+        max-height: 200px;
+    }
+    .main-title-container{
+        text-align: center;
+        justify-content: center;
+    }
     .blog-news {
         text-align: center;
+        padding: 0;
+        margin: 0;
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px){
+    .post {
+        height: 300px;
+        width: 330px;
+        background: #FFFFFF;
+        box-shadow: 0 4px 10px rgba(187, 187, 187, 0.1);
+        margin: 20px 0 20px 0;
+    }
+    .post:nth-child(4) .post-image {
+        width: 330px;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .post:nth-child(5) .post-image {
+        width: 330px;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .post:nth-child(4) .post-title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: normal;
+        color: #3E3E3E;
+        display: block;
+        text-align: left;
+        margin: 10px 20px 10px 10px;
+    }
+    .post:nth-child(5) .post-title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: normal;
+        color: #3E3E3E;
+        display: block;
+        text-align: left;
+        margin: 10px;
+    }
+    .post:nth-child(4) .other-info {
+        align-self: flex-end;
+        position: absolute;
+        margin: 60px 0 0 15px;
+    }
+    .post:nth-child(5) .other-info {
+        align-self: flex-end;
+        position: absolute;
+        margin: 60px 0 0 15px;
+    }
+    .post:nth-child(4) .date-pub{
+        color: #909090;
+    }
+    .post:nth-child(4)  .author-name{
+        color: #000000;
+    }
+    .post:nth-child(5) .date-pub{
+        color: #909090;
+    }
+    .post:nth-child(5)  .author-name{
+        color: #000000;
+    }
+    .neobis_logo_footer_detailed{
+        margin: 0;
+    }
+    .blog-title {
+        margin: 0;
+    }
+    .footer-blog {
+        width: 500px;
+    }
+    .post-title {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    .blog-news {
+        text-align: center;
+        justify-content: center;
     }
     .post:nth-child(4) {
         height: 300px;
@@ -152,17 +248,19 @@ html {
         color: #3E3E3E;
         display: block;
         text-align: left;
-        margin: 10px;
+        margin: 10px 20px 10px 10px;
     }
     .post:nth-child(4) .other-info {
         align-self: flex-end;
         position: absolute;
-        margin: 60px 0 0 -15px;
+        text-align: left;
+        margin: 50px 0 20px 0;
     }
     .post:nth-child(5) .other-info {
         align-self: flex-end;
+        text-align: left;
         position: absolute;
-        margin: 60px 0 0 -15px;
+        margin: 50px 0 20px 0;
     }
     .post:nth-child(4) .date-pub{
         color: #909090;
@@ -243,7 +341,7 @@ html {
 
 .main-title-container {
     display: flex;
-    margin: 150px 0 130px 0;
+    margin: 50px 0 30px 0;
     width: 100%;
     padding: 0;
     justify-content: space-around;
@@ -254,7 +352,7 @@ html {
 }
 
 .blog-title {
-    margin: 10px 20px 0 200px;
+    margin: 10px 0 0 0;
     align-self: flex-start;
     width: 347px;
     height: 58px;
