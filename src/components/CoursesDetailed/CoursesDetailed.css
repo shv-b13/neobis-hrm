@@ -245,7 +245,7 @@ border-radius: 5px;
 .cost-course {
 	margin:50px 0 70px 15%;
 	width: 250px;
-	height: 150px;
+	height: 160px;
     box-shadow: 0px 15px 20px rgba(187, 187, 187, 0.25);
     padding: 0 30px;
 	/* Figma
@@ -350,19 +350,6 @@ border-radius: 5px;
 		text-align: center;
 	}
 
-	.title-detail{
-		font-family: Raleway;
-		font-style: normal;
-		font-weight: 900;
-		font-size: 40px;
-		line-height: normal;
-		text-transform: uppercase;
-
-		color: #202020;
-		/*margin-top: 15%;*/
-		/*margin-bottom: 15%;*/
-	}
-
 	.description-content {
 		margin:0px 20px;
 	}
@@ -386,10 +373,10 @@ border-radius: 5px;
 
 
 	.about-course  .stage-plan__item::before {
-	    margin: 0 -35px 5px 0px;
-	    line-height: 35px;
-	    width: 35px;
-	    height: 35px;
+		margin: 0 -35px 5px 0px;
+		line-height: 35px;
+		width: 35px;
+		height: 35px;
 		right: 70px;
 		top: 0px;
 	}
@@ -397,8 +384,8 @@ border-radius: 5px;
 
 
 	.cost-course {
-	margin: 50px 0 70px 0;
-	width: 250px !important;
+		margin: 50px 0 70px 0;
+		width: 250px !important;
 	}
 
 	.neobis_logo_footer-detailed {
@@ -437,16 +424,16 @@ border-radius: 5px;
 
 	.about-course .stage-plan__item {
 		margin:  35px 0;
-		margin-left: 60px;
+		margin-left: 50px;
 		padding: 0px 5px 5px 10px;
 	}
 
 
 	.about-course  .stage-plan__item::before {
-	    margin: 0 -35px 5px 0px;
-	    line-height: 35px;
-	    width: 35px;
-	    height: 35px;
+		margin: 0 -40px 5px 10px;
+		line-height: 35px;
+		width: 30px;
+		height: 35px;
 		right: 70px;
 		top: 0px;
 	}
@@ -461,10 +448,16 @@ border-radius: 5px;
 	}
 	.form-course {
 		margin: 0;
+		padding: 0px 15px;
+
 	}
 
 	.description-content .title {
 		text-align: center;
+	}
+
+	.description-content  {
+		margin-top: 7px;
 	}
 
 	.description {
@@ -503,28 +496,41 @@ border-radius: 5px;
 	}
 
 	.btn-top {
-	margin:60px 0px 55px 10px;
-	padding: 10px 5px 5px 5px;
+		margin:60px 0px 55px 10px;
+		padding: 10px 5px 5px 5px;
 	}
+
 
 	.btn-top img {
 		width: 20px;
 		height: 20px;
 	}
 
+	.description-content .btn {
+		margin:15px 0px;
+	}
+
 	.footer-detailed .our_email {
-     margin: 40px 0px 40px 2%;
-     padding: 10px 3px 3px 10px;
+		margin: 40px 0px 40px 2%;
+		padding: 10px 3px 3px 10px;
 	}
 
 	.footer-detailed .our_tel_number {
-     margin: 40px 0 40px 0;
+		margin: 40px 0 40px 0;
 	}
 
 	@media (min-width: 400px) and (max-width: 650px) {
 		.footer-detailed .our_email {
-		    margin: 40px 0px 40px 10%;
-	        padding: 10px 3px 3px 10px;
+			margin: 40px 0px 40px 10%;
+			padding: 10px 3px 3px 10px;
+		}
+
+	}
+
+	@media (min-width: 100px) and (max-width: 399px) {
+		.footer-detailed .our_email {
+			margin: 40px 0px 40px 0;
+			padding: 10px 3px 3px 10px;
 		}
 
 	}
@@ -532,19 +538,19 @@ border-radius: 5px;
 
 .lang-detail {
 	display: flex;
-   position: absolute;
-   top: 750px;
-   right: 0;
-   margin-right: 3.5%;
+	position: absolute;
+	top: 750px;
+	right: 0;
+	margin-right: 3.5%;
 }
 
 .lang-detail .btn {
-	 border:none;
-	 background-color:#E5E5E5;
+	border:none;
+	background-color:#E5E5E5;
 }
 
 @media (min-width: 100px) and (max-width: 1420px) {
-.lang-detail {
-	display: none;
-
-}}
+	.lang-detail {
+		display: none;
+	}
+}

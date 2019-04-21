@@ -360,7 +360,7 @@ button, button:visited, button:focus, button:active, button:hover{
 }
 @media screen and (max-width: 425px){
     .main-container{
-        margin-top: 5%;
+        margin-top: 15%;
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: 1fr;
         grid-gap: 0;
@@ -373,7 +373,8 @@ button, button:visited, button:focus, button:active, button:hover{
         margin-left: 10%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        grid-gap: 10%;
+        /*grid-gap: 10%;*/
+        grid-gap: -20%;
     }
     #coursesBlockChild{
         margin-left: 5%;
@@ -438,7 +439,7 @@ button, button:visited, button:focus, button:active, button:hover{
         top: 2%;
     }
     .text{
-        margin-top: 50%;
+        margin-top: 5%;
         margin-left: 20%;
     }
     .h1-team{
@@ -449,14 +450,14 @@ button, button:visited, button:focus, button:active, button:hover{
         margin-top: -5%;
         font-size: 13px;
         margin-bottom: 12%;
-        width: 100%;
-        margin-left: 3%;
+        width: 120%;
+        margin-left: -10%;
     }
 
 }
 @media screen and (max-width: 375px){
     .main-container{
-        margin-top: 5%;
+        margin-top: 12%;
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: 1fr;
         grid-gap: 0;
@@ -479,7 +480,7 @@ button, button:visited, button:focus, button:active, button:hover{
         grid-template-rows: 100%;
     }
     .titleText{
-        font-size: 14px;
+        font-size: 13px;
         margin-top: 1.5%;
         margin-left: -7%;
     }
@@ -545,14 +546,14 @@ button, button:visited, button:focus, button:active, button:hover{
         margin-top: -5%;
         font-size: 13px;
         margin-bottom: 12%;
-        width: 100%;
-        margin-left: 3%;
+        width: 120%;
+        margin-left: -10%;
     }
 
 }
 @media screen and (max-width: 320px){
     .main-container{
-        margin-top: 5%;
+        margin-top: 10%;
         grid-template-rows: repeat(1, 1fr);
         grid-template-columns: 1fr;
         grid-gap: 0;
@@ -640,11 +641,12 @@ button, button:visited, button:focus, button:active, button:hover{
         margin-left: 8%;
     }
     .p-team{
-        margin-top: -12%;
-        font-size: 12px;
-        margin-bottom: 20%;
-        width: 100%;
-        margin-left: 3%;
+        margin-top: -10%;
+        font-size: 13px;
+        margin-bottom: 15%;
+        width: 120%;
+        margin-left: -10%;
+        line-height: 20px;
     }
 
 }

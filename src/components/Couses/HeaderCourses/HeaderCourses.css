@@ -298,46 +298,54 @@
     .intro{
         width: 100%;
         margin-left: 0;
-        grid-gap: 0;
+        grid-template-rows: 1fr 1fr ;
     }
     .left{
-        margin-top: 3%;
+        margin-top: 0;
     }
     .top{
-
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     .left h1{
-        font-size: 18px;
-        margin-left: 10%;
+        font-size: 35px;
+        margin-left: 6%;
     }
     .left span{
-        font-size: 18px;
+        font-size: 35px;
     }
     .right-courses{
-        height: 45%;
-        width: 99.5%;
+        height: 90%;
+        width: 93.5%;
+        margin-left: 6%;
+        margin-top: -2%;
     }
     .right-courses-text{
         letter-spacing: normal;
-        font-size: 11px;
-        padding-top: 2%;
-    }
-    .bottom{
-        margin-top: -8%;
-        margin-bottom: 4%;
-    }
-    .bottom h1{
-        margin-top: 2%;
-        line-height: 17px;
-        font-size: 12px;
+        font-size: 19px;
         margin-left: 5%;
     }
+    .bottom{
+        margin-top: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0;
+    }
+    .bottom h1{
+        line-height: 17px;
+        font-size: 12px;
+        margin-left: -5%;
+        width: 99%;
+        margin-bottom: 0;
+        margin-right: 5%;
+    }
     .bottom p{
-        margin-left: 0%;
-        margin-top: 10%;
-        line-height: 12px;
-        font-size: 9px;
-        margin-bottom: 12%;
+        margin-left: -5%;
+        line-height: 14px;
+        font-size: 13px;
+        margin-bottom: 0;
+        width: 100%;
+        margin-top: 1%;
     }
     .rectangle{
         background: none;
@@ -347,46 +355,56 @@
     .intro{
         width: 100%;
         margin-left: 0;
-        grid-gap: 0;
+        grid-template-rows: 1fr 1fr ;
+        grid-gap: 0%;
+        height: 265px;
     }
     .left{
-        margin-top: 3%;
+        margin-top: 0;
     }
     .top{
-
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     .left h1{
-        font-size: 18px;
-        margin-left: 10%;
+        font-size: 33px;
+        margin-left: 6%;
     }
     .left span{
-        font-size: 18px;
+        font-size: 33px;
     }
     .right-courses{
-        height: 40%;
-        width: 99.5%;
+        height: 75%;
+        width: 93.5%;
+        margin-left: 6%;
+        margin-top: -5%;
     }
     .right-courses-text{
         letter-spacing: normal;
-        font-size: 10px;
-        padding-top: 2%;
-    }
-    .bottom{
-        margin-top: -8%;
-        margin-bottom: 4%;
-    }
-    .bottom h1{
-        margin-top: -2%;
-        line-height: 17px;
-        font-size: 12px;
+        font-size: 18px;
         margin-left: 5%;
     }
+    .bottom{
+        margin-top: -5%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0;
+    }
+    .bottom h1{
+        line-height: 17px;
+        font-size: 12px;
+        margin-left: -5%;
+        width: 99%;
+        margin-bottom: 0;
+        margin-right: 5%;
+    }
     .bottom p{
-        margin-left: 0%;
-        margin-top: 10%;
-        line-height: 12px;
-        font-size: 10px;
-        margin-bottom: 15%;
+        margin-left: -5%;
+        line-height: 13px;
+        font-size: 13px;
+        margin-bottom: 0;
+        width: 100%;
+        margin-top: 2%;
     }
     .rectangle{
         background: none;
@@ -396,47 +414,58 @@
     .intro{
         width: 100%;
         margin-left: 0;
-        grid-gap: 0;
-        margin-top: -10%;
+        grid-template-rows: 1fr 1fr ;
+        grid-gap: 0%;
+        height: 265px;
     }
     .left{
-        margin-top: 4.5%;
+        margin-top: 0;
+    }
+    .top{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     .left h1{
-        font-size: 16px;
-        margin-left: 5%;
+        font-size: 30px;
+        margin-left: 6%;
     }
     .left span{
-        font-size: 16px;
+        font-size: 30px;
     }
     .right-courses{
-        height: 40%;
-        width: 99.5%;
+        height: 70%;
+        width: 93.5%;
+        margin-left: 6%;
+        margin-top: -5%;
     }
     .right-courses-text{
         letter-spacing: normal;
-        font-size: 8.5px;
-        padding-top: 3%;
-    }
-    .bottom{
-        margin-top: -13%;
-        margin-bottom: 4%;
-    }
-    .bottom h1{
-        margin-top: -2%;
-        line-height: 17px;
-        font-size: 10px;
+        font-size: 15px;
         margin-left: 5%;
     }
+    .bottom{
+        margin-top: -5%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0;
+    }
+    .bottom h1{
+        line-height: 15px;
+        font-size: 11px;
+        margin-left: -5%;
+        width: 99%;
+        margin-bottom: 0;
+        margin-right: 5%;
+    }
     .bottom p{
-        margin-left: 0%;
-        margin-top: 10%;
-        line-height: 12px;
-        font-size: 9px;
-        margin-bottom: 20%;
+        margin-left: -5%;
+        line-height: 13px;
+        font-size: 11px;
+        margin-bottom: 0;
+        width: 100%;
+        margin-top: -2%;
     }
     .rectangle{
         background: none;
     }
 }
-
