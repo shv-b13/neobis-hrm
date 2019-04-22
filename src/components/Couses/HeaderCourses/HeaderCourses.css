@@ -410,6 +410,65 @@
         background: none;
     }
 }
+@media screen and (max-width: 360px){
+    .intro{
+        width: 100%;
+        margin-left: 0;
+        grid-template-rows: 1fr 1fr ;
+        grid-gap: 0%;
+        height: 265px;
+    }
+    .left{
+        margin-top: 0;
+    }
+    .top{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .left h1{
+        font-size: 30px;
+        margin-left: 6%;
+    }
+    .left span{
+        font-size: 30px;
+    }
+    .right-courses{
+        height: 70%;
+        width: 93.5%;
+        margin-left: 6%;
+        margin-top: -5%;
+    }
+    .right-courses-text{
+        letter-spacing: normal;
+        font-size: 16px;
+        margin-left: 5%;
+    }
+    .bottom{
+        margin-top: -5%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 0;
+    }
+    .bottom h1{
+        line-height: 15px;
+        font-size: 11px;
+        margin-left: -5%;
+        width: 99%;
+        margin-bottom: 0;
+        margin-right: 5%;
+    }
+    .bottom p{
+        margin-left: -5%;
+        line-height: 13px;
+        font-size: 11px;
+        margin-bottom: 0;
+        width: 100%;
+        margin-top: -2%;
+    }
+    .rectangle{
+        background: none;
+    }
+}
 @media screen and (max-width: 320px){
     .intro{
         width: 100%;

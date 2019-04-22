@@ -9,15 +9,6 @@
         margin-right: 10%;
     }
 }
-
-
-
-
-/*@media screen and (min-width: 2560px){*/
-    /*.main-courses-container{*/
-        /*left: 15%;*/
-    /*}*/
-/*}*/
 @media screen and (min-width: 1800px) and (max-width: 2070px){
     .main-courses-container{
         left: 5%;
@@ -30,14 +21,10 @@
         right: 5%;
     }
 }
-
-
-
-/*@media screen and (max-width: 425px){*/
-    /*.main-courses-container{*/
-        /*width: 100%;*/
-    /*}*/
-/*}*/
-
+@media screen and (width: 1680px){
+    .main-courses-container{
+        left: -1.5%;
+    }
+}
 
 

@@ -434,8 +434,8 @@ button, button:visited, button:focus, button:active, button:hover{
         background:  #557AFF;
     }
     .categoryText{
-        font-size: 10px;
-        margin-left: -5%;
+        font-size: 9px;
+        margin-left: -2%;
         top: 2%;
     }
     .text{
@@ -458,9 +458,9 @@ button, button:visited, button:focus, button:active, button:hover{
 @media screen and (max-width: 375px){
     .main-container{
         margin-top: 12%;
-        grid-template-rows: repeat(1, 1fr);
-        grid-template-columns: 1fr;
-        grid-gap: 0;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns:1fr;
+        grid-gap: 25%;
         width: 100%;
         height: 100%;
     }
@@ -470,7 +470,7 @@ button, button:visited, button:focus, button:active, button:hover{
         margin-left: 10%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        grid-gap: 10%;
+        grid-gap: -5%;
     }
     #coursesBlockChild{
         margin-left: 5%;
@@ -530,12 +530,108 @@ button, button:visited, button:focus, button:active, button:hover{
         background:  #557AFF;
     }
     .categoryText{
-        font-size: 10px;
-        margin-left: -5%;
+        font-size: 9px;
+        margin-left: -3%;
         top: 2%;
     }
     .text{
-        margin-top: 50%;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+    .h1-team{
+        font-size: 22px;
+        margin-left: 8%;
+    }
+    .p-team{
+        margin-top: -5%;
+        font-size: 13px;
+        margin-bottom: 12%;
+        width: 120%;
+        margin-left: -10%;
+    }
+
+}
+@media screen and (max-width: 360px){
+    .main-container{
+        margin-top: 12%;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #coursesContainer{
+        display: grid;
+        width: 90%;
+        margin-left: 10%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: -5%;
+    }
+    #coursesBlockChild{
+        margin-left: 5%;
+        margin-top: -10%;
+        width: 80%;
+        height: 100%;
+        grid-template-rows: 100%;
+    }
+    .titleText{
+        font-size: 13px;
+        margin-top: 1.5%;
+        margin-left: -7%;
+    }
+    .extraText{
+        font-size: 11px;
+        margin-top:7%;
+        line-height: 14px;
+        margin-left: -7%;
+        width: 36.5%;
+    }
+    .detailButton{
+        margin-top: 30%;
+        font-size: 11px;
+        width: 25%;
+        left: 30%;
+    }
+    #date{
+        margin-top: 75%;
+        font-size: 10px;
+        margin-left: -18%;
+        word-spacing: 0;
+    }
+    .spanH6{
+        font-size: 12px;
+    }
+    #category{
+        bottom: 100%;
+        margin-left: 5%;
+        padding-bottom: 0%;
+        padding-top: -9%;
+        width: 27%;
+    }
+    .sprint{
+        font-size: 12px;
+        margin-top: 51%;
+        margin-left: -18%;
+    }
+    .category1{
+        background: #FFCE1F;
+
+    }
+    .category2{
+        background: #FFCE1F;
+
+    }
+    .category3{
+        background:  #557AFF;
+    }
+    .categoryText{
+        font-size: 9px;
+        margin-left: 0;
+        top: 5%;
+    }
+    .text{
+        margin-top: 5%;
         margin-left: 20%;
     }
     .h1-team{
@@ -552,6 +648,7 @@ button, button:visited, button:focus, button:active, button:hover{
 
 }
 @media screen and (max-width: 320px){
+
     .main-container{
         margin-top: 10%;
         grid-template-rows: repeat(1, 1fr);
@@ -566,7 +663,7 @@ button, button:visited, button:focus, button:active, button:hover{
         margin-left: 10%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        grid-gap: 10%;
+        grid-gap: -5%;
     }
     #coursesBlockChild{
         margin-left: 5%;
@@ -603,27 +700,16 @@ button, button:visited, button:focus, button:active, button:hover{
     .spanH6{
         font-size: 9.5px;
     }
-
     .sprint{
         font-size: 10px;
         margin-top: 51%;
         margin-left: -24%;
     }
-    .category1{
-        background: #FFCE1F;
-
-    }
-    .category2{
-        background: #FFCE1F;
-
-    }
-    .category3{
-        background:  #557AFF;
-    }
     .categoryText{
         font-size: 8px;
         margin-left: -5%;
         top: 8%;
+        padding-top: 5%;
     }
     #category{
         bottom: 101%;
@@ -632,8 +718,17 @@ button, button:visited, button:focus, button:active, button:hover{
         padding-top: -9%;
         width: 25%;
     }
+    .category3 .categoryText{
+        font-size: 7.5px;
+        top: 11%;
+        padding-top: 7%;
+    }
+    .category3{
+        width: 30%;
+        height: 15%;
+    }
     .text{
-        margin-top: 55%;
+        margin-top: 5%;
         margin-left: 20%;
     }
     .h1-team{
