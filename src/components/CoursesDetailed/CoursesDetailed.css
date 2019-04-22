@@ -302,14 +302,14 @@ border-radius: 5px;
 }
 
 .neobis_logo_footer-detailed {
-	margin: 50px 50px 60px 21%;
+	margin: 35px 50px 60px 21%;
 }
 .neobis_logo_footer-detailed img{
 	width: 200px; height: 40px;
 }
 .neobis_logo_footer-detailed  img{
 	 width: 200px;
-	 height: 40px;
+	 height: 60px;
 }
 
 .footer-detailed .our_email {
@@ -389,7 +389,7 @@ border-radius: 5px;
 	}
 
 	.neobis_logo_footer-detailed {
-		margin: 50px 0 60px 5%;
+		margin: 35px 0 60px 5%;
 	}
 
 	.footer-detailed .our_email {
@@ -517,6 +517,7 @@ border-radius: 5px;
 
 	.footer-detailed .our_tel_number {
 		margin: 40px 0 40px 0;
+		font-size: 18px;
 	}
 
 	@media (min-width: 400px) and (max-width: 650px) {
@@ -529,10 +530,13 @@ border-radius: 5px;
 
 	@media (min-width: 100px) and (max-width: 399px) {
 		.footer-detailed .our_email {
-			margin: 40px 0px 40px 0;
+			margin: 40px 0px 40px 10px;
 			padding: 10px 3px 3px 10px;
+			font-size: 14px;
 		}
-
+		.footer-detailed .our_tel_number{
+			font-size: 14px;
+		}
 	}
 }
 

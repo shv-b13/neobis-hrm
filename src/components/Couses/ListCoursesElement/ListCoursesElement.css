@@ -400,6 +400,7 @@ button, button:visited, button:focus, button:active, button:hover{
         font-size: 11px;
         width: 25%;
         left: 30%;
+        height: 1.1%;
     }
     #date{
         margin-top: 70%;
@@ -689,7 +690,8 @@ button, button:visited, button:focus, button:active, button:hover{
         font-size: 10px;
         width: 25%;
         left: 30%;
-        padding-bottom: 0.5%;
+        padding-bottom: -0.5%;
+        height: 1%;
     }
     #date{
         margin-top: 75%;
