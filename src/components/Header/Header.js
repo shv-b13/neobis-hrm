@@ -145,7 +145,7 @@ class Header extends Component {
 
         if (!this.state.width)
         {
-            ul.style.display = 'grid';
+            ul.style.display = 'none';
             ul.style.opacity = '0';
         }
 

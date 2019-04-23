@@ -115,7 +115,7 @@ class TimeSlotsTable extends Component {
                                     }}
                                     >
                                   <div className='time-slots-container' id={`${day.date}-${hour.time}`}>
-                                      {hour.slots.map(slot => {
+                                      {hour && hour.slots.map(slot => {
                                         return <div className={'time-slot-button'} onClick={()=>this.takeSlot(slot.id)}>{slot.time}
                                           {slot.is_free ? <img className={'time-slot-icon'} src={free}/> : <img className={'time-slot-icon'} src={taken}/>}
                                         </div>

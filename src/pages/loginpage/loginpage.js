@@ -8,9 +8,12 @@ import './loginpage.css';
 class loginpage extends Component {
     render() {
         return (
-            <div className="loginpage">
+            <div className="home">
                 <Header />
-                <Login />
+                <div className="loginpage">
+
+                    <Login />
+                </div>
             </div>
         )
     }

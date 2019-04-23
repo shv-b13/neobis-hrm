@@ -10,6 +10,7 @@
 .info_content {
     display: grid;
     grid-template-columns: 34% 2% 29.5% 2% 16%;
+    grid-template-rows: 520px;
     grid-column-gap: 45px;
 }
 

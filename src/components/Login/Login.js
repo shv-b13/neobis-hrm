@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './login.css';
-import { api_base } from "../../App";
-import { withRouter } from "react-router-dom";
+import {api_base} from "../../App";
+import {withRouter} from "react-router-dom";
 
-class LogIn extends Component{
+class LogIn extends Component {
 
     handleSubmit = async (event) => {
         event.preventDefault();
@@ -14,39 +14,39 @@ class LogIn extends Component{
             password: phone,
         };
         const req = await fetch(`${api_base}/application/login`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(loginData),
-            });
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(loginData),
+        });
         const res = await req.json();
         if (res.token) {
-          localStorage.setItem('token', res.token);
-          this.props.history.push(`time-slots`);
+            localStorage.setItem('token', res.token);
+            this.props.history.push(`time-slots`);
         }
     };
 
-    render(){
-        return(
-            <div className ="authContainer">
-            <div className ="head"> <h3 className="head-h3" >Авторизация</h3></div>
+    render() {
+        return (
+            <div className="authContainer">
+                <div className="head"><h3 className="head-h3">Авторизация</h3></div>
                 <form onSubmit={this.handleSubmit}>
                     <input id="LogEmail"
                            className="LogEmail"
                            type="LogEmail"
-                           name = "Email"
+                           name="Email"
                            required
                            placeholder="логин"
                     />
                     <input id="LogPhone"
                            className="LogPhone"
                            type="tel"
-                           name = "пароль"
+                           name="пароль"
                            required
                            placeholder="пароль"
                     />
-                        <button className="logIn" >Войти</button>
+                    <button className="logIn">Войти</button>
                 </form>
             </div>
         )

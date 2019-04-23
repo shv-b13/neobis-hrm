@@ -21,7 +21,8 @@ a:hover {
     grid-template-columns: 15% 85%;
     font-family: Raleway;
     font-style: normal;
-    padding: 10px 0;
+    margin-bottom: 0;
+    margin-top: 15px;
 }
 
 .header_ul {
@@ -55,13 +56,12 @@ a:hover {
     cursor: pointer;
 }
 
-.header_link:focus, .header_link:active {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #32b482;
-    transition: top 1s ease-out 0.5s;
-    color: #fff;
-    cursor: pointer;
+.header_link:active {
+    padding: 5px  !important;
+    border-radius: 5px  !important;
+    background-color: #32b482  !important;
+    color: #fff  !important;
+    cursor: pointer  !important;
 }
 
 .header_adap {
